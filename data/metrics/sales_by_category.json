@@ -1,0 +1,580 @@
+{
+  "summary": [
+    {
+      "category": "Books",
+      "total_revenue": 2822596.87,
+      "total_units": 5090,
+      "num_transactions": 907,
+      "avg_order_value": 3112.01
+    },
+    {
+      "category": "Clothing",
+      "total_revenue": 1371091.05,
+      "total_units": 3062,
+      "num_transactions": 555,
+      "avg_order_value": 2470.43
+    },
+    {
+      "category": "Electronics",
+      "total_revenue": 2036536.28,
+      "total_units": 3647,
+      "num_transactions": 658,
+      "avg_order_value": 3095.04
+    },
+    {
+      "category": "Food & Beverage",
+      "total_revenue": 1655443.87,
+      "total_units": 3413,
+      "num_transactions": 618,
+      "avg_order_value": 2678.71
+    },
+    {
+      "category": "Home & Garden",
+      "total_revenue": 2903940.08,
+      "total_units": 5296,
+      "num_transactions": 938,
+      "avg_order_value": 3095.88
+    },
+    {
+      "category": "Sports",
+      "total_revenue": 1582092.79,
+      "total_units": 3573,
+      "num_transactions": 636,
+      "avg_order_value": 2487.57
+    },
+    {
+      "category": "Toys",
+      "total_revenue": 1972592.25,
+      "total_units": 3793,
+      "num_transactions": 688,
+      "avg_order_value": 2867.14
+    }
+  ],
+  "monthly": [
+    {
+      "category": "Books",
+      "year_month": "2025-01",
+      "monthly_revenue": 124042.4
+    },
+    {
+      "category": "Books",
+      "year_month": "2025-02",
+      "monthly_revenue": 167225.48
+    },
+    {
+      "category": "Books",
+      "year_month": "2025-03",
+      "monthly_revenue": 149386.2
+    },
+    {
+      "category": "Books",
+      "year_month": "2025-04",
+      "monthly_revenue": 143851.27
+    },
+    {
+      "category": "Books",
+      "year_month": "2025-05",
+      "monthly_revenue": 92515.93
+    },
+    {
+      "category": "Books",
+      "year_month": "2025-06",
+      "monthly_revenue": 152184.27
+    },
+    {
+      "category": "Books",
+      "year_month": "2025-07",
+      "monthly_revenue": 139346.72
+    },
+    {
+      "category": "Books",
+      "year_month": "2025-08",
+      "monthly_revenue": 139421.67
+    },
+    {
+      "category": "Books",
+      "year_month": "2025-09",
+      "monthly_revenue": 115668.25
+    },
+    {
+      "category": "Books",
+      "year_month": "2025-10",
+      "monthly_revenue": 285913.32
+    },
+    {
+      "category": "Books",
+      "year_month": "2025-11",
+      "monthly_revenue": 370832.51
+    },
+    {
+      "category": "Books",
+      "year_month": "2025-12",
+      "monthly_revenue": 407757.43
+    },
+    {
+      "category": "Books",
+      "year_month": "2026-01",
+      "monthly_revenue": 220902.72
+    },
+    {
+      "category": "Books",
+      "year_month": "2026-02",
+      "monthly_revenue": 182450.31
+    },
+    {
+      "category": "Books",
+      "year_month": "2026-03",
+      "monthly_revenue": 131098.39
+    },
+    {
+      "category": "Clothing",
+      "year_month": "2025-01",
+      "monthly_revenue": 49520.7
+    },
+    {
+      "category": "Clothing",
+      "year_month": "2025-02",
+      "monthly_revenue": 41834.24
+    },
+    {
+      "category": "Clothing",
+      "year_month": "2025-03",
+      "monthly_revenue": 70206.47
+    },
+    {
+      "category": "Clothing",
+      "year_month": "2025-04",
+      "monthly_revenue": 77931.78
+    },
+    {
+      "category": "Clothing",
+      "year_month": "2025-05",
+      "monthly_revenue": 70701.3
+    },
+    {
+      "category": "Clothing",
+      "year_month": "2025-06",
+      "monthly_revenue": 84957.49
+    },
+    {
+      "category": "Clothing",
+      "year_month": "2025-07",
+      "monthly_revenue": 64278.13
+    },
+    {
+      "category": "Clothing",
+      "year_month": "2025-08",
+      "monthly_revenue": 81738.56
+    },
+    {
+      "category": "Clothing",
+      "year_month": "2025-09",
+      "monthly_revenue": 68679.08
+    },
+    {
+      "category": "Clothing",
+      "year_month": "2025-10",
+      "monthly_revenue": 117103.95
+    },
+    {
+      "category": "Clothing",
+      "year_month": "2025-11",
+      "monthly_revenue": 209666.9
+    },
+    {
+      "category": "Clothing",
+      "year_month": "2025-12",
+      "monthly_revenue": 174165.09
+    },
+    {
+      "category": "Clothing",
+      "year_month": "2026-01",
+      "monthly_revenue": 109250.51
+    },
+    {
+      "category": "Clothing",
+      "year_month": "2026-02",
+      "monthly_revenue": 111595.61
+    },
+    {
+      "category": "Clothing",
+      "year_month": "2026-03",
+      "monthly_revenue": 39461.24
+    },
+    {
+      "category": "Electronics",
+      "year_month": "2025-01",
+      "monthly_revenue": 89117.21
+    },
+    {
+      "category": "Electronics",
+      "year_month": "2025-02",
+      "monthly_revenue": 102846.19
+    },
+    {
+      "category": "Electronics",
+      "year_month": "2025-03",
+      "monthly_revenue": 114954.01
+    },
+    {
+      "category": "Electronics",
+      "year_month": "2025-04",
+      "monthly_revenue": 114248.24
+    },
+    {
+      "category": "Electronics",
+      "year_month": "2025-05",
+      "monthly_revenue": 83687.92
+    },
+    {
+      "category": "Electronics",
+      "year_month": "2025-06",
+      "monthly_revenue": 120282.48
+    },
+    {
+      "category": "Electronics",
+      "year_month": "2025-07",
+      "monthly_revenue": 76297.43
+    },
+    {
+      "category": "Electronics",
+      "year_month": "2025-08",
+      "monthly_revenue": 98065.23
+    },
+    {
+      "category": "Electronics",
+      "year_month": "2025-09",
+      "monthly_revenue": 133073.22
+    },
+    {
+      "category": "Electronics",
+      "year_month": "2025-10",
+      "monthly_revenue": 148266.25
+    },
+    {
+      "category": "Electronics",
+      "year_month": "2025-11",
+      "monthly_revenue": 271060.34
+    },
+    {
+      "category": "Electronics",
+      "year_month": "2025-12",
+      "monthly_revenue": 262208.38
+    },
+    {
+      "category": "Electronics",
+      "year_month": "2026-01",
+      "monthly_revenue": 173648.12
+    },
+    {
+      "category": "Electronics",
+      "year_month": "2026-02",
+      "monthly_revenue": 154512.73
+    },
+    {
+      "category": "Electronics",
+      "year_month": "2026-03",
+      "monthly_revenue": 94268.53
+    },
+    {
+      "category": "Food & Beverage",
+      "year_month": "2025-01",
+      "monthly_revenue": 85080.03
+    },
+    {
+      "category": "Food & Beverage",
+      "year_month": "2025-02",
+      "monthly_revenue": 72785.06
+    },
+    {
+      "category": "Food & Beverage",
+      "year_month": "2025-03",
+      "monthly_revenue": 86112.03
+    },
+    {
+      "category": "Food & Beverage",
+      "year_month": "2025-04",
+      "monthly_revenue": 66322.01
+    },
+    {
+      "category": "Food & Beverage",
+      "year_month": "2025-05",
+      "monthly_revenue": 65872.32
+    },
+    {
+      "category": "Food & Beverage",
+      "year_month": "2025-06",
+      "monthly_revenue": 58925.13
+    },
+    {
+      "category": "Food & Beverage",
+      "year_month": "2025-07",
+      "monthly_revenue": 50324.31
+    },
+    {
+      "category": "Food & Beverage",
+      "year_month": "2025-08",
+      "monthly_revenue": 44854.97
+    },
+    {
+      "category": "Food & Beverage",
+      "year_month": "2025-09",
+      "monthly_revenue": 94803.67
+    },
+    {
+      "category": "Food & Beverage",
+      "year_month": "2025-10",
+      "monthly_revenue": 139476.57
+    },
+    {
+      "category": "Food & Beverage",
+      "year_month": "2025-11",
+      "monthly_revenue": 288782.26
+    },
+    {
+      "category": "Food & Beverage",
+      "year_month": "2025-12",
+      "monthly_revenue": 285065.22
+    },
+    {
+      "category": "Food & Beverage",
+      "year_month": "2026-01",
+      "monthly_revenue": 111719.32
+    },
+    {
+      "category": "Food & Beverage",
+      "year_month": "2026-02",
+      "monthly_revenue": 157065.78
+    },
+    {
+      "category": "Food & Beverage",
+      "year_month": "2026-03",
+      "monthly_revenue": 48255.19
+    },
+    {
+      "category": "Home & Garden",
+      "year_month": "2025-01",
+      "monthly_revenue": 157136.64
+    },
+    {
+      "category": "Home & Garden",
+      "year_month": "2025-02",
+      "monthly_revenue": 127628.49
+    },
+    {
+      "category": "Home & Garden",
+      "year_month": "2025-03",
+      "monthly_revenue": 159613.59
+    },
+    {
+      "category": "Home & Garden",
+      "year_month": "2025-04",
+      "monthly_revenue": 121151.04
+    },
+    {
+      "category": "Home & Garden",
+      "year_month": "2025-05",
+      "monthly_revenue": 154894.7
+    },
+    {
+      "category": "Home & Garden",
+      "year_month": "2025-06",
+      "monthly_revenue": 122328.27
+    },
+    {
+      "category": "Home & Garden",
+      "year_month": "2025-07",
+      "monthly_revenue": 168033.27
+    },
+    {
+      "category": "Home & Garden",
+      "year_month": "2025-08",
+      "monthly_revenue": 156618.22
+    },
+    {
+      "category": "Home & Garden",
+      "year_month": "2025-09",
+      "monthly_revenue": 163973.33
+    },
+    {
+      "category": "Home & Garden",
+      "year_month": "2025-10",
+      "monthly_revenue": 274455.97
+    },
+    {
+      "category": "Home & Garden",
+      "year_month": "2025-11",
+      "monthly_revenue": 431787.38
+    },
+    {
+      "category": "Home & Garden",
+      "year_month": "2025-12",
+      "monthly_revenue": 406400.79
+    },
+    {
+      "category": "Home & Garden",
+      "year_month": "2026-01",
+      "monthly_revenue": 174392.36
+    },
+    {
+      "category": "Home & Garden",
+      "year_month": "2026-02",
+      "monthly_revenue": 189150.5
+    },
+    {
+      "category": "Home & Garden",
+      "year_month": "2026-03",
+      "monthly_revenue": 96375.53
+    },
+    {
+      "category": "Sports",
+      "year_month": "2025-01",
+      "monthly_revenue": 100219.67
+    },
+    {
+      "category": "Sports",
+      "year_month": "2025-02",
+      "monthly_revenue": 85658.01
+    },
+    {
+      "category": "Sports",
+      "year_month": "2025-03",
+      "monthly_revenue": 83650.8
+    },
+    {
+      "category": "Sports",
+      "year_month": "2025-04",
+      "monthly_revenue": 48594.14
+    },
+    {
+      "category": "Sports",
+      "year_month": "2025-05",
+      "monthly_revenue": 104150.58
+    },
+    {
+      "category": "Sports",
+      "year_month": "2025-06",
+      "monthly_revenue": 77344.62
+    },
+    {
+      "category": "Sports",
+      "year_month": "2025-07",
+      "monthly_revenue": 58030.83
+    },
+    {
+      "category": "Sports",
+      "year_month": "2025-08",
+      "monthly_revenue": 69227.0
+    },
+    {
+      "category": "Sports",
+      "year_month": "2025-09",
+      "monthly_revenue": 85647.31
+    },
+    {
+      "category": "Sports",
+      "year_month": "2025-10",
+      "monthly_revenue": 165132.0
+    },
+    {
+      "category": "Sports",
+      "year_month": "2025-11",
+      "monthly_revenue": 187565.98
+    },
+    {
+      "category": "Sports",
+      "year_month": "2025-12",
+      "monthly_revenue": 248710.45
+    },
+    {
+      "category": "Sports",
+      "year_month": "2026-01",
+      "monthly_revenue": 150340.38
+    },
+    {
+      "category": "Sports",
+      "year_month": "2026-02",
+      "monthly_revenue": 91046.39
+    },
+    {
+      "category": "Sports",
+      "year_month": "2026-03",
+      "monthly_revenue": 26774.63
+    },
+    {
+      "category": "Toys",
+      "year_month": "2025-01",
+      "monthly_revenue": 103583.57
+    },
+    {
+      "category": "Toys",
+      "year_month": "2025-02",
+      "monthly_revenue": 81867.87
+    },
+    {
+      "category": "Toys",
+      "year_month": "2025-03",
+      "monthly_revenue": 67586.76
+    },
+    {
+      "category": "Toys",
+      "year_month": "2025-04",
+      "monthly_revenue": 113525.6
+    },
+    {
+      "category": "Toys",
+      "year_month": "2025-05",
+      "monthly_revenue": 90061.96
+    },
+    {
+      "category": "Toys",
+      "year_month": "2025-06",
+      "monthly_revenue": 127249.77
+    },
+    {
+      "category": "Toys",
+      "year_month": "2025-07",
+      "monthly_revenue": 77368.0
+    },
+    {
+      "category": "Toys",
+      "year_month": "2025-08",
+      "monthly_revenue": 98755.2
+    },
+    {
+      "category": "Toys",
+      "year_month": "2025-09",
+      "monthly_revenue": 114137.05
+    },
+    {
+      "category": "Toys",
+      "year_month": "2025-10",
+      "monthly_revenue": 174297.55
+    },
+    {
+      "category": "Toys",
+      "year_month": "2025-11",
+      "monthly_revenue": 310508.85
+    },
+    {
+      "category": "Toys",
+      "year_month": "2025-12",
+      "monthly_revenue": 263571.65
+    },
+    {
+      "category": "Toys",
+      "year_month": "2026-01",
+      "monthly_revenue": 164148.37
+    },
+    {
+      "category": "Toys",
+      "year_month": "2026-02",
+      "monthly_revenue": 113786.4
+    },
+    {
+      "category": "Toys",
+      "year_month": "2026-03",
+      "monthly_revenue": 72143.65
+    }
+  ]
+}

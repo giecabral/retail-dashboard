@@ -1,0 +1,247 @@
+[
+  {
+    "age_group": "18-24",
+    "category": "Books",
+    "total_revenue": 262274.81,
+    "total_units": 479,
+    "num_transactions": 87
+  },
+  {
+    "age_group": "18-24",
+    "category": "Clothing",
+    "total_revenue": 98839.17,
+    "total_units": 290,
+    "num_transactions": 55
+  },
+  {
+    "age_group": "18-24",
+    "category": "Electronics",
+    "total_revenue": 215046.27,
+    "total_units": 420,
+    "num_transactions": 75
+  },
+  {
+    "age_group": "18-24",
+    "category": "Food & Beverage",
+    "total_revenue": 167470.34,
+    "total_units": 327,
+    "num_transactions": 63
+  },
+  {
+    "age_group": "18-24",
+    "category": "Home & Garden",
+    "total_revenue": 372095.99,
+    "total_units": 670,
+    "num_transactions": 119
+  },
+  {
+    "age_group": "18-24",
+    "category": "Sports",
+    "total_revenue": 184515.58,
+    "total_units": 423,
+    "num_transactions": 76
+  },
+  {
+    "age_group": "18-24",
+    "category": "Toys",
+    "total_revenue": 218042.33,
+    "total_units": 412,
+    "num_transactions": 75
+  },
+  {
+    "age_group": "25-34",
+    "category": "Books",
+    "total_revenue": 454117.67,
+    "total_units": 861,
+    "num_transactions": 151
+  },
+  {
+    "age_group": "25-34",
+    "category": "Clothing",
+    "total_revenue": 255616.33,
+    "total_units": 559,
+    "num_transactions": 103
+  },
+  {
+    "age_group": "25-34",
+    "category": "Electronics",
+    "total_revenue": 368588.13,
+    "total_units": 627,
+    "num_transactions": 112
+  },
+  {
+    "age_group": "25-34",
+    "category": "Food & Beverage",
+    "total_revenue": 310724.31,
+    "total_units": 649,
+    "num_transactions": 120
+  },
+  {
+    "age_group": "25-34",
+    "category": "Home & Garden",
+    "total_revenue": 535436.7,
+    "total_units": 1025,
+    "num_transactions": 185
+  },
+  {
+    "age_group": "25-34",
+    "category": "Sports",
+    "total_revenue": 262510.95,
+    "total_units": 591,
+    "num_transactions": 105
+  },
+  {
+    "age_group": "25-34",
+    "category": "Toys",
+    "total_revenue": 403902.79,
+    "total_units": 763,
+    "num_transactions": 137
+  },
+  {
+    "age_group": "35-44",
+    "category": "Books",
+    "total_revenue": 497873.83,
+    "total_units": 896,
+    "num_transactions": 159
+  },
+  {
+    "age_group": "35-44",
+    "category": "Clothing",
+    "total_revenue": 276236.3,
+    "total_units": 581,
+    "num_transactions": 100
+  },
+  {
+    "age_group": "35-44",
+    "category": "Electronics",
+    "total_revenue": 406006.88,
+    "total_units": 702,
+    "num_transactions": 125
+  },
+  {
+    "age_group": "35-44",
+    "category": "Food & Beverage",
+    "total_revenue": 248042.84,
+    "total_units": 530,
+    "num_transactions": 95
+  },
+  {
+    "age_group": "35-44",
+    "category": "Home & Garden",
+    "total_revenue": 513856.77,
+    "total_units": 916,
+    "num_transactions": 145
+  },
+  {
+    "age_group": "35-44",
+    "category": "Sports",
+    "total_revenue": 271242.52,
+    "total_units": 569,
+    "num_transactions": 104
+  },
+  {
+    "age_group": "35-44",
+    "category": "Toys",
+    "total_revenue": 306958.88,
+    "total_units": 622,
+    "num_transactions": 108
+  },
+  {
+    "age_group": "45-54",
+    "category": "Books",
+    "total_revenue": 512722.18,
+    "total_units": 890,
+    "num_transactions": 161
+  },
+  {
+    "age_group": "45-54",
+    "category": "Clothing",
+    "total_revenue": 243301.03,
+    "total_units": 576,
+    "num_transactions": 104
+  },
+  {
+    "age_group": "45-54",
+    "category": "Electronics",
+    "total_revenue": 398711.98,
+    "total_units": 739,
+    "num_transactions": 128
+  },
+  {
+    "age_group": "45-54",
+    "category": "Food & Beverage",
+    "total_revenue": 295492.71,
+    "total_units": 664,
+    "num_transactions": 118
+  },
+  {
+    "age_group": "45-54",
+    "category": "Home & Garden",
+    "total_revenue": 473272.16,
+    "total_units": 871,
+    "num_transactions": 162
+  },
+  {
+    "age_group": "45-54",
+    "category": "Sports",
+    "total_revenue": 274501.67,
+    "total_units": 664,
+    "num_transactions": 119
+  },
+  {
+    "age_group": "45-54",
+    "category": "Toys",
+    "total_revenue": 427342.88,
+    "total_units": 747,
+    "num_transactions": 136
+  },
+  {
+    "age_group": "55+",
+    "category": "Books",
+    "total_revenue": 1095608.38,
+    "total_units": 1964,
+    "num_transactions": 349
+  },
+  {
+    "age_group": "55+",
+    "category": "Clothing",
+    "total_revenue": 497098.22,
+    "total_units": 1056,
+    "num_transactions": 193
+  },
+  {
+    "age_group": "55+",
+    "category": "Electronics",
+    "total_revenue": 648183.02,
+    "total_units": 1159,
+    "num_transactions": 218
+  },
+  {
+    "age_group": "55+",
+    "category": "Food & Beverage",
+    "total_revenue": 633713.67,
+    "total_units": 1243,
+    "num_transactions": 222
+  },
+  {
+    "age_group": "55+",
+    "category": "Home & Garden",
+    "total_revenue": 1009278.46,
+    "total_units": 1814,
+    "num_transactions": 327
+  },
+  {
+    "age_group": "55+",
+    "category": "Sports",
+    "total_revenue": 589322.07,
+    "total_units": 1326,
+    "num_transactions": 232
+  },
+  {
+    "age_group": "55+",
+    "category": "Toys",
+    "total_revenue": 616345.37,
+    "total_units": 1249,
+    "num_transactions": 232
+  }
+]

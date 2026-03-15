@@ -1,0 +1,212 @@
+[
+  {
+    "region": "Central",
+    "category": "Books",
+    "total_revenue": 470942.6,
+    "total_units": 860
+  },
+  {
+    "region": "Central",
+    "category": "Clothing",
+    "total_revenue": 267008.96,
+    "total_units": 625
+  },
+  {
+    "region": "Central",
+    "category": "Electronics",
+    "total_revenue": 395908.12,
+    "total_units": 722
+  },
+  {
+    "region": "Central",
+    "category": "Food & Beverage",
+    "total_revenue": 365289.25,
+    "total_units": 670
+  },
+  {
+    "region": "Central",
+    "category": "Home & Garden",
+    "total_revenue": 605881.1,
+    "total_units": 1025
+  },
+  {
+    "region": "Central",
+    "category": "Sports",
+    "total_revenue": 339277.65,
+    "total_units": 751
+  },
+  {
+    "region": "Central",
+    "category": "Toys",
+    "total_revenue": 318208.44,
+    "total_units": 587
+  },
+  {
+    "region": "East",
+    "category": "Books",
+    "total_revenue": 564751.88,
+    "total_units": 993
+  },
+  {
+    "region": "East",
+    "category": "Clothing",
+    "total_revenue": 239573.84,
+    "total_units": 549
+  },
+  {
+    "region": "East",
+    "category": "Electronics",
+    "total_revenue": 390372.13,
+    "total_units": 691
+  },
+  {
+    "region": "East",
+    "category": "Food & Beverage",
+    "total_revenue": 394429.33,
+    "total_units": 804
+  },
+  {
+    "region": "East",
+    "category": "Home & Garden",
+    "total_revenue": 595283.89,
+    "total_units": 1092
+  },
+  {
+    "region": "East",
+    "category": "Sports",
+    "total_revenue": 311615.15,
+    "total_units": 744
+  },
+  {
+    "region": "East",
+    "category": "Toys",
+    "total_revenue": 290963.79,
+    "total_units": 607
+  },
+  {
+    "region": "North",
+    "category": "Books",
+    "total_revenue": 623182.81,
+    "total_units": 1137
+  },
+  {
+    "region": "North",
+    "category": "Clothing",
+    "total_revenue": 293998.56,
+    "total_units": 686
+  },
+  {
+    "region": "North",
+    "category": "Electronics",
+    "total_revenue": 472524.98,
+    "total_units": 839
+  },
+  {
+    "region": "North",
+    "category": "Food & Beverage",
+    "total_revenue": 271045.64,
+    "total_units": 601
+  },
+  {
+    "region": "North",
+    "category": "Home & Garden",
+    "total_revenue": 600161.05,
+    "total_units": 1159
+  },
+  {
+    "region": "North",
+    "category": "Sports",
+    "total_revenue": 337768.56,
+    "total_units": 724
+  },
+  {
+    "region": "North",
+    "category": "Toys",
+    "total_revenue": 493220.15,
+    "total_units": 923
+  },
+  {
+    "region": "South",
+    "category": "Books",
+    "total_revenue": 607186.93,
+    "total_units": 1040
+  },
+  {
+    "region": "South",
+    "category": "Clothing",
+    "total_revenue": 309718.81,
+    "total_units": 595
+  },
+  {
+    "region": "South",
+    "category": "Electronics",
+    "total_revenue": 406815.42,
+    "total_units": 747
+  },
+  {
+    "region": "South",
+    "category": "Food & Beverage",
+    "total_revenue": 363395.52,
+    "total_units": 769
+  },
+  {
+    "region": "South",
+    "category": "Home & Garden",
+    "total_revenue": 580908.6,
+    "total_units": 1016
+  },
+  {
+    "region": "South",
+    "category": "Sports",
+    "total_revenue": 279481.2,
+    "total_units": 647
+  },
+  {
+    "region": "South",
+    "category": "Toys",
+    "total_revenue": 418309.28,
+    "total_units": 817
+  },
+  {
+    "region": "West",
+    "category": "Books",
+    "total_revenue": 556532.65,
+    "total_units": 1060
+  },
+  {
+    "region": "West",
+    "category": "Clothing",
+    "total_revenue": 260790.88,
+    "total_units": 607
+  },
+  {
+    "region": "West",
+    "category": "Electronics",
+    "total_revenue": 370915.63,
+    "total_units": 648
+  },
+  {
+    "region": "West",
+    "category": "Food & Beverage",
+    "total_revenue": 261284.13,
+    "total_units": 569
+  },
+  {
+    "region": "West",
+    "category": "Home & Garden",
+    "total_revenue": 521705.44,
+    "total_units": 1004
+  },
+  {
+    "region": "West",
+    "category": "Sports",
+    "total_revenue": 313950.23,
+    "total_units": 707
+  },
+  {
+    "region": "West",
+    "category": "Toys",
+    "total_revenue": 451890.59,
+    "total_units": 859
+  }
+]

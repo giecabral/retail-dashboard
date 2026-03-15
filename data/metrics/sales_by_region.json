@@ -1,0 +1,37 @@
+[
+  {
+    "region": "Central",
+    "total_revenue": 2762516.12,
+    "total_units": 5240,
+    "num_transactions": 938,
+    "unique_customers": 98
+  },
+  {
+    "region": "East",
+    "total_revenue": 2786990.01,
+    "total_units": 5480,
+    "num_transactions": 981,
+    "unique_customers": 100
+  },
+  {
+    "region": "North",
+    "total_revenue": 3091901.75,
+    "total_units": 6069,
+    "num_transactions": 1067,
+    "unique_customers": 107
+  },
+  {
+    "region": "South",
+    "total_revenue": 2965815.76,
+    "total_units": 5631,
+    "num_transactions": 1027,
+    "unique_customers": 96
+  },
+  {
+    "region": "West",
+    "total_revenue": 2737069.55,
+    "total_units": 5454,
+    "num_transactions": 987,
+    "unique_customers": 99
+  }
+]

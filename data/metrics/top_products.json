@@ -1,0 +1,162 @@
+[
+  {
+    "product_id": "d90f74e9-06dd-46ca-b0c3-0a59f0f7ad22",
+    "total_revenue": 190305.72,
+    "total_units": 198,
+    "num_transactions": 32,
+    "name": "Pro Webcam",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "a2cd1590-58af-493c-8aa2-b4c93ba5bd76",
+    "total_revenue": 181700.42,
+    "total_units": 209,
+    "num_transactions": 41,
+    "name": "Premium Wall Clock",
+    "category": "Home & Garden"
+  },
+  {
+    "product_id": "9033da65-87cf-43fd-9183-6c4f249204c7",
+    "total_revenue": 173085.96,
+    "total_units": 188,
+    "num_transactions": 37,
+    "name": "Deluxe Skipping Rope",
+    "category": "Sports"
+  },
+  {
+    "product_id": "8ced4707-3903-4b65-81c6-1eeb0ce3c8c8",
+    "total_revenue": 168428.48,
+    "total_units": 176,
+    "num_transactions": 27,
+    "name": "Essential Throw Pillow",
+    "category": "Home & Garden"
+  },
+  {
+    "product_id": "2751ab86-7dae-4949-9700-b4618cb6b0ba",
+    "total_revenue": 168169.0,
+    "total_units": 190,
+    "num_transactions": 33,
+    "name": "Deluxe Self-Help Journal",
+    "category": "Books"
+  },
+  {
+    "product_id": "51976e75-0523-44fd-8b7f-2183088dbd82",
+    "total_revenue": 168152.05,
+    "total_units": 185,
+    "num_transactions": 32,
+    "name": "Deluxe LED Monitor",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "39e7a4f1-97fb-413a-a1f8-9d0613f3cade",
+    "total_revenue": 166879.44,
+    "total_units": 252,
+    "num_transactions": 39,
+    "name": "Deluxe Honey Jar",
+    "category": "Food & Beverage"
+  },
+  {
+    "product_id": "6bbdb66f-9181-4091-96c6-f45cdc5e4e78",
+    "total_revenue": 162341.48,
+    "total_units": 163,
+    "num_transactions": 33,
+    "name": "Lite Throw Pillow",
+    "category": "Home & Garden"
+  },
+  {
+    "product_id": "c1a72883-f880-4878-a9fb-07638a9c66f7",
+    "total_revenue": 157183.74,
+    "total_units": 162,
+    "num_transactions": 29,
+    "name": "Deluxe Compression Leggings",
+    "category": "Clothing"
+  },
+  {
+    "product_id": "b266986c-b467-48bd-938e-13e44de1087b",
+    "total_revenue": 156359.24,
+    "total_units": 164,
+    "num_transactions": 28,
+    "name": "Essential Art Supply Set",
+    "category": "Toys"
+  },
+  {
+    "product_id": "e3c6dedb-9b79-4afa-aa3d-418da754a29f",
+    "total_revenue": 156101.44,
+    "total_units": 176,
+    "num_transactions": 31,
+    "name": "Pro Webcam",
+    "category": "Electronics"
+  },
+  {
+    "product_id": "2f546033-6334-4a2a-8b4b-d7e7a4515ae0",
+    "total_revenue": 152318.01,
+    "total_units": 169,
+    "num_transactions": 31,
+    "name": "Lite Leadership Playbook",
+    "category": "Books"
+  },
+  {
+    "product_id": "72b696ca-92b2-4acd-8d1f-75a371b65ca1",
+    "total_revenue": 152130.95,
+    "total_units": 155,
+    "num_transactions": 21,
+    "name": "Pro Wall Clock",
+    "category": "Home & Garden"
+  },
+  {
+    "product_id": "a36884f5-88dd-4880-afb2-8b3d38eccb4d",
+    "total_revenue": 151408.32,
+    "total_units": 224,
+    "num_transactions": 34,
+    "name": "Essential Toy Robot",
+    "category": "Toys"
+  },
+  {
+    "product_id": "dcd1c413-0760-401f-9c81-fc465bcd236c",
+    "total_revenue": 151344.5,
+    "total_units": 190,
+    "num_transactions": 33,
+    "name": "Premium Storage Basket",
+    "category": "Home & Garden"
+  },
+  {
+    "product_id": "1bacbd0d-af35-430b-8c68-eb17485d831c",
+    "total_revenue": 149976.45,
+    "total_units": 155,
+    "num_transactions": 30,
+    "name": "Premium Building Block Set",
+    "category": "Toys"
+  },
+  {
+    "product_id": "38e59b27-16dc-4a6e-a789-077055ec024a",
+    "total_revenue": 140914.53,
+    "total_units": 153,
+    "num_transactions": 30,
+    "name": "Deluxe Granola Mix",
+    "category": "Food & Beverage"
+  },
+  {
+    "product_id": "92715f6e-fea8-4e3a-b544-01cb95410a9d",
+    "total_revenue": 137291.7,
+    "total_units": 141,
+    "num_transactions": 28,
+    "name": "Premium Card Game",
+    "category": "Toys"
+  },
+  {
+    "product_id": "4269c28c-4bac-4edf-bf5a-229e7f53d344",
+    "total_revenue": 137007.08,
+    "total_units": 238,
+    "num_transactions": 38,
+    "name": "Pro Granola Mix",
+    "category": "Food & Beverage"
+  },
+  {
+    "product_id": "f7e9101d-3f8b-4433-b60e-695c1759ba96",
+    "total_revenue": 136927.55,
+    "total_units": 157,
+    "num_transactions": 28,
+    "name": "Deluxe Travel Photography Book",
+    "category": "Books"
+  }
+]
