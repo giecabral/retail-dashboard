@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Generated intermediate data (raw and cleaned CSVs are reproducible via pipeline)
+data/cleaned/
+
+# Next.js
+web/.next/
+web/node_modules/
+web/tsconfig.tsbuildinfo
+
+# Misc
+.DS_Store
+*.log
