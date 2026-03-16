@@ -48,3 +48,15 @@ export interface CategoryRegionSale {
   total_revenue: number
   total_units: number
 }
+
+export interface InventoryItem {
+  product_id: string
+  name: string
+  category: string
+  price: number
+  stock_quantity: number
+  total_units_sold: number
+  turnover_rate: number
+  days_on_hand: number
+  stock_value: number
+}
