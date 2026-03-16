@@ -3,1400 +3,1400 @@
     "age_group": "18-24",
     "category": "Books",
     "region": "Central",
-    "total_revenue": 60068.96,
-    "total_units": 111,
-    "num_transactions": 19
+    "total_revenue": 56909.0,
+    "total_units": 90,
+    "num_transactions": 17
   },
   {
     "age_group": "18-24",
     "category": "Books",
     "region": "East",
-    "total_revenue": 39347.77,
+    "total_revenue": 25049.19,
+    "total_units": 32,
+    "num_transactions": 7
+  },
+  {
+    "age_group": "18-24",
+    "category": "Books",
+    "region": "North",
+    "total_revenue": 60782.69,
+    "total_units": 99,
+    "num_transactions": 18
+  },
+  {
+    "age_group": "18-24",
+    "category": "Books",
+    "region": "South",
+    "total_revenue": 62295.09,
+    "total_units": 104,
+    "num_transactions": 18
+  },
+  {
+    "age_group": "18-24",
+    "category": "Books",
+    "region": "West",
+    "total_revenue": 35447.42,
+    "total_units": 69,
+    "num_transactions": 13
+  },
+  {
+    "age_group": "18-24",
+    "category": "Clothing",
+    "region": "Central",
+    "total_revenue": 60958.29,
+    "total_units": 99,
+    "num_transactions": 18
+  },
+  {
+    "age_group": "18-24",
+    "category": "Clothing",
+    "region": "East",
+    "total_revenue": 28251.63,
     "total_units": 65,
     "num_transactions": 11
   },
   {
     "age_group": "18-24",
-    "category": "Books",
-    "region": "North",
-    "total_revenue": 49803.86,
-    "total_units": 113,
-    "num_transactions": 23
-  },
-  {
-    "age_group": "18-24",
-    "category": "Books",
-    "region": "South",
-    "total_revenue": 67331.76,
-    "total_units": 106,
-    "num_transactions": 19
-  },
-  {
-    "age_group": "18-24",
-    "category": "Books",
-    "region": "West",
-    "total_revenue": 45722.46,
-    "total_units": 84,
-    "num_transactions": 15
-  },
-  {
-    "age_group": "18-24",
-    "category": "Clothing",
-    "region": "Central",
-    "total_revenue": 22269.31,
-    "total_units": 58,
-    "num_transactions": 9
-  },
-  {
-    "age_group": "18-24",
-    "category": "Clothing",
-    "region": "East",
-    "total_revenue": 14394.42,
-    "total_units": 34,
-    "num_transactions": 7
-  },
-  {
-    "age_group": "18-24",
     "category": "Clothing",
     "region": "North",
-    "total_revenue": 14791.51,
-    "total_units": 46,
-    "num_transactions": 13
-  },
-  {
-    "age_group": "18-24",
-    "category": "Clothing",
-    "region": "South",
-    "total_revenue": 15804.1,
-    "total_units": 61,
-    "num_transactions": 10
-  },
-  {
-    "age_group": "18-24",
-    "category": "Clothing",
-    "region": "West",
-    "total_revenue": 31579.83,
-    "total_units": 91,
-    "num_transactions": 16
-  },
-  {
-    "age_group": "18-24",
-    "category": "Electronics",
-    "region": "Central",
-    "total_revenue": 69710.04,
-    "total_units": 114,
-    "num_transactions": 21
-  },
-  {
-    "age_group": "18-24",
-    "category": "Electronics",
-    "region": "East",
-    "total_revenue": 37187.47,
-    "total_units": 73,
-    "num_transactions": 13
-  },
-  {
-    "age_group": "18-24",
-    "category": "Electronics",
-    "region": "North",
-    "total_revenue": 41574.65,
-    "total_units": 92,
-    "num_transactions": 16
-  },
-  {
-    "age_group": "18-24",
-    "category": "Electronics",
-    "region": "South",
-    "total_revenue": 35162.02,
-    "total_units": 85,
-    "num_transactions": 14
-  },
-  {
-    "age_group": "18-24",
-    "category": "Electronics",
-    "region": "West",
-    "total_revenue": 31412.09,
-    "total_units": 56,
-    "num_transactions": 11
-  },
-  {
-    "age_group": "18-24",
-    "category": "Food & Beverage",
-    "region": "Central",
-    "total_revenue": 38841.74,
-    "total_units": 80,
-    "num_transactions": 15
-  },
-  {
-    "age_group": "18-24",
-    "category": "Food & Beverage",
-    "region": "East",
-    "total_revenue": 26470.58,
-    "total_units": 42,
-    "num_transactions": 9
-  },
-  {
-    "age_group": "18-24",
-    "category": "Food & Beverage",
-    "region": "North",
-    "total_revenue": 12517.37,
-    "total_units": 41,
-    "num_transactions": 8
-  },
-  {
-    "age_group": "18-24",
-    "category": "Food & Beverage",
-    "region": "South",
-    "total_revenue": 61285.64,
-    "total_units": 120,
-    "num_transactions": 20
-  },
-  {
-    "age_group": "18-24",
-    "category": "Food & Beverage",
-    "region": "West",
-    "total_revenue": 28355.01,
-    "total_units": 44,
-    "num_transactions": 11
-  },
-  {
-    "age_group": "18-24",
-    "category": "Home & Garden",
-    "region": "Central",
-    "total_revenue": 74674.77,
-    "total_units": 109,
-    "num_transactions": 19
-  },
-  {
-    "age_group": "18-24",
-    "category": "Home & Garden",
-    "region": "East",
-    "total_revenue": 70529.08,
+    "total_revenue": 67770.89,
     "total_units": 122,
     "num_transactions": 18
   },
   {
     "age_group": "18-24",
-    "category": "Home & Garden",
-    "region": "North",
-    "total_revenue": 104922.84,
-    "total_units": 225,
-    "num_transactions": 38
-  },
-  {
-    "age_group": "18-24",
-    "category": "Home & Garden",
+    "category": "Clothing",
     "region": "South",
-    "total_revenue": 72370.91,
-    "total_units": 117,
-    "num_transactions": 26
+    "total_revenue": 25022.14,
+    "total_units": 48,
+    "num_transactions": 13
   },
   {
     "age_group": "18-24",
-    "category": "Home & Garden",
+    "category": "Clothing",
     "region": "West",
-    "total_revenue": 49598.39,
-    "total_units": 97,
-    "num_transactions": 18
+    "total_revenue": 82458.99,
+    "total_units": 149,
+    "num_transactions": 24
   },
   {
     "age_group": "18-24",
-    "category": "Sports",
+    "category": "Electronics",
     "region": "Central",
-    "total_revenue": 51094.21,
-    "total_units": 121,
-    "num_transactions": 21
+    "total_revenue": 27505.64,
+    "total_units": 56,
+    "num_transactions": 13
   },
   {
     "age_group": "18-24",
-    "category": "Sports",
+    "category": "Electronics",
     "region": "East",
-    "total_revenue": 21905.37,
-    "total_units": 64,
-    "num_transactions": 11
-  },
-  {
-    "age_group": "18-24",
-    "category": "Sports",
-    "region": "North",
-    "total_revenue": 45547.27,
-    "total_units": 103,
-    "num_transactions": 17
-  },
-  {
-    "age_group": "18-24",
-    "category": "Sports",
-    "region": "South",
-    "total_revenue": 34069.48,
-    "total_units": 49,
+    "total_revenue": 22088.13,
+    "total_units": 56,
     "num_transactions": 10
   },
   {
     "age_group": "18-24",
-    "category": "Sports",
+    "category": "Electronics",
+    "region": "North",
+    "total_revenue": 38865.69,
+    "total_units": 77,
+    "num_transactions": 12
+  },
+  {
+    "age_group": "18-24",
+    "category": "Electronics",
+    "region": "South",
+    "total_revenue": 56661.17,
+    "total_units": 125,
+    "num_transactions": 22
+  },
+  {
+    "age_group": "18-24",
+    "category": "Electronics",
     "region": "West",
-    "total_revenue": 31899.25,
-    "total_units": 86,
+    "total_revenue": 27311.1,
+    "total_units": 54,
+    "num_transactions": 11
+  },
+  {
+    "age_group": "18-24",
+    "category": "Food & Beverage",
+    "region": "Central",
+    "total_revenue": 30058.47,
+    "total_units": 88,
     "num_transactions": 17
   },
   {
     "age_group": "18-24",
-    "category": "Toys",
-    "region": "Central",
-    "total_revenue": 48476.66,
-    "total_units": 90,
+    "category": "Food & Beverage",
+    "region": "East",
+    "total_revenue": 48571.15,
+    "total_units": 83,
+    "num_transactions": 15
+  },
+  {
+    "age_group": "18-24",
+    "category": "Food & Beverage",
+    "region": "North",
+    "total_revenue": 37242.11,
+    "total_units": 95,
+    "num_transactions": 19
+  },
+  {
+    "age_group": "18-24",
+    "category": "Food & Beverage",
+    "region": "South",
+    "total_revenue": 34477.31,
+    "total_units": 95,
+    "num_transactions": 14
+  },
+  {
+    "age_group": "18-24",
+    "category": "Food & Beverage",
+    "region": "West",
+    "total_revenue": 37619.34,
+    "total_units": 98,
     "num_transactions": 16
   },
   {
     "age_group": "18-24",
-    "category": "Toys",
+    "category": "Home & Garden",
+    "region": "Central",
+    "total_revenue": 43157.6,
+    "total_units": 62,
+    "num_transactions": 13
+  },
+  {
+    "age_group": "18-24",
+    "category": "Home & Garden",
     "region": "East",
-    "total_revenue": 47707.38,
-    "total_units": 92,
-    "num_transactions": 15
+    "total_revenue": 15487.28,
+    "total_units": 34,
+    "num_transactions": 6
   },
   {
     "age_group": "18-24",
-    "category": "Toys",
+    "category": "Home & Garden",
     "region": "North",
-    "total_revenue": 40399.71,
-    "total_units": 81,
+    "total_revenue": 54478.55,
+    "total_units": 73,
     "num_transactions": 15
   },
   {
     "age_group": "18-24",
-    "category": "Toys",
+    "category": "Home & Garden",
     "region": "South",
-    "total_revenue": 45449.05,
+    "total_revenue": 28768.83,
+    "total_units": 67,
+    "num_transactions": 13
+  },
+  {
+    "age_group": "18-24",
+    "category": "Home & Garden",
+    "region": "West",
+    "total_revenue": 8602.44,
+    "total_units": 19,
+    "num_transactions": 4
+  },
+  {
+    "age_group": "18-24",
+    "category": "Sports",
+    "region": "Central",
+    "total_revenue": 52843.37,
+    "total_units": 111,
+    "num_transactions": 25
+  },
+  {
+    "age_group": "18-24",
+    "category": "Sports",
+    "region": "East",
+    "total_revenue": 45938.99,
     "total_units": 84,
     "num_transactions": 16
   },
   {
     "age_group": "18-24",
-    "category": "Toys",
-    "region": "West",
-    "total_revenue": 36009.53,
-    "total_units": 65,
-    "num_transactions": 13
+    "category": "Sports",
+    "region": "North",
+    "total_revenue": 45196.48,
+    "total_units": 129,
+    "num_transactions": 25
   },
   {
-    "age_group": "25-34",
-    "category": "Books",
+    "age_group": "18-24",
+    "category": "Sports",
+    "region": "South",
+    "total_revenue": 54444.56,
+    "total_units": 107,
+    "num_transactions": 18
+  },
+  {
+    "age_group": "18-24",
+    "category": "Sports",
+    "region": "West",
+    "total_revenue": 46675.32,
+    "total_units": 69,
+    "num_transactions": 14
+  },
+  {
+    "age_group": "18-24",
+    "category": "Toys",
     "region": "Central",
-    "total_revenue": 43926.32,
-    "total_units": 109,
+    "total_revenue": 37815.7,
+    "total_units": 75,
+    "num_transactions": 17
+  },
+  {
+    "age_group": "18-24",
+    "category": "Toys",
+    "region": "East",
+    "total_revenue": 45474.88,
+    "total_units": 96,
+    "num_transactions": 19
+  },
+  {
+    "age_group": "18-24",
+    "category": "Toys",
+    "region": "North",
+    "total_revenue": 76831.1,
+    "total_units": 146,
+    "num_transactions": 23
+  },
+  {
+    "age_group": "18-24",
+    "category": "Toys",
+    "region": "South",
+    "total_revenue": 42720.33,
+    "total_units": 87,
+    "num_transactions": 17
+  },
+  {
+    "age_group": "18-24",
+    "category": "Toys",
+    "region": "West",
+    "total_revenue": 55146.81,
+    "total_units": 104,
     "num_transactions": 19
   },
   {
     "age_group": "25-34",
     "category": "Books",
+    "region": "Central",
+    "total_revenue": 48062.05,
+    "total_units": 76,
+    "num_transactions": 12
+  },
+  {
+    "age_group": "25-34",
+    "category": "Books",
     "region": "East",
-    "total_revenue": 85553.65,
-    "total_units": 147,
-    "num_transactions": 24
+    "total_revenue": 62628.61,
+    "total_units": 116,
+    "num_transactions": 23
   },
   {
     "age_group": "25-34",
     "category": "Books",
     "region": "North",
-    "total_revenue": 83560.73,
-    "total_units": 177,
-    "num_transactions": 34
+    "total_revenue": 85506.05,
+    "total_units": 142,
+    "num_transactions": 23
   },
   {
     "age_group": "25-34",
     "category": "Books",
     "region": "South",
-    "total_revenue": 160183.21,
-    "total_units": 259,
-    "num_transactions": 44
+    "total_revenue": 116406.07,
+    "total_units": 168,
+    "num_transactions": 29
   },
   {
     "age_group": "25-34",
     "category": "Books",
     "region": "West",
-    "total_revenue": 80893.76,
-    "total_units": 169,
-    "num_transactions": 30
+    "total_revenue": 88207.86,
+    "total_units": 151,
+    "num_transactions": 27
   },
   {
     "age_group": "25-34",
     "category": "Clothing",
     "region": "Central",
-    "total_revenue": 32068.45,
-    "total_units": 88,
-    "num_transactions": 16
-  },
-  {
-    "age_group": "25-34",
-    "category": "Clothing",
-    "region": "East",
-    "total_revenue": 49286.42,
-    "total_units": 109,
+    "total_revenue": 30753.39,
+    "total_units": 69,
     "num_transactions": 18
   },
   {
     "age_group": "25-34",
     "category": "Clothing",
+    "region": "East",
+    "total_revenue": 63879.79,
+    "total_units": 138,
+    "num_transactions": 29
+  },
+  {
+    "age_group": "25-34",
+    "category": "Clothing",
     "region": "North",
-    "total_revenue": 69481.57,
-    "total_units": 147,
-    "num_transactions": 28
+    "total_revenue": 96345.38,
+    "total_units": 184,
+    "num_transactions": 33
   },
   {
     "age_group": "25-34",
     "category": "Clothing",
     "region": "South",
-    "total_revenue": 46737.21,
-    "total_units": 101,
-    "num_transactions": 19
+    "total_revenue": 77890.54,
+    "total_units": 199,
+    "num_transactions": 36
   },
   {
     "age_group": "25-34",
     "category": "Clothing",
     "region": "West",
-    "total_revenue": 58042.68,
-    "total_units": 114,
-    "num_transactions": 22
+    "total_revenue": 66263.06,
+    "total_units": 141,
+    "num_transactions": 23
   },
   {
     "age_group": "25-34",
     "category": "Electronics",
     "region": "Central",
-    "total_revenue": 35246.43,
-    "total_units": 82,
-    "num_transactions": 14
+    "total_revenue": 25970.92,
+    "total_units": 61,
+    "num_transactions": 13
   },
   {
     "age_group": "25-34",
     "category": "Electronics",
     "region": "East",
-    "total_revenue": 49826.67,
-    "total_units": 88,
-    "num_transactions": 14
+    "total_revenue": 41708.64,
+    "total_units": 87,
+    "num_transactions": 16
   },
   {
     "age_group": "25-34",
     "category": "Electronics",
     "region": "North",
-    "total_revenue": 84575.04,
-    "total_units": 141,
-    "num_transactions": 22
+    "total_revenue": 99312.87,
+    "total_units": 166,
+    "num_transactions": 28
   },
   {
     "age_group": "25-34",
     "category": "Electronics",
     "region": "South",
-    "total_revenue": 110427.73,
-    "total_units": 186,
-    "num_transactions": 37
+    "total_revenue": 109494.21,
+    "total_units": 189,
+    "num_transactions": 33
   },
   {
     "age_group": "25-34",
     "category": "Electronics",
     "region": "West",
-    "total_revenue": 88512.26,
-    "total_units": 130,
+    "total_revenue": 102488.77,
+    "total_units": 196,
+    "num_transactions": 31
+  },
+  {
+    "age_group": "25-34",
+    "category": "Food & Beverage",
+    "region": "Central",
+    "total_revenue": 40165.95,
+    "total_units": 96,
+    "num_transactions": 16
+  },
+  {
+    "age_group": "25-34",
+    "category": "Food & Beverage",
+    "region": "East",
+    "total_revenue": 62928.88,
+    "total_units": 128,
     "num_transactions": 25
   },
   {
     "age_group": "25-34",
     "category": "Food & Beverage",
-    "region": "Central",
-    "total_revenue": 47491.51,
-    "total_units": 92,
-    "num_transactions": 16
-  },
-  {
-    "age_group": "25-34",
-    "category": "Food & Beverage",
-    "region": "East",
-    "total_revenue": 62879.93,
-    "total_units": 123,
-    "num_transactions": 22
-  },
-  {
-    "age_group": "25-34",
-    "category": "Food & Beverage",
     "region": "North",
-    "total_revenue": 71731.12,
-    "total_units": 142,
+    "total_revenue": 57600.89,
+    "total_units": 127,
     "num_transactions": 24
   },
   {
     "age_group": "25-34",
     "category": "Food & Beverage",
     "region": "South",
-    "total_revenue": 69242.04,
-    "total_units": 170,
-    "num_transactions": 34
+    "total_revenue": 98287.03,
+    "total_units": 209,
+    "num_transactions": 37
   },
   {
     "age_group": "25-34",
     "category": "Food & Beverage",
     "region": "West",
-    "total_revenue": 59379.71,
-    "total_units": 122,
-    "num_transactions": 24
-  },
-  {
-    "age_group": "25-34",
-    "category": "Home & Garden",
-    "region": "Central",
-    "total_revenue": 63867.4,
-    "total_units": 121,
-    "num_transactions": 23
-  },
-  {
-    "age_group": "25-34",
-    "category": "Home & Garden",
-    "region": "East",
-    "total_revenue": 95873.32,
-    "total_units": 193,
+    "total_revenue": 90293.61,
+    "total_units": 188,
     "num_transactions": 32
   },
   {
     "age_group": "25-34",
     "category": "Home & Garden",
+    "region": "Central",
+    "total_revenue": 33072.29,
+    "total_units": 81,
+    "num_transactions": 14
+  },
+  {
+    "age_group": "25-34",
+    "category": "Home & Garden",
+    "region": "East",
+    "total_revenue": 50190.55,
+    "total_units": 85,
+    "num_transactions": 14
+  },
+  {
+    "age_group": "25-34",
+    "category": "Home & Garden",
     "region": "North",
-    "total_revenue": 113361.75,
-    "total_units": 233,
-    "num_transactions": 40
+    "total_revenue": 115452.13,
+    "total_units": 193,
+    "num_transactions": 30
   },
   {
     "age_group": "25-34",
     "category": "Home & Garden",
     "region": "South",
-    "total_revenue": 151969.69,
-    "total_units": 267,
-    "num_transactions": 47
+    "total_revenue": 97786.81,
+    "total_units": 152,
+    "num_transactions": 28
   },
   {
     "age_group": "25-34",
     "category": "Home & Garden",
     "region": "West",
-    "total_revenue": 110364.54,
-    "total_units": 211,
-    "num_transactions": 43
+    "total_revenue": 78769.17,
+    "total_units": 120,
+    "num_transactions": 21
   },
   {
     "age_group": "25-34",
     "category": "Sports",
     "region": "Central",
-    "total_revenue": 30622.63,
-    "total_units": 70,
-    "num_transactions": 12
+    "total_revenue": 73228.65,
+    "total_units": 163,
+    "num_transactions": 26
   },
   {
     "age_group": "25-34",
     "category": "Sports",
     "region": "East",
-    "total_revenue": 62802.92,
-    "total_units": 122,
+    "total_revenue": 64856.53,
+    "total_units": 137,
     "num_transactions": 24
   },
   {
     "age_group": "25-34",
     "category": "Sports",
     "region": "North",
-    "total_revenue": 60549.7,
-    "total_units": 136,
-    "num_transactions": 21
+    "total_revenue": 69288.1,
+    "total_units": 149,
+    "num_transactions": 31
   },
   {
     "age_group": "25-34",
     "category": "Sports",
     "region": "South",
-    "total_revenue": 61392.58,
-    "total_units": 152,
-    "num_transactions": 28
+    "total_revenue": 116795.36,
+    "total_units": 231,
+    "num_transactions": 40
   },
   {
     "age_group": "25-34",
     "category": "Sports",
     "region": "West",
-    "total_revenue": 47143.12,
-    "total_units": 111,
-    "num_transactions": 20
+    "total_revenue": 107693.76,
+    "total_units": 188,
+    "num_transactions": 31
   },
   {
     "age_group": "25-34",
     "category": "Toys",
     "region": "Central",
-    "total_revenue": 75607.42,
-    "total_units": 130,
-    "num_transactions": 20
-  },
-  {
-    "age_group": "25-34",
-    "category": "Toys",
-    "region": "East",
-    "total_revenue": 45343.96,
-    "total_units": 91,
+    "total_revenue": 61098.42,
+    "total_units": 127,
     "num_transactions": 21
   },
   {
     "age_group": "25-34",
     "category": "Toys",
+    "region": "East",
+    "total_revenue": 79589.26,
+    "total_units": 141,
+    "num_transactions": 24
+  },
+  {
+    "age_group": "25-34",
+    "category": "Toys",
     "region": "North",
-    "total_revenue": 107610.76,
-    "total_units": 202,
+    "total_revenue": 81704.13,
+    "total_units": 179,
     "num_transactions": 33
   },
   {
     "age_group": "25-34",
     "category": "Toys",
     "region": "South",
-    "total_revenue": 98771.77,
-    "total_units": 188,
-    "num_transactions": 35
+    "total_revenue": 134153.31,
+    "total_units": 245,
+    "num_transactions": 41
   },
   {
     "age_group": "25-34",
     "category": "Toys",
     "region": "West",
-    "total_revenue": 76568.88,
+    "total_revenue": 74440.98,
     "total_units": 152,
-    "num_transactions": 28
+    "num_transactions": 27
   },
   {
     "age_group": "35-44",
     "category": "Books",
     "region": "Central",
-    "total_revenue": 54573.61,
-    "total_units": 110,
-    "num_transactions": 20
+    "total_revenue": 58252.42,
+    "total_units": 101,
+    "num_transactions": 17
   },
   {
     "age_group": "35-44",
     "category": "Books",
     "region": "East",
-    "total_revenue": 108498.11,
-    "total_units": 185,
-    "num_transactions": 35
+    "total_revenue": 84739.98,
+    "total_units": 138,
+    "num_transactions": 26
   },
   {
     "age_group": "35-44",
     "category": "Books",
     "region": "North",
-    "total_revenue": 99145.7,
-    "total_units": 149,
-    "num_transactions": 29
+    "total_revenue": 74007.56,
+    "total_units": 107,
+    "num_transactions": 17
   },
   {
     "age_group": "35-44",
     "category": "Books",
     "region": "South",
-    "total_revenue": 52791.61,
-    "total_units": 113,
-    "num_transactions": 21
-  },
-  {
-    "age_group": "35-44",
-    "category": "Books",
-    "region": "West",
-    "total_revenue": 182864.8,
-    "total_units": 339,
-    "num_transactions": 54
-  },
-  {
-    "age_group": "35-44",
-    "category": "Clothing",
-    "region": "Central",
-    "total_revenue": 52192.88,
-    "total_units": 100,
+    "total_revenue": 63413.74,
+    "total_units": 94,
     "num_transactions": 19
   },
   {
     "age_group": "35-44",
-    "category": "Clothing",
-    "region": "East",
-    "total_revenue": 61602.2,
-    "total_units": 123,
-    "num_transactions": 21
-  },
-  {
-    "age_group": "35-44",
-    "category": "Clothing",
-    "region": "North",
-    "total_revenue": 53840.22,
-    "total_units": 128,
-    "num_transactions": 18
-  },
-  {
-    "age_group": "35-44",
-    "category": "Clothing",
-    "region": "South",
-    "total_revenue": 50620.43,
-    "total_units": 78,
-    "num_transactions": 13
-  },
-  {
-    "age_group": "35-44",
-    "category": "Clothing",
+    "category": "Books",
     "region": "West",
-    "total_revenue": 57980.57,
-    "total_units": 152,
-    "num_transactions": 29
+    "total_revenue": 111681.3,
+    "total_units": 176,
+    "num_transactions": 37
   },
   {
     "age_group": "35-44",
-    "category": "Electronics",
+    "category": "Clothing",
     "region": "Central",
-    "total_revenue": 70664.34,
-    "total_units": 110,
-    "num_transactions": 20
+    "total_revenue": 21766.42,
+    "total_units": 87,
+    "num_transactions": 15
   },
   {
     "age_group": "35-44",
-    "category": "Electronics",
+    "category": "Clothing",
     "region": "East",
-    "total_revenue": 65741.35,
-    "total_units": 149,
-    "num_transactions": 30
-  },
-  {
-    "age_group": "35-44",
-    "category": "Electronics",
-    "region": "North",
-    "total_revenue": 81382.79,
-    "total_units": 128,
-    "num_transactions": 20
-  },
-  {
-    "age_group": "35-44",
-    "category": "Electronics",
-    "region": "South",
-    "total_revenue": 65333.89,
-    "total_units": 124,
-    "num_transactions": 23
-  },
-  {
-    "age_group": "35-44",
-    "category": "Electronics",
-    "region": "West",
-    "total_revenue": 122884.51,
+    "total_revenue": 68822.83,
     "total_units": 191,
-    "num_transactions": 32
+    "num_transactions": 34
   },
   {
     "age_group": "35-44",
-    "category": "Food & Beverage",
-    "region": "Central",
-    "total_revenue": 56945.58,
-    "total_units": 90,
-    "num_transactions": 14
-  },
-  {
-    "age_group": "35-44",
-    "category": "Food & Beverage",
-    "region": "East",
-    "total_revenue": 77472.79,
-    "total_units": 187,
-    "num_transactions": 32
-  },
-  {
-    "age_group": "35-44",
-    "category": "Food & Beverage",
+    "category": "Clothing",
     "region": "North",
-    "total_revenue": 28431.31,
-    "total_units": 68,
-    "num_transactions": 14
-  },
-  {
-    "age_group": "35-44",
-    "category": "Food & Beverage",
-    "region": "South",
-    "total_revenue": 32411.73,
-    "total_units": 67,
-    "num_transactions": 13
-  },
-  {
-    "age_group": "35-44",
-    "category": "Food & Beverage",
-    "region": "West",
-    "total_revenue": 52781.43,
-    "total_units": 118,
+    "total_revenue": 66813.08,
+    "total_units": 120,
     "num_transactions": 22
   },
   {
     "age_group": "35-44",
-    "category": "Home & Garden",
-    "region": "Central",
-    "total_revenue": 90531.22,
-    "total_units": 156,
-    "num_transactions": 25
+    "category": "Clothing",
+    "region": "South",
+    "total_revenue": 39261.17,
+    "total_units": 94,
+    "num_transactions": 20
   },
   {
     "age_group": "35-44",
-    "category": "Home & Garden",
+    "category": "Clothing",
+    "region": "West",
+    "total_revenue": 85665.64,
+    "total_units": 199,
+    "num_transactions": 44
+  },
+  {
+    "age_group": "35-44",
+    "category": "Electronics",
+    "region": "Central",
+    "total_revenue": 44419.18,
+    "total_units": 85,
+    "num_transactions": 15
+  },
+  {
+    "age_group": "35-44",
+    "category": "Electronics",
     "region": "East",
-    "total_revenue": 140635.0,
-    "total_units": 232,
+    "total_revenue": 54157.0,
+    "total_units": 96,
+    "num_transactions": 18
+  },
+  {
+    "age_group": "35-44",
+    "category": "Electronics",
+    "region": "North",
+    "total_revenue": 63778.36,
+    "total_units": 127,
+    "num_transactions": 22
+  },
+  {
+    "age_group": "35-44",
+    "category": "Electronics",
+    "region": "South",
+    "total_revenue": 25957.53,
+    "total_units": 56,
+    "num_transactions": 12
+  },
+  {
+    "age_group": "35-44",
+    "category": "Electronics",
+    "region": "West",
+    "total_revenue": 94766.35,
+    "total_units": 202,
+    "num_transactions": 35
+  },
+  {
+    "age_group": "35-44",
+    "category": "Food & Beverage",
+    "region": "Central",
+    "total_revenue": 50676.96,
+    "total_units": 115,
+    "num_transactions": 21
+  },
+  {
+    "age_group": "35-44",
+    "category": "Food & Beverage",
+    "region": "East",
+    "total_revenue": 70046.46,
+    "total_units": 163,
+    "num_transactions": 34
+  },
+  {
+    "age_group": "35-44",
+    "category": "Food & Beverage",
+    "region": "North",
+    "total_revenue": 66219.34,
+    "total_units": 128,
+    "num_transactions": 19
+  },
+  {
+    "age_group": "35-44",
+    "category": "Food & Beverage",
+    "region": "South",
+    "total_revenue": 57212.32,
+    "total_units": 110,
+    "num_transactions": 19
+  },
+  {
+    "age_group": "35-44",
+    "category": "Food & Beverage",
+    "region": "West",
+    "total_revenue": 70770.72,
+    "total_units": 182,
     "num_transactions": 34
   },
   {
     "age_group": "35-44",
     "category": "Home & Garden",
+    "region": "Central",
+    "total_revenue": 49182.54,
+    "total_units": 82,
+    "num_transactions": 14
+  },
+  {
+    "age_group": "35-44",
+    "category": "Home & Garden",
+    "region": "East",
+    "total_revenue": 61346.23,
+    "total_units": 108,
+    "num_transactions": 24
+  },
+  {
+    "age_group": "35-44",
+    "category": "Home & Garden",
     "region": "North",
-    "total_revenue": 78828.61,
-    "total_units": 145,
-    "num_transactions": 23
+    "total_revenue": 54291.55,
+    "total_units": 94,
+    "num_transactions": 18
   },
   {
     "age_group": "35-44",
     "category": "Home & Garden",
     "region": "South",
-    "total_revenue": 53731.08,
-    "total_units": 83,
-    "num_transactions": 16
-  },
-  {
-    "age_group": "35-44",
-    "category": "Home & Garden",
-    "region": "West",
-    "total_revenue": 150130.86,
-    "total_units": 300,
-    "num_transactions": 47
-  },
-  {
-    "age_group": "35-44",
-    "category": "Sports",
-    "region": "Central",
-    "total_revenue": 31026.05,
+    "total_revenue": 45000.45,
     "total_units": 72,
     "num_transactions": 13
   },
   {
     "age_group": "35-44",
-    "category": "Sports",
-    "region": "East",
-    "total_revenue": 86408.23,
-    "total_units": 173,
-    "num_transactions": 32
-  },
-  {
-    "age_group": "35-44",
-    "category": "Sports",
-    "region": "North",
-    "total_revenue": 35064.94,
-    "total_units": 83,
-    "num_transactions": 16
-  },
-  {
-    "age_group": "35-44",
-    "category": "Sports",
-    "region": "South",
-    "total_revenue": 39189.44,
-    "total_units": 96,
+    "category": "Home & Garden",
+    "region": "West",
+    "total_revenue": 47123.15,
+    "total_units": 80,
     "num_transactions": 15
   },
   {
     "age_group": "35-44",
     "category": "Sports",
+    "region": "Central",
+    "total_revenue": 55252.65,
+    "total_units": 104,
+    "num_transactions": 23
+  },
+  {
+    "age_group": "35-44",
+    "category": "Sports",
+    "region": "East",
+    "total_revenue": 118661.33,
+    "total_units": 229,
+    "num_transactions": 38
+  },
+  {
+    "age_group": "35-44",
+    "category": "Sports",
+    "region": "North",
+    "total_revenue": 67059.75,
+    "total_units": 116,
+    "num_transactions": 22
+  },
+  {
+    "age_group": "35-44",
+    "category": "Sports",
+    "region": "South",
+    "total_revenue": 46755.71,
+    "total_units": 90,
+    "num_transactions": 18
+  },
+  {
+    "age_group": "35-44",
+    "category": "Sports",
     "region": "West",
-    "total_revenue": 79553.86,
-    "total_units": 145,
-    "num_transactions": 28
+    "total_revenue": 140581.75,
+    "total_units": 241,
+    "num_transactions": 43
   },
   {
     "age_group": "35-44",
     "category": "Toys",
     "region": "Central",
-    "total_revenue": 39657.08,
-    "total_units": 74,
-    "num_transactions": 12
+    "total_revenue": 57456.15,
+    "total_units": 111,
+    "num_transactions": 18
   },
   {
     "age_group": "35-44",
     "category": "Toys",
     "region": "East",
-    "total_revenue": 48364.07,
-    "total_units": 119,
-    "num_transactions": 20
+    "total_revenue": 93732.51,
+    "total_units": 173,
+    "num_transactions": 30
   },
   {
     "age_group": "35-44",
     "category": "Toys",
     "region": "North",
-    "total_revenue": 59563.33,
-    "total_units": 119,
+    "total_revenue": 68324.74,
+    "total_units": 123,
     "num_transactions": 21
   },
   {
     "age_group": "35-44",
     "category": "Toys",
     "region": "South",
-    "total_revenue": 55561.38,
-    "total_units": 107,
+    "total_revenue": 50625.53,
+    "total_units": 88,
     "num_transactions": 20
   },
   {
     "age_group": "35-44",
     "category": "Toys",
     "region": "West",
-    "total_revenue": 103813.02,
-    "total_units": 203,
-    "num_transactions": 35
+    "total_revenue": 145108.94,
+    "total_units": 258,
+    "num_transactions": 39
   },
   {
     "age_group": "45-54",
     "category": "Books",
     "region": "Central",
-    "total_revenue": 102778.77,
-    "total_units": 189,
-    "num_transactions": 36
-  },
-  {
-    "age_group": "45-54",
-    "category": "Books",
-    "region": "East",
-    "total_revenue": 115540.61,
-    "total_units": 200,
+    "total_revenue": 118986.35,
+    "total_units": 202,
     "num_transactions": 32
   },
   {
     "age_group": "45-54",
     "category": "Books",
+    "region": "East",
+    "total_revenue": 92012.35,
+    "total_units": 131,
+    "num_transactions": 26
+  },
+  {
+    "age_group": "45-54",
+    "category": "Books",
     "region": "North",
-    "total_revenue": 129411.44,
-    "total_units": 204,
-    "num_transactions": 36
+    "total_revenue": 63001.68,
+    "total_units": 119,
+    "num_transactions": 25
   },
   {
     "age_group": "45-54",
     "category": "Books",
     "region": "South",
-    "total_revenue": 108015.84,
-    "total_units": 163,
-    "num_transactions": 33
+    "total_revenue": 109842.2,
+    "total_units": 177,
+    "num_transactions": 32
   },
   {
     "age_group": "45-54",
     "category": "Books",
     "region": "West",
-    "total_revenue": 56975.52,
-    "total_units": 134,
-    "num_transactions": 24
+    "total_revenue": 35824.99,
+    "total_units": 71,
+    "num_transactions": 14
   },
   {
     "age_group": "45-54",
     "category": "Clothing",
     "region": "Central",
-    "total_revenue": 33798.29,
-    "total_units": 90,
-    "num_transactions": 15
+    "total_revenue": 43292.46,
+    "total_units": 107,
+    "num_transactions": 19
   },
   {
     "age_group": "45-54",
     "category": "Clothing",
     "region": "East",
-    "total_revenue": 49999.3,
-    "total_units": 140,
-    "num_transactions": 24
+    "total_revenue": 79892.77,
+    "total_units": 163,
+    "num_transactions": 29
   },
   {
     "age_group": "45-54",
     "category": "Clothing",
     "region": "North",
-    "total_revenue": 42326.01,
-    "total_units": 103,
-    "num_transactions": 18
+    "total_revenue": 76753.68,
+    "total_units": 165,
+    "num_transactions": 25
   },
   {
     "age_group": "45-54",
     "category": "Clothing",
     "region": "South",
-    "total_revenue": 84677.35,
-    "total_units": 156,
-    "num_transactions": 33
+    "total_revenue": 115858.52,
+    "total_units": 203,
+    "num_transactions": 32
   },
   {
     "age_group": "45-54",
     "category": "Clothing",
     "region": "West",
-    "total_revenue": 32500.08,
-    "total_units": 87,
-    "num_transactions": 14
+    "total_revenue": 68277.43,
+    "total_units": 152,
+    "num_transactions": 24
   },
   {
     "age_group": "45-54",
     "category": "Electronics",
     "region": "Central",
-    "total_revenue": 75399.19,
-    "total_units": 137,
+    "total_revenue": 55325.04,
+    "total_units": 114,
+    "num_transactions": 17
+  },
+  {
+    "age_group": "45-54",
+    "category": "Electronics",
+    "region": "East",
+    "total_revenue": 88791.24,
+    "total_units": 184,
+    "num_transactions": 34
+  },
+  {
+    "age_group": "45-54",
+    "category": "Electronics",
+    "region": "North",
+    "total_revenue": 63961.08,
+    "total_units": 150,
     "num_transactions": 23
   },
   {
     "age_group": "45-54",
     "category": "Electronics",
-    "region": "East",
-    "total_revenue": 110114.3,
-    "total_units": 190,
-    "num_transactions": 33
-  },
-  {
-    "age_group": "45-54",
-    "category": "Electronics",
-    "region": "North",
-    "total_revenue": 76526.91,
-    "total_units": 148,
-    "num_transactions": 27
-  },
-  {
-    "age_group": "45-54",
-    "category": "Electronics",
     "region": "South",
-    "total_revenue": 75024.78,
-    "total_units": 156,
-    "num_transactions": 28
+    "total_revenue": 107085.22,
+    "total_units": 185,
+    "num_transactions": 34
   },
   {
     "age_group": "45-54",
     "category": "Electronics",
     "region": "West",
-    "total_revenue": 61646.8,
-    "total_units": 108,
-    "num_transactions": 17
+    "total_revenue": 65220.75,
+    "total_units": 127,
+    "num_transactions": 24
   },
   {
     "age_group": "45-54",
     "category": "Food & Beverage",
     "region": "Central",
-    "total_revenue": 44535.7,
-    "total_units": 87,
-    "num_transactions": 18
+    "total_revenue": 61129.33,
+    "total_units": 155,
+    "num_transactions": 27
   },
   {
     "age_group": "45-54",
     "category": "Food & Beverage",
     "region": "East",
-    "total_revenue": 66660.4,
-    "total_units": 156,
-    "num_transactions": 26
+    "total_revenue": 52112.67,
+    "total_units": 132,
+    "num_transactions": 28
   },
   {
     "age_group": "45-54",
     "category": "Food & Beverage",
     "region": "North",
-    "total_revenue": 53008.47,
-    "total_units": 142,
-    "num_transactions": 26
+    "total_revenue": 90398.82,
+    "total_units": 188,
+    "num_transactions": 32
   },
   {
     "age_group": "45-54",
     "category": "Food & Beverage",
     "region": "South",
-    "total_revenue": 92683.57,
-    "total_units": 188,
-    "num_transactions": 31
+    "total_revenue": 98413.18,
+    "total_units": 218,
+    "num_transactions": 38
   },
   {
     "age_group": "45-54",
     "category": "Food & Beverage",
     "region": "West",
-    "total_revenue": 38604.57,
+    "total_revenue": 48144.31,
+    "total_units": 106,
+    "num_transactions": 19
+  },
+  {
+    "age_group": "45-54",
+    "category": "Home & Garden",
+    "region": "Central",
+    "total_revenue": 64618.89,
+    "total_units": 108,
+    "num_transactions": 19
+  },
+  {
+    "age_group": "45-54",
+    "category": "Home & Garden",
+    "region": "East",
+    "total_revenue": 70894.6,
+    "total_units": 128,
+    "num_transactions": 26
+  },
+  {
+    "age_group": "45-54",
+    "category": "Home & Garden",
+    "region": "North",
+    "total_revenue": 43142.02,
+    "total_units": 84,
+    "num_transactions": 18
+  },
+  {
+    "age_group": "45-54",
+    "category": "Home & Garden",
+    "region": "South",
+    "total_revenue": 67215.53,
+    "total_units": 119,
+    "num_transactions": 21
+  },
+  {
+    "age_group": "45-54",
+    "category": "Home & Garden",
+    "region": "West",
+    "total_revenue": 51332.7,
     "total_units": 91,
     "num_transactions": 17
   },
   {
     "age_group": "45-54",
-    "category": "Home & Garden",
-    "region": "Central",
-    "total_revenue": 78600.33,
-    "total_units": 136,
-    "num_transactions": 28
-  },
-  {
-    "age_group": "45-54",
-    "category": "Home & Garden",
-    "region": "East",
-    "total_revenue": 128335.53,
-    "total_units": 217,
-    "num_transactions": 39
-  },
-  {
-    "age_group": "45-54",
-    "category": "Home & Garden",
-    "region": "North",
-    "total_revenue": 91479.54,
-    "total_units": 160,
-    "num_transactions": 33
-  },
-  {
-    "age_group": "45-54",
-    "category": "Home & Garden",
-    "region": "South",
-    "total_revenue": 117185.4,
-    "total_units": 232,
-    "num_transactions": 40
-  },
-  {
-    "age_group": "45-54",
-    "category": "Home & Garden",
-    "region": "West",
-    "total_revenue": 57671.36,
-    "total_units": 126,
-    "num_transactions": 22
-  },
-  {
-    "age_group": "45-54",
     "category": "Sports",
     "region": "Central",
-    "total_revenue": 41966.61,
-    "total_units": 96,
-    "num_transactions": 19
+    "total_revenue": 68808.97,
+    "total_units": 134,
+    "num_transactions": 25
   },
   {
     "age_group": "45-54",
     "category": "Sports",
     "region": "East",
-    "total_revenue": 61193.19,
-    "total_units": 188,
-    "num_transactions": 33
+    "total_revenue": 91968.89,
+    "total_units": 184,
+    "num_transactions": 34
   },
   {
     "age_group": "45-54",
     "category": "Sports",
     "region": "North",
-    "total_revenue": 60717.68,
-    "total_units": 117,
-    "num_transactions": 21
+    "total_revenue": 97082.19,
+    "total_units": 213,
+    "num_transactions": 35
   },
   {
     "age_group": "45-54",
     "category": "Sports",
     "region": "South",
-    "total_revenue": 60820.34,
-    "total_units": 146,
-    "num_transactions": 28
+    "total_revenue": 91731.96,
+    "total_units": 176,
+    "num_transactions": 30
   },
   {
     "age_group": "45-54",
     "category": "Sports",
     "region": "West",
-    "total_revenue": 49803.85,
-    "total_units": 117,
-    "num_transactions": 18
+    "total_revenue": 107349.84,
+    "total_units": 173,
+    "num_transactions": 27
   },
   {
     "age_group": "45-54",
     "category": "Toys",
     "region": "Central",
-    "total_revenue": 36534.99,
-    "total_units": 66,
+    "total_revenue": 35668.54,
+    "total_units": 75,
     "num_transactions": 13
   },
   {
     "age_group": "45-54",
     "category": "Toys",
     "region": "East",
-    "total_revenue": 65127.6,
-    "total_units": 131,
-    "num_transactions": 22
+    "total_revenue": 117914.91,
+    "total_units": 196,
+    "num_transactions": 32
   },
   {
     "age_group": "45-54",
     "category": "Toys",
     "region": "North",
-    "total_revenue": 134430.9,
-    "total_units": 223,
-    "num_transactions": 40
+    "total_revenue": 121037.12,
+    "total_units": 221,
+    "num_transactions": 43
   },
   {
     "age_group": "45-54",
     "category": "Toys",
     "region": "South",
-    "total_revenue": 77238.23,
-    "total_units": 152,
-    "num_transactions": 30
+    "total_revenue": 119039.04,
+    "total_units": 205,
+    "num_transactions": 36
   },
   {
     "age_group": "45-54",
     "category": "Toys",
     "region": "West",
-    "total_revenue": 114011.16,
-    "total_units": 175,
-    "num_transactions": 31
+    "total_revenue": 45192.19,
+    "total_units": 83,
+    "num_transactions": 18
   },
   {
     "age_group": "55+",
     "category": "Books",
     "region": "Central",
-    "total_revenue": 209594.94,
-    "total_units": 341,
-    "num_transactions": 60
+    "total_revenue": 161299.25,
+    "total_units": 276,
+    "num_transactions": 48
   },
   {
     "age_group": "55+",
     "category": "Books",
     "region": "East",
-    "total_revenue": 215811.74,
-    "total_units": 396,
-    "num_transactions": 70
+    "total_revenue": 165968.14,
+    "total_units": 268,
+    "num_transactions": 46
   },
   {
     "age_group": "55+",
     "category": "Books",
     "region": "North",
-    "total_revenue": 261261.08,
-    "total_units": 494,
-    "num_transactions": 91
+    "total_revenue": 188669.37,
+    "total_units": 316,
+    "num_transactions": 57
   },
   {
     "age_group": "55+",
     "category": "Books",
     "region": "South",
-    "total_revenue": 218864.51,
-    "total_units": 399,
-    "num_transactions": 70
+    "total_revenue": 165792.06,
+    "total_units": 268,
+    "num_transactions": 49
   },
   {
     "age_group": "55+",
     "category": "Books",
     "region": "West",
-    "total_revenue": 190076.11,
-    "total_units": 334,
-    "num_transactions": 58
+    "total_revenue": 142007.52,
+    "total_units": 227,
+    "num_transactions": 41
   },
   {
     "age_group": "55+",
     "category": "Clothing",
     "region": "Central",
-    "total_revenue": 126680.03,
-    "total_units": 289,
-    "num_transactions": 54
+    "total_revenue": 230551.62,
+    "total_units": 392,
+    "num_transactions": 77
   },
   {
     "age_group": "55+",
     "category": "Clothing",
     "region": "East",
-    "total_revenue": 64291.5,
-    "total_units": 143,
-    "num_transactions": 30
-  },
-  {
-    "age_group": "55+",
-    "category": "Clothing",
-    "region": "North",
-    "total_revenue": 113559.25,
-    "total_units": 262,
+    "total_revenue": 105365.16,
+    "total_units": 247,
     "num_transactions": 44
   },
   {
     "age_group": "55+",
     "category": "Clothing",
+    "region": "North",
+    "total_revenue": 195638.68,
+    "total_units": 378,
+    "num_transactions": 72
+  },
+  {
+    "age_group": "55+",
+    "category": "Clothing",
     "region": "South",
-    "total_revenue": 111879.72,
-    "total_units": 199,
-    "num_transactions": 33
+    "total_revenue": 160094.57,
+    "total_units": 279,
+    "num_transactions": 46
   },
   {
     "age_group": "55+",
     "category": "Clothing",
     "region": "West",
-    "total_revenue": 80687.72,
-    "total_units": 163,
-    "num_transactions": 32
+    "total_revenue": 94482.51,
+    "total_units": 200,
+    "num_transactions": 38
   },
   {
     "age_group": "55+",
     "category": "Electronics",
     "region": "Central",
-    "total_revenue": 144888.12,
+    "total_revenue": 213393.67,
+    "total_units": 430,
+    "num_transactions": 73
+  },
+  {
+    "age_group": "55+",
+    "category": "Electronics",
+    "region": "East",
+    "total_revenue": 137508.49,
     "total_units": 279,
-    "num_transactions": 51
-  },
-  {
-    "age_group": "55+",
-    "category": "Electronics",
-    "region": "East",
-    "total_revenue": 127502.34,
-    "total_units": 191,
-    "num_transactions": 42
+    "num_transactions": 52
   },
   {
     "age_group": "55+",
     "category": "Electronics",
     "region": "North",
-    "total_revenue": 188465.59,
-    "total_units": 330,
-    "num_transactions": 55
+    "total_revenue": 113887.41,
+    "total_units": 239,
+    "num_transactions": 45
   },
   {
     "age_group": "55+",
     "category": "Electronics",
     "region": "South",
-    "total_revenue": 120867.0,
-    "total_units": 196,
-    "num_transactions": 36
-  },
-  {
-    "age_group": "55+",
-    "category": "Electronics",
-    "region": "West",
-    "total_revenue": 66459.97,
-    "total_units": 163,
-    "num_transactions": 34
-  },
-  {
-    "age_group": "55+",
-    "category": "Food & Beverage",
-    "region": "Central",
-    "total_revenue": 177474.72,
-    "total_units": 321,
-    "num_transactions": 54
-  },
-  {
-    "age_group": "55+",
-    "category": "Food & Beverage",
-    "region": "East",
-    "total_revenue": 160945.63,
-    "total_units": 296,
-    "num_transactions": 53
-  },
-  {
-    "age_group": "55+",
-    "category": "Food & Beverage",
-    "region": "North",
-    "total_revenue": 105357.37,
-    "total_units": 208,
-    "num_transactions": 36
-  },
-  {
-    "age_group": "55+",
-    "category": "Food & Beverage",
-    "region": "South",
-    "total_revenue": 107772.54,
-    "total_units": 224,
+    "total_revenue": 121650.26,
+    "total_units": 241,
     "num_transactions": 43
   },
   {
     "age_group": "55+",
+    "category": "Electronics",
+    "region": "West",
+    "total_revenue": 132810.02,
+    "total_units": 245,
+    "num_transactions": 41
+  },
+  {
+    "age_group": "55+",
+    "category": "Food & Beverage",
+    "region": "Central",
+    "total_revenue": 152524.82,
+    "total_units": 314,
+    "num_transactions": 57
+  },
+  {
+    "age_group": "55+",
+    "category": "Food & Beverage",
+    "region": "East",
+    "total_revenue": 139234.22,
+    "total_units": 275,
+    "num_transactions": 51
+  },
+  {
+    "age_group": "55+",
+    "category": "Food & Beverage",
+    "region": "North",
+    "total_revenue": 145300.0,
+    "total_units": 282,
+    "num_transactions": 52
+  },
+  {
+    "age_group": "55+",
+    "category": "Food & Beverage",
+    "region": "South",
+    "total_revenue": 121609.24,
+    "total_units": 252,
+    "num_transactions": 47
+  },
+  {
+    "age_group": "55+",
     "category": "Food & Beverage",
     "region": "West",
-    "total_revenue": 82163.41,
-    "total_units": 194,
-    "num_transactions": 36
+    "total_revenue": 175617.54,
+    "total_units": 363,
+    "num_transactions": 57
   },
   {
     "age_group": "55+",
     "category": "Home & Garden",
     "region": "Central",
-    "total_revenue": 298207.38,
-    "total_units": 503,
-    "num_transactions": 94
+    "total_revenue": 119377.75,
+    "total_units": 201,
+    "num_transactions": 38
   },
   {
     "age_group": "55+",
     "category": "Home & Garden",
     "region": "East",
-    "total_revenue": 159910.96,
-    "total_units": 328,
-    "num_transactions": 60
+    "total_revenue": 62259.73,
+    "total_units": 119,
+    "num_transactions": 22
   },
   {
     "age_group": "55+",
     "category": "Home & Garden",
     "region": "North",
-    "total_revenue": 211568.31,
-    "total_units": 396,
+    "total_revenue": 97446.58,
+    "total_units": 176,
+    "num_transactions": 33
+  },
+  {
+    "age_group": "55+",
+    "category": "Home & Garden",
+    "region": "South",
+    "total_revenue": 127772.1,
+    "total_units": 247,
+    "num_transactions": 37
+  },
+  {
+    "age_group": "55+",
+    "category": "Home & Garden",
+    "region": "West",
+    "total_revenue": 111001.33,
+    "total_units": 185,
+    "num_transactions": 32
+  },
+  {
+    "age_group": "55+",
+    "category": "Sports",
+    "region": "Central",
+    "total_revenue": 203959.97,
+    "total_units": 404,
+    "num_transactions": 69
+  },
+  {
+    "age_group": "55+",
+    "category": "Sports",
+    "region": "East",
+    "total_revenue": 200182.6,
+    "total_units": 420,
+    "num_transactions": 68
+  },
+  {
+    "age_group": "55+",
+    "category": "Sports",
+    "region": "North",
+    "total_revenue": 229617.6,
+    "total_units": 414,
     "num_transactions": 70
   },
   {
     "age_group": "55+",
-    "category": "Home & Garden",
+    "category": "Sports",
     "region": "South",
-    "total_revenue": 185651.52,
-    "total_units": 317,
-    "num_transactions": 56
-  },
-  {
-    "age_group": "55+",
-    "category": "Home & Garden",
-    "region": "West",
-    "total_revenue": 153940.29,
-    "total_units": 270,
-    "num_transactions": 47
+    "total_revenue": 146133.35,
+    "total_units": 310,
+    "num_transactions": 57
   },
   {
     "age_group": "55+",
     "category": "Sports",
+    "region": "West",
+    "total_revenue": 129824.35,
+    "total_units": 247,
+    "num_transactions": 44
+  },
+  {
+    "age_group": "55+",
+    "category": "Toys",
     "region": "Central",
-    "total_revenue": 184568.15,
-    "total_units": 392,
-    "num_transactions": 66
+    "total_revenue": 186234.56,
+    "total_units": 370,
+    "num_transactions": 61
   },
   {
     "age_group": "55+",
-    "category": "Sports",
+    "category": "Toys",
     "region": "East",
-    "total_revenue": 79305.44,
-    "total_units": 197,
-    "num_transactions": 37
+    "total_revenue": 126227.81,
+    "total_units": 240,
+    "num_transactions": 46
   },
   {
     "age_group": "55+",
-    "category": "Sports",
+    "category": "Toys",
     "region": "North",
-    "total_revenue": 135888.97,
-    "total_units": 285,
-    "num_transactions": 47
+    "total_revenue": 187295.25,
+    "total_units": 355,
+    "num_transactions": 64
   },
   {
     "age_group": "55+",
-    "category": "Sports",
+    "category": "Toys",
     "region": "South",
-    "total_revenue": 84009.36,
-    "total_units": 204,
-    "num_transactions": 37
-  },
-  {
-    "age_group": "55+",
-    "category": "Sports",
-    "region": "West",
-    "total_revenue": 105550.15,
+    "total_revenue": 129904.36,
     "total_units": 248,
     "num_transactions": 45
   },
   {
     "age_group": "55+",
     "category": "Toys",
-    "region": "Central",
-    "total_revenue": 117932.29,
-    "total_units": 227,
-    "num_transactions": 44
-  },
-  {
-    "age_group": "55+",
-    "category": "Toys",
-    "region": "East",
-    "total_revenue": 84420.78,
-    "total_units": 174,
-    "num_transactions": 37
-  },
-  {
-    "age_group": "55+",
-    "category": "Toys",
-    "region": "North",
-    "total_revenue": 151215.45,
-    "total_units": 298,
-    "num_transactions": 50
-  },
-  {
-    "age_group": "55+",
-    "category": "Toys",
-    "region": "South",
-    "total_revenue": 141288.85,
-    "total_units": 286,
-    "num_transactions": 49
-  },
-  {
-    "age_group": "55+",
-    "category": "Toys",
     "region": "West",
-    "total_revenue": 121488.0,
-    "total_units": 264,
-    "num_transactions": 52
+    "total_revenue": 135334.17,
+    "total_units": 277,
+    "num_transactions": 51
   }
 ]

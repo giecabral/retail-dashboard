@@ -3,282 +3,282 @@
     {
       "category": "Books",
       "region": "Central",
-      "total_revenue": 470942.6,
-      "total_units": 860,
-      "num_transactions": 154,
-      "avg_order_value": 3058.07
+      "total_revenue": 443509.07,
+      "total_units": 745,
+      "num_transactions": 126,
+      "avg_order_value": 3519.91
     },
     {
       "category": "Books",
       "region": "East",
-      "total_revenue": 564751.88,
-      "total_units": 993,
-      "num_transactions": 172,
-      "avg_order_value": 3283.44
-    },
-    {
-      "category": "Books",
-      "region": "North",
-      "total_revenue": 623182.81,
-      "total_units": 1137,
-      "num_transactions": 213,
-      "avg_order_value": 2925.74
-    },
-    {
-      "category": "Books",
-      "region": "South",
-      "total_revenue": 607186.93,
-      "total_units": 1040,
-      "num_transactions": 187,
-      "avg_order_value": 3246.99
-    },
-    {
-      "category": "Books",
-      "region": "West",
-      "total_revenue": 556532.65,
-      "total_units": 1060,
-      "num_transactions": 181,
-      "avg_order_value": 3074.77
-    },
-    {
-      "category": "Clothing",
-      "region": "Central",
-      "total_revenue": 267008.96,
-      "total_units": 625,
-      "num_transactions": 113,
-      "avg_order_value": 2362.91
-    },
-    {
-      "category": "Clothing",
-      "region": "East",
-      "total_revenue": 239573.84,
-      "total_units": 549,
-      "num_transactions": 100,
-      "avg_order_value": 2395.74
-    },
-    {
-      "category": "Clothing",
-      "region": "North",
-      "total_revenue": 293998.56,
-      "total_units": 686,
-      "num_transactions": 121,
-      "avg_order_value": 2429.74
-    },
-    {
-      "category": "Clothing",
-      "region": "South",
-      "total_revenue": 309718.81,
-      "total_units": 595,
-      "num_transactions": 108,
-      "avg_order_value": 2867.77
-    },
-    {
-      "category": "Clothing",
-      "region": "West",
-      "total_revenue": 260790.88,
-      "total_units": 607,
-      "num_transactions": 113,
-      "avg_order_value": 2307.88
-    },
-    {
-      "category": "Electronics",
-      "region": "Central",
-      "total_revenue": 395908.12,
-      "total_units": 722,
-      "num_transactions": 129,
-      "avg_order_value": 3069.06
-    },
-    {
-      "category": "Electronics",
-      "region": "East",
-      "total_revenue": 390372.13,
-      "total_units": 691,
-      "num_transactions": 132,
-      "avg_order_value": 2957.36
-    },
-    {
-      "category": "Electronics",
-      "region": "North",
-      "total_revenue": 472524.98,
-      "total_units": 839,
-      "num_transactions": 140,
-      "avg_order_value": 3375.18
-    },
-    {
-      "category": "Electronics",
-      "region": "South",
-      "total_revenue": 406815.42,
-      "total_units": 747,
-      "num_transactions": 138,
-      "avg_order_value": 2947.94
-    },
-    {
-      "category": "Electronics",
-      "region": "West",
-      "total_revenue": 370915.63,
-      "total_units": 648,
-      "num_transactions": 119,
-      "avg_order_value": 3116.94
-    },
-    {
-      "category": "Food & Beverage",
-      "region": "Central",
-      "total_revenue": 365289.25,
-      "total_units": 670,
-      "num_transactions": 117,
-      "avg_order_value": 3122.13
-    },
-    {
-      "category": "Food & Beverage",
-      "region": "East",
-      "total_revenue": 394429.33,
-      "total_units": 804,
-      "num_transactions": 142,
-      "avg_order_value": 2777.67
-    },
-    {
-      "category": "Food & Beverage",
-      "region": "North",
-      "total_revenue": 271045.64,
-      "total_units": 601,
-      "num_transactions": 108,
-      "avg_order_value": 2509.68
-    },
-    {
-      "category": "Food & Beverage",
-      "region": "South",
-      "total_revenue": 363395.52,
-      "total_units": 769,
-      "num_transactions": 141,
-      "avg_order_value": 2577.27
-    },
-    {
-      "category": "Food & Beverage",
-      "region": "West",
-      "total_revenue": 261284.13,
-      "total_units": 569,
-      "num_transactions": 110,
-      "avg_order_value": 2375.31
-    },
-    {
-      "category": "Home & Garden",
-      "region": "Central",
-      "total_revenue": 605881.1,
-      "total_units": 1025,
-      "num_transactions": 189,
-      "avg_order_value": 3205.72
-    },
-    {
-      "category": "Home & Garden",
-      "region": "East",
-      "total_revenue": 595283.89,
-      "total_units": 1092,
-      "num_transactions": 183,
-      "avg_order_value": 3252.92
-    },
-    {
-      "category": "Home & Garden",
-      "region": "North",
-      "total_revenue": 600161.05,
-      "total_units": 1159,
-      "num_transactions": 204,
-      "avg_order_value": 2941.97
-    },
-    {
-      "category": "Home & Garden",
-      "region": "South",
-      "total_revenue": 580908.6,
-      "total_units": 1016,
-      "num_transactions": 185,
-      "avg_order_value": 3140.05
-    },
-    {
-      "category": "Home & Garden",
-      "region": "West",
-      "total_revenue": 521705.44,
-      "total_units": 1004,
-      "num_transactions": 177,
-      "avg_order_value": 2947.49
-    },
-    {
-      "category": "Sports",
-      "region": "Central",
-      "total_revenue": 339277.65,
-      "total_units": 751,
-      "num_transactions": 131,
-      "avg_order_value": 2589.91
-    },
-    {
-      "category": "Sports",
-      "region": "East",
-      "total_revenue": 311615.15,
-      "total_units": 744,
-      "num_transactions": 137,
-      "avg_order_value": 2274.56
-    },
-    {
-      "category": "Sports",
-      "region": "North",
-      "total_revenue": 337768.56,
-      "total_units": 724,
-      "num_transactions": 122,
-      "avg_order_value": 2768.59
-    },
-    {
-      "category": "Sports",
-      "region": "South",
-      "total_revenue": 279481.2,
-      "total_units": 647,
-      "num_transactions": 118,
-      "avg_order_value": 2368.48
-    },
-    {
-      "category": "Sports",
-      "region": "West",
-      "total_revenue": 313950.23,
-      "total_units": 707,
+      "total_revenue": 430398.27,
+      "total_units": 685,
       "num_transactions": 128,
-      "avg_order_value": 2452.74
+      "avg_order_value": 3362.49
+    },
+    {
+      "category": "Books",
+      "region": "North",
+      "total_revenue": 471967.35,
+      "total_units": 783,
+      "num_transactions": 140,
+      "avg_order_value": 3371.2
+    },
+    {
+      "category": "Books",
+      "region": "South",
+      "total_revenue": 517749.16,
+      "total_units": 811,
+      "num_transactions": 147,
+      "avg_order_value": 3522.1
+    },
+    {
+      "category": "Books",
+      "region": "West",
+      "total_revenue": 413169.09,
+      "total_units": 694,
+      "num_transactions": 132,
+      "avg_order_value": 3130.07
+    },
+    {
+      "category": "Clothing",
+      "region": "Central",
+      "total_revenue": 387322.18,
+      "total_units": 754,
+      "num_transactions": 147,
+      "avg_order_value": 2634.84
+    },
+    {
+      "category": "Clothing",
+      "region": "East",
+      "total_revenue": 346212.18,
+      "total_units": 804,
+      "num_transactions": 147,
+      "avg_order_value": 2355.18
+    },
+    {
+      "category": "Clothing",
+      "region": "North",
+      "total_revenue": 503321.71,
+      "total_units": 969,
+      "num_transactions": 170,
+      "avg_order_value": 2960.72
+    },
+    {
+      "category": "Clothing",
+      "region": "South",
+      "total_revenue": 418126.94,
+      "total_units": 823,
+      "num_transactions": 147,
+      "avg_order_value": 2844.4
+    },
+    {
+      "category": "Clothing",
+      "region": "West",
+      "total_revenue": 397147.63,
+      "total_units": 841,
+      "num_transactions": 153,
+      "avg_order_value": 2595.74
+    },
+    {
+      "category": "Electronics",
+      "region": "Central",
+      "total_revenue": 366614.45,
+      "total_units": 746,
+      "num_transactions": 131,
+      "avg_order_value": 2798.58
+    },
+    {
+      "category": "Electronics",
+      "region": "East",
+      "total_revenue": 344253.5,
+      "total_units": 702,
+      "num_transactions": 130,
+      "avg_order_value": 2648.1
+    },
+    {
+      "category": "Electronics",
+      "region": "North",
+      "total_revenue": 379805.41,
+      "total_units": 759,
+      "num_transactions": 130,
+      "avg_order_value": 2921.58
+    },
+    {
+      "category": "Electronics",
+      "region": "South",
+      "total_revenue": 420848.39,
+      "total_units": 796,
+      "num_transactions": 144,
+      "avg_order_value": 2922.56
+    },
+    {
+      "category": "Electronics",
+      "region": "West",
+      "total_revenue": 422596.99,
+      "total_units": 824,
+      "num_transactions": 142,
+      "avg_order_value": 2976.04
+    },
+    {
+      "category": "Food & Beverage",
+      "region": "Central",
+      "total_revenue": 334555.53,
+      "total_units": 768,
+      "num_transactions": 138,
+      "avg_order_value": 2424.32
+    },
+    {
+      "category": "Food & Beverage",
+      "region": "East",
+      "total_revenue": 372893.38,
+      "total_units": 781,
+      "num_transactions": 153,
+      "avg_order_value": 2437.21
+    },
+    {
+      "category": "Food & Beverage",
+      "region": "North",
+      "total_revenue": 396761.16,
+      "total_units": 820,
+      "num_transactions": 146,
+      "avg_order_value": 2717.54
+    },
+    {
+      "category": "Food & Beverage",
+      "region": "South",
+      "total_revenue": 409999.08,
+      "total_units": 884,
+      "num_transactions": 155,
+      "avg_order_value": 2645.16
+    },
+    {
+      "category": "Food & Beverage",
+      "region": "West",
+      "total_revenue": 422445.52,
+      "total_units": 937,
+      "num_transactions": 158,
+      "avg_order_value": 2673.71
+    },
+    {
+      "category": "Home & Garden",
+      "region": "Central",
+      "total_revenue": 309409.07,
+      "total_units": 534,
+      "num_transactions": 98,
+      "avg_order_value": 3157.24
+    },
+    {
+      "category": "Home & Garden",
+      "region": "East",
+      "total_revenue": 260178.39,
+      "total_units": 474,
+      "num_transactions": 92,
+      "avg_order_value": 2828.03
+    },
+    {
+      "category": "Home & Garden",
+      "region": "North",
+      "total_revenue": 364810.83,
+      "total_units": 620,
+      "num_transactions": 114,
+      "avg_order_value": 3200.1
+    },
+    {
+      "category": "Home & Garden",
+      "region": "South",
+      "total_revenue": 366543.72,
+      "total_units": 657,
+      "num_transactions": 112,
+      "avg_order_value": 3272.71
+    },
+    {
+      "category": "Home & Garden",
+      "region": "West",
+      "total_revenue": 296828.79,
+      "total_units": 495,
+      "num_transactions": 89,
+      "avg_order_value": 3335.15
+    },
+    {
+      "category": "Sports",
+      "region": "Central",
+      "total_revenue": 454093.61,
+      "total_units": 916,
+      "num_transactions": 168,
+      "avg_order_value": 2702.94
+    },
+    {
+      "category": "Sports",
+      "region": "East",
+      "total_revenue": 521608.34,
+      "total_units": 1054,
+      "num_transactions": 180,
+      "avg_order_value": 2897.82
+    },
+    {
+      "category": "Sports",
+      "region": "North",
+      "total_revenue": 508244.12,
+      "total_units": 1021,
+      "num_transactions": 183,
+      "avg_order_value": 2777.29
+    },
+    {
+      "category": "Sports",
+      "region": "South",
+      "total_revenue": 455860.94,
+      "total_units": 914,
+      "num_transactions": 163,
+      "avg_order_value": 2796.69
+    },
+    {
+      "category": "Sports",
+      "region": "West",
+      "total_revenue": 532125.02,
+      "total_units": 918,
+      "num_transactions": 159,
+      "avg_order_value": 3346.7
     },
     {
       "category": "Toys",
       "region": "Central",
-      "total_revenue": 318208.44,
-      "total_units": 587,
-      "num_transactions": 105,
-      "avg_order_value": 3030.56
+      "total_revenue": 378273.37,
+      "total_units": 758,
+      "num_transactions": 130,
+      "avg_order_value": 2909.8
     },
     {
       "category": "Toys",
       "region": "East",
-      "total_revenue": 290963.79,
-      "total_units": 607,
-      "num_transactions": 115,
-      "avg_order_value": 2530.12
+      "total_revenue": 462939.37,
+      "total_units": 846,
+      "num_transactions": 151,
+      "avg_order_value": 3065.82
     },
     {
       "category": "Toys",
       "region": "North",
-      "total_revenue": 493220.15,
-      "total_units": 923,
-      "num_transactions": 159,
-      "avg_order_value": 3102.01
+      "total_revenue": 535192.34,
+      "total_units": 1024,
+      "num_transactions": 184,
+      "avg_order_value": 2908.65
     },
     {
       "category": "Toys",
       "region": "South",
-      "total_revenue": 418309.28,
-      "total_units": 817,
-      "num_transactions": 150,
-      "avg_order_value": 2788.73
+      "total_revenue": 476442.57,
+      "total_units": 873,
+      "num_transactions": 159,
+      "avg_order_value": 2996.49
     },
     {
       "category": "Toys",
       "region": "West",
-      "total_revenue": 451890.59,
-      "total_units": 859,
-      "num_transactions": 159,
-      "avg_order_value": 2842.08
+      "total_revenue": 455223.09,
+      "total_units": 874,
+      "num_transactions": 154,
+      "avg_order_value": 2955.99
     }
   ],
   "monthly": [
@@ -286,3151 +286,3127 @@
       "category": "Books",
       "year_month": "2025-01",
       "region": "Central",
-      "monthly_revenue": 24370.23
+      "monthly_revenue": 13146.85
     },
     {
       "category": "Books",
       "year_month": "2025-01",
       "region": "East",
-      "monthly_revenue": 48366.25
+      "monthly_revenue": 39033.93
     },
     {
       "category": "Books",
       "year_month": "2025-01",
       "region": "North",
-      "monthly_revenue": 12836.86
+      "monthly_revenue": 20633.05
     },
     {
       "category": "Books",
       "year_month": "2025-01",
       "region": "South",
-      "monthly_revenue": 26973.01
+      "monthly_revenue": 14571.66
     },
     {
       "category": "Books",
       "year_month": "2025-01",
       "region": "West",
-      "monthly_revenue": 11496.05
+      "monthly_revenue": 18373.52
     },
     {
       "category": "Books",
       "year_month": "2025-02",
       "region": "Central",
-      "monthly_revenue": 23053.17
+      "monthly_revenue": 16565.66
     },
     {
       "category": "Books",
       "year_month": "2025-02",
       "region": "East",
-      "monthly_revenue": 28413.18
+      "monthly_revenue": 32602.46
     },
     {
       "category": "Books",
       "year_month": "2025-02",
       "region": "North",
-      "monthly_revenue": 36904.29
+      "monthly_revenue": 13417.12
     },
     {
       "category": "Books",
       "year_month": "2025-02",
       "region": "South",
-      "monthly_revenue": 51003.04
+      "monthly_revenue": 21621.67
     },
     {
       "category": "Books",
       "year_month": "2025-02",
       "region": "West",
-      "monthly_revenue": 27851.8
+      "monthly_revenue": 20630.97
     },
     {
       "category": "Books",
       "year_month": "2025-03",
       "region": "Central",
-      "monthly_revenue": 26746.85
+      "monthly_revenue": 25413.18
     },
     {
       "category": "Books",
       "year_month": "2025-03",
       "region": "East",
-      "monthly_revenue": 32365.74
+      "monthly_revenue": 20970.84
     },
     {
       "category": "Books",
       "year_month": "2025-03",
       "region": "North",
-      "monthly_revenue": 33837.47
+      "monthly_revenue": 51764.59
     },
     {
       "category": "Books",
       "year_month": "2025-03",
       "region": "South",
-      "monthly_revenue": 39249.0
+      "monthly_revenue": 20475.74
     },
     {
       "category": "Books",
       "year_month": "2025-03",
       "region": "West",
-      "monthly_revenue": 17187.14
+      "monthly_revenue": 19238.02
     },
     {
       "category": "Books",
       "year_month": "2025-04",
       "region": "Central",
-      "monthly_revenue": 29903.94
+      "monthly_revenue": 37972.62
     },
     {
       "category": "Books",
       "year_month": "2025-04",
       "region": "East",
-      "monthly_revenue": 16519.68
+      "monthly_revenue": 15620.34
     },
     {
       "category": "Books",
       "year_month": "2025-04",
       "region": "North",
-      "monthly_revenue": 24358.4
+      "monthly_revenue": 2013.3
     },
     {
       "category": "Books",
       "year_month": "2025-04",
       "region": "South",
-      "monthly_revenue": 37277.49
+      "monthly_revenue": 26250.73
     },
     {
       "category": "Books",
       "year_month": "2025-04",
       "region": "West",
-      "monthly_revenue": 35791.76
+      "monthly_revenue": 13960.12
     },
     {
       "category": "Books",
       "year_month": "2025-05",
       "region": "Central",
-      "monthly_revenue": 18229.4
+      "monthly_revenue": 18245.5
     },
     {
       "category": "Books",
       "year_month": "2025-05",
       "region": "East",
-      "monthly_revenue": 15874.08
+      "monthly_revenue": 18026.77
     },
     {
       "category": "Books",
       "year_month": "2025-05",
       "region": "North",
-      "monthly_revenue": 33913.19
+      "monthly_revenue": 19175.64
     },
     {
       "category": "Books",
       "year_month": "2025-05",
       "region": "South",
-      "monthly_revenue": 19813.55
+      "monthly_revenue": 6974.82
     },
     {
       "category": "Books",
       "year_month": "2025-05",
       "region": "West",
-      "monthly_revenue": 4685.71
+      "monthly_revenue": 17013.4
     },
     {
       "category": "Books",
       "year_month": "2025-06",
       "region": "Central",
-      "monthly_revenue": 16886.41
+      "monthly_revenue": 11952.94
     },
     {
       "category": "Books",
       "year_month": "2025-06",
       "region": "East",
-      "monthly_revenue": 28276.03
+      "monthly_revenue": 20586.59
     },
     {
       "category": "Books",
       "year_month": "2025-06",
       "region": "North",
-      "monthly_revenue": 29759.4
+      "monthly_revenue": 25205.66
     },
     {
       "category": "Books",
       "year_month": "2025-06",
       "region": "South",
-      "monthly_revenue": 45109.92
+      "monthly_revenue": 37472.19
     },
     {
       "category": "Books",
       "year_month": "2025-06",
       "region": "West",
-      "monthly_revenue": 32152.51
+      "monthly_revenue": 25565.7
     },
     {
       "category": "Books",
       "year_month": "2025-07",
       "region": "Central",
-      "monthly_revenue": 9253.23
+      "monthly_revenue": 36934.53
     },
     {
       "category": "Books",
       "year_month": "2025-07",
       "region": "East",
-      "monthly_revenue": 25188.01
+      "monthly_revenue": 8428.03
     },
     {
       "category": "Books",
       "year_month": "2025-07",
       "region": "North",
-      "monthly_revenue": 37535.8
+      "monthly_revenue": 24932.74
     },
     {
       "category": "Books",
       "year_month": "2025-07",
       "region": "South",
-      "monthly_revenue": 16296.06
+      "monthly_revenue": 1923.64
     },
     {
       "category": "Books",
       "year_month": "2025-07",
       "region": "West",
-      "monthly_revenue": 51073.62
-    },
-    {
-      "category": "Books",
-      "year_month": "2025-08",
-      "region": "Central",
-      "monthly_revenue": 31772.26
+      "monthly_revenue": 36179.11
     },
     {
       "category": "Books",
       "year_month": "2025-08",
       "region": "East",
-      "monthly_revenue": 18707.96
+      "monthly_revenue": 34539.96
     },
     {
       "category": "Books",
       "year_month": "2025-08",
       "region": "North",
-      "monthly_revenue": 17642.31
+      "monthly_revenue": 32498.81
     },
     {
       "category": "Books",
       "year_month": "2025-08",
       "region": "South",
-      "monthly_revenue": 28754.29
+      "monthly_revenue": 19083.76
     },
     {
       "category": "Books",
       "year_month": "2025-08",
       "region": "West",
-      "monthly_revenue": 42544.85
+      "monthly_revenue": 33721.26
     },
     {
       "category": "Books",
       "year_month": "2025-09",
       "region": "Central",
-      "monthly_revenue": 3493.11
+      "monthly_revenue": 16401.42
     },
     {
       "category": "Books",
       "year_month": "2025-09",
       "region": "East",
-      "monthly_revenue": 37047.47
+      "monthly_revenue": 33780.45
     },
     {
       "category": "Books",
       "year_month": "2025-09",
       "region": "North",
-      "monthly_revenue": 44027.7
+      "monthly_revenue": 26733.91
     },
     {
       "category": "Books",
       "year_month": "2025-09",
       "region": "South",
-      "monthly_revenue": 9148.04
+      "monthly_revenue": 23755.09
     },
     {
       "category": "Books",
       "year_month": "2025-09",
       "region": "West",
-      "monthly_revenue": 21951.93
+      "monthly_revenue": 18603.51
     },
     {
       "category": "Books",
       "year_month": "2025-10",
       "region": "Central",
-      "monthly_revenue": 61755.84
+      "monthly_revenue": 42772.9
     },
     {
       "category": "Books",
       "year_month": "2025-10",
       "region": "East",
-      "monthly_revenue": 47054.85
+      "monthly_revenue": 30431.91
     },
     {
       "category": "Books",
       "year_month": "2025-10",
       "region": "North",
-      "monthly_revenue": 70390.1
+      "monthly_revenue": 57481.47
     },
     {
       "category": "Books",
       "year_month": "2025-10",
       "region": "South",
-      "monthly_revenue": 57785.23
+      "monthly_revenue": 46115.94
     },
     {
       "category": "Books",
       "year_month": "2025-10",
       "region": "West",
-      "monthly_revenue": 48927.3
+      "monthly_revenue": 39920.97
     },
     {
       "category": "Books",
       "year_month": "2025-11",
       "region": "Central",
-      "monthly_revenue": 63972.69
+      "monthly_revenue": 88708.49
     },
     {
       "category": "Books",
       "year_month": "2025-11",
       "region": "East",
-      "monthly_revenue": 86363.39
+      "monthly_revenue": 39926.83
     },
     {
       "category": "Books",
       "year_month": "2025-11",
       "region": "North",
-      "monthly_revenue": 56463.25
+      "monthly_revenue": 51762.62
     },
     {
       "category": "Books",
       "year_month": "2025-11",
       "region": "South",
-      "monthly_revenue": 61020.6
+      "monthly_revenue": 86780.27
     },
     {
       "category": "Books",
       "year_month": "2025-11",
       "region": "West",
-      "monthly_revenue": 103012.58
+      "monthly_revenue": 35829.09
     },
     {
       "category": "Books",
       "year_month": "2025-12",
       "region": "Central",
-      "monthly_revenue": 56427.95
+      "monthly_revenue": 60396.42
     },
     {
       "category": "Books",
       "year_month": "2025-12",
       "region": "East",
-      "monthly_revenue": 95406.41
+      "monthly_revenue": 85089.05
     },
     {
       "category": "Books",
       "year_month": "2025-12",
       "region": "North",
-      "monthly_revenue": 86909.08
+      "monthly_revenue": 85797.71
     },
     {
       "category": "Books",
       "year_month": "2025-12",
       "region": "South",
-      "monthly_revenue": 94865.02
+      "monthly_revenue": 99184.88
     },
     {
       "category": "Books",
       "year_month": "2025-12",
       "region": "West",
-      "monthly_revenue": 74148.97
+      "monthly_revenue": 79926.41
     },
     {
       "category": "Books",
       "year_month": "2026-01",
       "region": "Central",
-      "monthly_revenue": 37119.34
+      "monthly_revenue": 24044.09
     },
     {
       "category": "Books",
       "year_month": "2026-01",
       "region": "East",
-      "monthly_revenue": 41318.65
+      "monthly_revenue": 13512.01
     },
     {
       "category": "Books",
       "year_month": "2026-01",
       "region": "North",
-      "monthly_revenue": 54224.37
+      "monthly_revenue": 18970.47
     },
     {
       "category": "Books",
       "year_month": "2026-01",
       "region": "South",
-      "monthly_revenue": 55152.37
+      "monthly_revenue": 55080.59
     },
     {
       "category": "Books",
       "year_month": "2026-01",
       "region": "West",
-      "monthly_revenue": 33087.99
+      "monthly_revenue": 12449.54
     },
     {
       "category": "Books",
       "year_month": "2026-02",
       "region": "Central",
-      "monthly_revenue": 39960.29
+      "monthly_revenue": 38830.59
     },
     {
       "category": "Books",
       "year_month": "2026-02",
       "region": "East",
-      "monthly_revenue": 41445.68
+      "monthly_revenue": 26167.1
     },
     {
       "category": "Books",
       "year_month": "2026-02",
       "region": "North",
-      "monthly_revenue": 38574.96
+      "monthly_revenue": 33539.56
     },
     {
       "category": "Books",
       "year_month": "2026-02",
       "region": "South",
-      "monthly_revenue": 36015.42
+      "monthly_revenue": 33566.82
     },
     {
       "category": "Books",
       "year_month": "2026-02",
       "region": "West",
-      "monthly_revenue": 26453.96
+      "monthly_revenue": 22553.15
     },
     {
       "category": "Books",
       "year_month": "2026-03",
       "region": "Central",
-      "monthly_revenue": 27997.89
+      "monthly_revenue": 12123.88
     },
     {
       "category": "Books",
       "year_month": "2026-03",
       "region": "East",
-      "monthly_revenue": 2404.5
+      "monthly_revenue": 11682.0
     },
     {
       "category": "Books",
       "year_month": "2026-03",
       "region": "North",
-      "monthly_revenue": 45805.63
+      "monthly_revenue": 8040.7
     },
     {
       "category": "Books",
       "year_month": "2026-03",
       "region": "South",
-      "monthly_revenue": 28723.89
+      "monthly_revenue": 24891.36
     },
     {
       "category": "Books",
       "year_month": "2026-03",
       "region": "West",
-      "monthly_revenue": 26166.48
+      "monthly_revenue": 19204.32
     },
     {
       "category": "Clothing",
       "year_month": "2025-01",
       "region": "Central",
-      "monthly_revenue": 354.92
+      "monthly_revenue": 15186.14
     },
     {
       "category": "Clothing",
       "year_month": "2025-01",
       "region": "East",
-      "monthly_revenue": 11985.28
+      "monthly_revenue": 24260.52
     },
     {
       "category": "Clothing",
       "year_month": "2025-01",
       "region": "North",
-      "monthly_revenue": 12158.64
+      "monthly_revenue": 27242.66
     },
     {
       "category": "Clothing",
       "year_month": "2025-01",
       "region": "South",
-      "monthly_revenue": 18748.76
+      "monthly_revenue": 16591.7
     },
     {
       "category": "Clothing",
       "year_month": "2025-01",
       "region": "West",
-      "monthly_revenue": 6273.1
+      "monthly_revenue": 18990.42
     },
     {
       "category": "Clothing",
       "year_month": "2025-02",
       "region": "Central",
-      "monthly_revenue": 11300.4
+      "monthly_revenue": 14490.24
     },
     {
       "category": "Clothing",
       "year_month": "2025-02",
       "region": "East",
-      "monthly_revenue": 5559.84
+      "monthly_revenue": 30236.31
     },
     {
       "category": "Clothing",
       "year_month": "2025-02",
       "region": "North",
-      "monthly_revenue": 3357.56
+      "monthly_revenue": 30565.09
     },
     {
       "category": "Clothing",
       "year_month": "2025-02",
       "region": "South",
-      "monthly_revenue": 15551.46
+      "monthly_revenue": 21517.65
     },
     {
       "category": "Clothing",
       "year_month": "2025-02",
       "region": "West",
-      "monthly_revenue": 6064.98
+      "monthly_revenue": 14134.52
     },
     {
       "category": "Clothing",
       "year_month": "2025-03",
       "region": "Central",
-      "monthly_revenue": 14881.59
+      "monthly_revenue": 28351.68
     },
     {
       "category": "Clothing",
       "year_month": "2025-03",
       "region": "East",
-      "monthly_revenue": 4743.79
+      "monthly_revenue": 15172.01
     },
     {
       "category": "Clothing",
       "year_month": "2025-03",
       "region": "North",
-      "monthly_revenue": 31174.53
+      "monthly_revenue": 33834.71
     },
     {
       "category": "Clothing",
       "year_month": "2025-03",
       "region": "South",
-      "monthly_revenue": 13104.1
+      "monthly_revenue": 8081.94
     },
     {
       "category": "Clothing",
       "year_month": "2025-03",
       "region": "West",
-      "monthly_revenue": 6302.46
+      "monthly_revenue": 27428.48
     },
     {
       "category": "Clothing",
       "year_month": "2025-04",
       "region": "Central",
-      "monthly_revenue": 9705.08
+      "monthly_revenue": 13507.97
     },
     {
       "category": "Clothing",
       "year_month": "2025-04",
       "region": "East",
-      "monthly_revenue": 25821.76
+      "monthly_revenue": 9886.14
     },
     {
       "category": "Clothing",
       "year_month": "2025-04",
       "region": "North",
-      "monthly_revenue": 11485.28
+      "monthly_revenue": 43141.1
     },
     {
       "category": "Clothing",
       "year_month": "2025-04",
       "region": "South",
-      "monthly_revenue": 20228.5
+      "monthly_revenue": 4059.08
     },
     {
       "category": "Clothing",
       "year_month": "2025-04",
       "region": "West",
-      "monthly_revenue": 10691.16
+      "monthly_revenue": 32275.19
     },
     {
       "category": "Clothing",
       "year_month": "2025-05",
       "region": "Central",
-      "monthly_revenue": 5870.91
+      "monthly_revenue": 24619.97
     },
     {
       "category": "Clothing",
       "year_month": "2025-05",
       "region": "East",
-      "monthly_revenue": 12592.73
+      "monthly_revenue": 24834.7
     },
     {
       "category": "Clothing",
       "year_month": "2025-05",
       "region": "North",
-      "monthly_revenue": 17929.82
+      "monthly_revenue": 46500.23
     },
     {
       "category": "Clothing",
       "year_month": "2025-05",
       "region": "South",
-      "monthly_revenue": 14257.82
+      "monthly_revenue": 4879.54
     },
     {
       "category": "Clothing",
       "year_month": "2025-05",
       "region": "West",
-      "monthly_revenue": 20050.02
+      "monthly_revenue": 16109.55
     },
     {
       "category": "Clothing",
       "year_month": "2025-06",
       "region": "Central",
-      "monthly_revenue": 33791.86
+      "monthly_revenue": 15334.54
     },
     {
       "category": "Clothing",
       "year_month": "2025-06",
       "region": "East",
-      "monthly_revenue": 12324.86
+      "monthly_revenue": 18017.07
     },
     {
       "category": "Clothing",
       "year_month": "2025-06",
       "region": "North",
-      "monthly_revenue": 6714.6
+      "monthly_revenue": 16507.84
     },
     {
       "category": "Clothing",
       "year_month": "2025-06",
       "region": "South",
-      "monthly_revenue": 22013.79
+      "monthly_revenue": 49628.38
     },
     {
       "category": "Clothing",
       "year_month": "2025-06",
       "region": "West",
-      "monthly_revenue": 10112.38
+      "monthly_revenue": 13220.95
     },
     {
       "category": "Clothing",
       "year_month": "2025-07",
       "region": "Central",
-      "monthly_revenue": 15941.38
+      "monthly_revenue": 12586.52
     },
     {
       "category": "Clothing",
       "year_month": "2025-07",
       "region": "East",
-      "monthly_revenue": 2974.28
+      "monthly_revenue": 2121.17
     },
     {
       "category": "Clothing",
       "year_month": "2025-07",
       "region": "North",
-      "monthly_revenue": 4764.36
+      "monthly_revenue": 16796.72
     },
     {
       "category": "Clothing",
       "year_month": "2025-07",
       "region": "South",
-      "monthly_revenue": 7488.26
+      "monthly_revenue": 15433.66
     },
     {
       "category": "Clothing",
       "year_month": "2025-07",
       "region": "West",
-      "monthly_revenue": 33109.85
+      "monthly_revenue": 14174.16
     },
     {
       "category": "Clothing",
       "year_month": "2025-08",
       "region": "Central",
-      "monthly_revenue": 13117.67
+      "monthly_revenue": 50592.69
     },
     {
       "category": "Clothing",
       "year_month": "2025-08",
       "region": "East",
-      "monthly_revenue": 18212.39
+      "monthly_revenue": 14045.69
     },
     {
       "category": "Clothing",
       "year_month": "2025-08",
       "region": "North",
-      "monthly_revenue": 20031.25
+      "monthly_revenue": 16638.32
     },
     {
       "category": "Clothing",
       "year_month": "2025-08",
       "region": "South",
-      "monthly_revenue": 19423.62
+      "monthly_revenue": 8637.45
     },
     {
       "category": "Clothing",
       "year_month": "2025-08",
       "region": "West",
-      "monthly_revenue": 10953.63
+      "monthly_revenue": 18520.14
     },
     {
       "category": "Clothing",
       "year_month": "2025-09",
       "region": "Central",
-      "monthly_revenue": 10831.02
+      "monthly_revenue": 19402.65
     },
     {
       "category": "Clothing",
       "year_month": "2025-09",
       "region": "East",
-      "monthly_revenue": 24709.96
+      "monthly_revenue": 11460.08
     },
     {
       "category": "Clothing",
       "year_month": "2025-09",
       "region": "North",
-      "monthly_revenue": 12221.35
+      "monthly_revenue": 9643.58
     },
     {
       "category": "Clothing",
       "year_month": "2025-09",
       "region": "South",
-      "monthly_revenue": 9707.26
+      "monthly_revenue": 16221.11
     },
     {
       "category": "Clothing",
       "year_month": "2025-09",
       "region": "West",
-      "monthly_revenue": 11209.49
+      "monthly_revenue": 30890.59
     },
     {
       "category": "Clothing",
       "year_month": "2025-10",
       "region": "Central",
-      "monthly_revenue": 22243.96
+      "monthly_revenue": 32503.27
     },
     {
       "category": "Clothing",
       "year_month": "2025-10",
       "region": "East",
-      "monthly_revenue": 25360.65
+      "monthly_revenue": 25743.41
     },
     {
       "category": "Clothing",
       "year_month": "2025-10",
       "region": "North",
-      "monthly_revenue": 21636.79
+      "monthly_revenue": 46694.01
     },
     {
       "category": "Clothing",
       "year_month": "2025-10",
       "region": "South",
-      "monthly_revenue": 24997.11
+      "monthly_revenue": 59153.18
     },
     {
       "category": "Clothing",
       "year_month": "2025-10",
       "region": "West",
-      "monthly_revenue": 22865.44
+      "monthly_revenue": 38965.76
     },
     {
       "category": "Clothing",
       "year_month": "2025-11",
       "region": "Central",
-      "monthly_revenue": 32999.65
+      "monthly_revenue": 35311.56
     },
     {
       "category": "Clothing",
       "year_month": "2025-11",
       "region": "East",
-      "monthly_revenue": 16786.27
+      "monthly_revenue": 58609.64
     },
     {
       "category": "Clothing",
       "year_month": "2025-11",
       "region": "North",
-      "monthly_revenue": 53313.69
+      "monthly_revenue": 64803.72
     },
     {
       "category": "Clothing",
       "year_month": "2025-11",
       "region": "South",
-      "monthly_revenue": 54204.62
+      "monthly_revenue": 49837.96
     },
     {
       "category": "Clothing",
       "year_month": "2025-11",
       "region": "West",
-      "monthly_revenue": 52362.67
+      "monthly_revenue": 54802.57
     },
     {
       "category": "Clothing",
       "year_month": "2025-12",
       "region": "Central",
-      "monthly_revenue": 46928.89
+      "monthly_revenue": 70978.88
     },
     {
       "category": "Clothing",
       "year_month": "2025-12",
       "region": "East",
-      "monthly_revenue": 23735.37
+      "monthly_revenue": 48068.57
     },
     {
       "category": "Clothing",
       "year_month": "2025-12",
       "region": "North",
-      "monthly_revenue": 52309.27
+      "monthly_revenue": 82260.44
     },
     {
       "category": "Clothing",
       "year_month": "2025-12",
       "region": "South",
-      "monthly_revenue": 26717.52
+      "monthly_revenue": 76526.9
     },
     {
       "category": "Clothing",
       "year_month": "2025-12",
       "region": "West",
-      "monthly_revenue": 24474.04
+      "monthly_revenue": 62714.39
     },
     {
       "category": "Clothing",
       "year_month": "2026-01",
       "region": "Central",
-      "monthly_revenue": 18581.66
+      "monthly_revenue": 16379.69
     },
     {
       "category": "Clothing",
       "year_month": "2026-01",
       "region": "East",
-      "monthly_revenue": 31051.26
+      "monthly_revenue": 26120.57
     },
     {
       "category": "Clothing",
       "year_month": "2026-01",
       "region": "North",
-      "monthly_revenue": 14387.74
+      "monthly_revenue": 30269.87
     },
     {
       "category": "Clothing",
       "year_month": "2026-01",
       "region": "South",
-      "monthly_revenue": 29525.76
+      "monthly_revenue": 44998.11
     },
     {
       "category": "Clothing",
       "year_month": "2026-01",
       "region": "West",
-      "monthly_revenue": 15704.09
+      "monthly_revenue": 19531.34
     },
     {
       "category": "Clothing",
       "year_month": "2026-02",
       "region": "Central",
-      "monthly_revenue": 14375.52
+      "monthly_revenue": 20048.4
     },
     {
       "category": "Clothing",
       "year_month": "2026-02",
       "region": "East",
-      "monthly_revenue": 18371.5
+      "monthly_revenue": 27207.74
     },
     {
       "category": "Clothing",
       "year_month": "2026-02",
       "region": "North",
-      "monthly_revenue": 29515.06
+      "monthly_revenue": 25558.92
     },
     {
       "category": "Clothing",
       "year_month": "2026-02",
       "region": "South",
-      "monthly_revenue": 20227.24
+      "monthly_revenue": 25593.49
     },
     {
       "category": "Clothing",
       "year_month": "2026-02",
       "region": "West",
-      "monthly_revenue": 29106.29
+      "monthly_revenue": 35389.57
     },
     {
       "category": "Clothing",
       "year_month": "2026-03",
       "region": "Central",
-      "monthly_revenue": 16084.45
+      "monthly_revenue": 18027.98
     },
     {
       "category": "Clothing",
       "year_month": "2026-03",
       "region": "East",
-      "monthly_revenue": 5343.9
+      "monthly_revenue": 10428.56
     },
     {
       "category": "Clothing",
       "year_month": "2026-03",
       "region": "North",
-      "monthly_revenue": 2998.62
+      "monthly_revenue": 12864.5
     },
     {
       "category": "Clothing",
       "year_month": "2026-03",
       "region": "South",
-      "monthly_revenue": 13522.99
-    },
-    {
-      "category": "Clothing",
-      "year_month": "2026-03",
-      "region": "West",
-      "monthly_revenue": 1511.28
+      "monthly_revenue": 16966.79
     },
     {
       "category": "Electronics",
       "year_month": "2025-01",
       "region": "Central",
-      "monthly_revenue": 15540.19
+      "monthly_revenue": 20855.19
     },
     {
       "category": "Electronics",
       "year_month": "2025-01",
       "region": "East",
-      "monthly_revenue": 11616.42
+      "monthly_revenue": 26828.98
     },
     {
       "category": "Electronics",
       "year_month": "2025-01",
       "region": "North",
-      "monthly_revenue": 24920.18
+      "monthly_revenue": 4857.73
     },
     {
       "category": "Electronics",
       "year_month": "2025-01",
       "region": "South",
-      "monthly_revenue": 18936.05
+      "monthly_revenue": 31621.88
     },
     {
       "category": "Electronics",
       "year_month": "2025-01",
       "region": "West",
-      "monthly_revenue": 18104.37
+      "monthly_revenue": 20966.74
     },
     {
       "category": "Electronics",
       "year_month": "2025-02",
       "region": "Central",
-      "monthly_revenue": 7479.25
+      "monthly_revenue": 28674.29
     },
     {
       "category": "Electronics",
       "year_month": "2025-02",
       "region": "East",
-      "monthly_revenue": 27463.94
+      "monthly_revenue": 24152.88
     },
     {
       "category": "Electronics",
       "year_month": "2025-02",
       "region": "North",
-      "monthly_revenue": 36247.57
+      "monthly_revenue": 2974.18
     },
     {
       "category": "Electronics",
       "year_month": "2025-02",
       "region": "South",
-      "monthly_revenue": 22671.41
+      "monthly_revenue": 14117.81
     },
     {
       "category": "Electronics",
       "year_month": "2025-02",
       "region": "West",
-      "monthly_revenue": 8984.02
+      "monthly_revenue": 11114.87
     },
     {
       "category": "Electronics",
       "year_month": "2025-03",
       "region": "Central",
-      "monthly_revenue": 17643.61
+      "monthly_revenue": 28359.98
     },
     {
       "category": "Electronics",
       "year_month": "2025-03",
       "region": "East",
-      "monthly_revenue": 19427.16
+      "monthly_revenue": 29355.49
     },
     {
       "category": "Electronics",
       "year_month": "2025-03",
       "region": "North",
-      "monthly_revenue": 35069.53
+      "monthly_revenue": 12857.37
     },
     {
       "category": "Electronics",
       "year_month": "2025-03",
       "region": "South",
-      "monthly_revenue": 25280.11
+      "monthly_revenue": 18240.81
     },
     {
       "category": "Electronics",
       "year_month": "2025-03",
       "region": "West",
-      "monthly_revenue": 17533.6
+      "monthly_revenue": 32904.83
     },
     {
       "category": "Electronics",
       "year_month": "2025-04",
       "region": "Central",
-      "monthly_revenue": 37059.55
+      "monthly_revenue": 14563.55
     },
     {
       "category": "Electronics",
       "year_month": "2025-04",
       "region": "East",
-      "monthly_revenue": 7044.82
+      "monthly_revenue": 8383.59
     },
     {
       "category": "Electronics",
       "year_month": "2025-04",
       "region": "North",
-      "monthly_revenue": 14325.45
+      "monthly_revenue": 26663.49
     },
     {
       "category": "Electronics",
       "year_month": "2025-04",
       "region": "South",
-      "monthly_revenue": 30278.24
+      "monthly_revenue": 19504.56
     },
     {
       "category": "Electronics",
       "year_month": "2025-04",
       "region": "West",
-      "monthly_revenue": 25540.18
+      "monthly_revenue": 18209.55
     },
     {
       "category": "Electronics",
       "year_month": "2025-05",
       "region": "Central",
-      "monthly_revenue": 16952.94
+      "monthly_revenue": 34562.42
     },
     {
       "category": "Electronics",
       "year_month": "2025-05",
       "region": "East",
-      "monthly_revenue": 10981.43
+      "monthly_revenue": 3773.83
     },
     {
       "category": "Electronics",
       "year_month": "2025-05",
       "region": "North",
-      "monthly_revenue": 12650.93
+      "monthly_revenue": 3583.83
     },
     {
       "category": "Electronics",
       "year_month": "2025-05",
       "region": "South",
-      "monthly_revenue": 21096.81
+      "monthly_revenue": 34454.13
     },
     {
       "category": "Electronics",
       "year_month": "2025-05",
       "region": "West",
-      "monthly_revenue": 22005.81
+      "monthly_revenue": 30744.68
     },
     {
       "category": "Electronics",
       "year_month": "2025-06",
       "region": "Central",
-      "monthly_revenue": 32376.55
+      "monthly_revenue": 9209.59
     },
     {
       "category": "Electronics",
       "year_month": "2025-06",
       "region": "East",
-      "monthly_revenue": 10484.88
+      "monthly_revenue": 1149.7
     },
     {
       "category": "Electronics",
       "year_month": "2025-06",
       "region": "North",
-      "monthly_revenue": 30572.04
+      "monthly_revenue": 8872.16
     },
     {
       "category": "Electronics",
       "year_month": "2025-06",
       "region": "South",
-      "monthly_revenue": 22308.54
+      "monthly_revenue": 26346.12
     },
     {
       "category": "Electronics",
       "year_month": "2025-06",
       "region": "West",
-      "monthly_revenue": 24540.47
+      "monthly_revenue": 23285.59
     },
     {
       "category": "Electronics",
       "year_month": "2025-07",
       "region": "Central",
-      "monthly_revenue": 20264.16
+      "monthly_revenue": 27583.04
     },
     {
       "category": "Electronics",
       "year_month": "2025-07",
       "region": "East",
-      "monthly_revenue": 11310.57
+      "monthly_revenue": 15837.27
     },
     {
       "category": "Electronics",
       "year_month": "2025-07",
       "region": "North",
-      "monthly_revenue": 27413.79
+      "monthly_revenue": 21458.9
     },
     {
       "category": "Electronics",
       "year_month": "2025-07",
       "region": "South",
-      "monthly_revenue": 9566.09
+      "monthly_revenue": 6748.18
     },
     {
       "category": "Electronics",
       "year_month": "2025-07",
       "region": "West",
-      "monthly_revenue": 7742.82
+      "monthly_revenue": 6973.11
     },
     {
       "category": "Electronics",
       "year_month": "2025-08",
       "region": "Central",
-      "monthly_revenue": 9585.61
+      "monthly_revenue": 7025.38
     },
     {
       "category": "Electronics",
       "year_month": "2025-08",
       "region": "East",
-      "monthly_revenue": 23159.83
+      "monthly_revenue": 10666.06
     },
     {
       "category": "Electronics",
       "year_month": "2025-08",
       "region": "North",
-      "monthly_revenue": 25284.7
+      "monthly_revenue": 19833.24
     },
     {
       "category": "Electronics",
       "year_month": "2025-08",
       "region": "South",
-      "monthly_revenue": 22200.34
+      "monthly_revenue": 15249.58
     },
     {
       "category": "Electronics",
       "year_month": "2025-08",
       "region": "West",
-      "monthly_revenue": 17834.75
+      "monthly_revenue": 38211.23
     },
     {
       "category": "Electronics",
       "year_month": "2025-09",
       "region": "Central",
-      "monthly_revenue": 1542.6
+      "monthly_revenue": 10233.2
     },
     {
       "category": "Electronics",
       "year_month": "2025-09",
       "region": "East",
-      "monthly_revenue": 33344.95
+      "monthly_revenue": 41591.76
     },
     {
       "category": "Electronics",
       "year_month": "2025-09",
       "region": "North",
-      "monthly_revenue": 30048.51
+      "monthly_revenue": 22445.51
     },
     {
       "category": "Electronics",
       "year_month": "2025-09",
       "region": "South",
-      "monthly_revenue": 40408.78
+      "monthly_revenue": 24517.18
     },
     {
       "category": "Electronics",
       "year_month": "2025-09",
       "region": "West",
-      "monthly_revenue": 27728.38
+      "monthly_revenue": 17702.67
     },
     {
       "category": "Electronics",
       "year_month": "2025-10",
       "region": "Central",
-      "monthly_revenue": 34172.34
+      "monthly_revenue": 24778.21
     },
     {
       "category": "Electronics",
       "year_month": "2025-10",
       "region": "East",
-      "monthly_revenue": 37145.7
+      "monthly_revenue": 35791.2
     },
     {
       "category": "Electronics",
       "year_month": "2025-10",
       "region": "North",
-      "monthly_revenue": 33467.76
+      "monthly_revenue": 30764.8
     },
     {
       "category": "Electronics",
       "year_month": "2025-10",
       "region": "South",
-      "monthly_revenue": 17387.16
+      "monthly_revenue": 35540.94
     },
     {
       "category": "Electronics",
       "year_month": "2025-10",
       "region": "West",
-      "monthly_revenue": 26093.29
+      "monthly_revenue": 36184.49
     },
     {
       "category": "Electronics",
       "year_month": "2025-11",
       "region": "Central",
-      "monthly_revenue": 53495.99
+      "monthly_revenue": 60810.76
     },
     {
       "category": "Electronics",
       "year_month": "2025-11",
       "region": "East",
-      "monthly_revenue": 51220.79
+      "monthly_revenue": 30761.06
     },
     {
       "category": "Electronics",
       "year_month": "2025-11",
       "region": "North",
-      "monthly_revenue": 56943.61
+      "monthly_revenue": 78555.5
     },
     {
       "category": "Electronics",
       "year_month": "2025-11",
       "region": "South",
-      "monthly_revenue": 59140.97
+      "monthly_revenue": 63722.69
     },
     {
       "category": "Electronics",
       "year_month": "2025-11",
       "region": "West",
-      "monthly_revenue": 50258.98
+      "monthly_revenue": 68019.04
     },
     {
       "category": "Electronics",
       "year_month": "2025-12",
       "region": "Central",
-      "monthly_revenue": 68610.37
+      "monthly_revenue": 51563.42
     },
     {
       "category": "Electronics",
       "year_month": "2025-12",
       "region": "East",
-      "monthly_revenue": 52412.01
+      "monthly_revenue": 59782.48
     },
     {
       "category": "Electronics",
       "year_month": "2025-12",
       "region": "North",
-      "monthly_revenue": 68975.44
+      "monthly_revenue": 73048.48
     },
     {
       "category": "Electronics",
       "year_month": "2025-12",
       "region": "South",
-      "monthly_revenue": 28027.73
+      "monthly_revenue": 64462.34
     },
     {
       "category": "Electronics",
       "year_month": "2025-12",
       "region": "West",
-      "monthly_revenue": 44182.83
+      "monthly_revenue": 37994.17
     },
     {
       "category": "Electronics",
       "year_month": "2026-01",
       "region": "Central",
-      "monthly_revenue": 37650.31
+      "monthly_revenue": 16398.88
     },
     {
       "category": "Electronics",
       "year_month": "2026-01",
       "region": "East",
-      "monthly_revenue": 35934.52
+      "monthly_revenue": 20648.81
     },
     {
       "category": "Electronics",
       "year_month": "2026-01",
       "region": "North",
-      "monthly_revenue": 47096.94
+      "monthly_revenue": 20851.9
     },
     {
       "category": "Electronics",
       "year_month": "2026-01",
       "region": "South",
-      "monthly_revenue": 44825.15
+      "monthly_revenue": 30887.49
     },
     {
       "category": "Electronics",
       "year_month": "2026-01",
       "region": "West",
-      "monthly_revenue": 8141.2
+      "monthly_revenue": 22489.97
     },
     {
       "category": "Electronics",
       "year_month": "2026-02",
       "region": "Central",
-      "monthly_revenue": 37979.57
+      "monthly_revenue": 20316.08
     },
     {
       "category": "Electronics",
       "year_month": "2026-02",
       "region": "East",
-      "monthly_revenue": 29145.95
+      "monthly_revenue": 31804.79
     },
     {
       "category": "Electronics",
       "year_month": "2026-02",
       "region": "North",
-      "monthly_revenue": 14431.53
+      "monthly_revenue": 23330.23
     },
     {
       "category": "Electronics",
       "year_month": "2026-02",
       "region": "South",
-      "monthly_revenue": 39330.18
+      "monthly_revenue": 14915.29
     },
     {
       "category": "Electronics",
       "year_month": "2026-02",
       "region": "West",
-      "monthly_revenue": 33625.5
+      "monthly_revenue": 21311.79
     },
     {
       "category": "Electronics",
       "year_month": "2026-03",
       "region": "Central",
-      "monthly_revenue": 5555.08
+      "monthly_revenue": 11680.46
     },
     {
       "category": "Electronics",
       "year_month": "2026-03",
       "region": "East",
-      "monthly_revenue": 29679.16
+      "monthly_revenue": 3725.6
     },
     {
       "category": "Electronics",
       "year_month": "2026-03",
       "region": "North",
-      "monthly_revenue": 15077.0
+      "monthly_revenue": 29708.09
     },
     {
       "category": "Electronics",
       "year_month": "2026-03",
       "region": "South",
-      "monthly_revenue": 5357.86
+      "monthly_revenue": 20519.39
     },
     {
       "category": "Electronics",
       "year_month": "2026-03",
       "region": "West",
-      "monthly_revenue": 38599.43
+      "monthly_revenue": 36484.26
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-01",
       "region": "Central",
-      "monthly_revenue": 13361.37
+      "monthly_revenue": 5375.8
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-01",
       "region": "East",
-      "monthly_revenue": 44224.8
+      "monthly_revenue": 17966.25
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-01",
       "region": "North",
-      "monthly_revenue": 15130.26
+      "monthly_revenue": 20584.25
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-01",
       "region": "South",
-      "monthly_revenue": 6394.92
+      "monthly_revenue": 18448.79
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-01",
       "region": "West",
-      "monthly_revenue": 5968.68
+      "monthly_revenue": 16288.04
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-02",
       "region": "Central",
-      "monthly_revenue": 18246.87
+      "monthly_revenue": 13110.27
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-02",
       "region": "East",
-      "monthly_revenue": 33812.63
+      "monthly_revenue": 15313.23
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-02",
       "region": "North",
-      "monthly_revenue": 2652.2
+      "monthly_revenue": 23526.19
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-02",
       "region": "South",
-      "monthly_revenue": 9634.85
+      "monthly_revenue": 33986.67
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-02",
       "region": "West",
-      "monthly_revenue": 8438.51
+      "monthly_revenue": 13176.6
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-03",
       "region": "Central",
-      "monthly_revenue": 19951.45
+      "monthly_revenue": 26656.35
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-03",
       "region": "East",
-      "monthly_revenue": 9842.36
+      "monthly_revenue": 32207.74
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-03",
       "region": "North",
-      "monthly_revenue": 19342.53
+      "monthly_revenue": 12854.55
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-03",
       "region": "South",
-      "monthly_revenue": 24223.26
+      "monthly_revenue": 41976.21
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-03",
       "region": "West",
-      "monthly_revenue": 12752.43
+      "monthly_revenue": 25777.39
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-04",
       "region": "Central",
-      "monthly_revenue": 13943.6
+      "monthly_revenue": 16346.47
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-04",
       "region": "East",
-      "monthly_revenue": 9946.37
+      "monthly_revenue": 6774.7
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-04",
       "region": "North",
-      "monthly_revenue": 12239.21
+      "monthly_revenue": 32075.31
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-04",
       "region": "South",
-      "monthly_revenue": 16681.06
+      "monthly_revenue": 29523.95
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-04",
       "region": "West",
-      "monthly_revenue": 13511.77
+      "monthly_revenue": 6058.43
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-05",
       "region": "Central",
-      "monthly_revenue": 12606.39
+      "monthly_revenue": 8422.29
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-05",
       "region": "East",
-      "monthly_revenue": 10356.07
+      "monthly_revenue": 14686.48
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-05",
       "region": "North",
-      "monthly_revenue": 16239.7
+      "monthly_revenue": 6212.18
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-05",
       "region": "South",
-      "monthly_revenue": 4925.6
+      "monthly_revenue": 16969.88
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-05",
       "region": "West",
-      "monthly_revenue": 21744.56
+      "monthly_revenue": 16576.64
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-06",
       "region": "Central",
-      "monthly_revenue": 21827.04
+      "monthly_revenue": 8500.55
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-06",
       "region": "East",
-      "monthly_revenue": 2344.18
+      "monthly_revenue": 12725.77
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-06",
       "region": "North",
-      "monthly_revenue": 17992.04
+      "monthly_revenue": 14540.72
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-06",
       "region": "South",
-      "monthly_revenue": 12849.13
+      "monthly_revenue": 8724.17
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-06",
       "region": "West",
-      "monthly_revenue": 3912.74
+      "monthly_revenue": 9555.9
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-07",
       "region": "Central",
-      "monthly_revenue": 23273.45
+      "monthly_revenue": 24726.54
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-07",
       "region": "East",
-      "monthly_revenue": 7208.1
+      "monthly_revenue": 15436.12
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-07",
       "region": "North",
-      "monthly_revenue": 4450.07
+      "monthly_revenue": 17475.48
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-07",
       "region": "South",
-      "monthly_revenue": 6402.61
+      "monthly_revenue": 9490.44
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-07",
       "region": "West",
-      "monthly_revenue": 8990.08
+      "monthly_revenue": 40054.6
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-08",
       "region": "Central",
-      "monthly_revenue": 2367.26
+      "monthly_revenue": 20845.78
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-08",
       "region": "East",
-      "monthly_revenue": 7748.0
+      "monthly_revenue": 12240.7
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-08",
       "region": "North",
-      "monthly_revenue": 9911.89
+      "monthly_revenue": 12023.66
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-08",
       "region": "South",
-      "monthly_revenue": 6882.44
+      "monthly_revenue": 27776.02
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-08",
       "region": "West",
-      "monthly_revenue": 17945.38
+      "monthly_revenue": 21507.84
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-09",
       "region": "Central",
-      "monthly_revenue": 14040.98
+      "monthly_revenue": 1584.12
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-09",
       "region": "East",
-      "monthly_revenue": 14445.0
+      "monthly_revenue": 32703.37
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-09",
       "region": "North",
-      "monthly_revenue": 18996.23
+      "monthly_revenue": 12030.8
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-09",
       "region": "South",
-      "monthly_revenue": 31078.36
+      "monthly_revenue": 17637.55
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-09",
       "region": "West",
-      "monthly_revenue": 16243.1
+      "monthly_revenue": 16408.72
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-10",
       "region": "Central",
-      "monthly_revenue": 27751.81
+      "monthly_revenue": 21304.11
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-10",
       "region": "East",
-      "monthly_revenue": 33840.02
+      "monthly_revenue": 26518.63
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-10",
       "region": "North",
-      "monthly_revenue": 25465.48
+      "monthly_revenue": 46738.92
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-10",
       "region": "South",
-      "monthly_revenue": 39475.09
+      "monthly_revenue": 28779.17
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-10",
       "region": "West",
-      "monthly_revenue": 12944.17
+      "monthly_revenue": 19958.49
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-11",
       "region": "Central",
-      "monthly_revenue": 63876.12
+      "monthly_revenue": 47843.0
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-11",
       "region": "East",
-      "monthly_revenue": 60799.01
+      "monthly_revenue": 55501.32
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-11",
       "region": "North",
-      "monthly_revenue": 66510.59
+      "monthly_revenue": 79386.13
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-11",
       "region": "South",
-      "monthly_revenue": 55318.32
+      "monthly_revenue": 54534.03
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-11",
       "region": "West",
-      "monthly_revenue": 42278.22
+      "monthly_revenue": 77921.28
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-12",
       "region": "Central",
-      "monthly_revenue": 63263.33
+      "monthly_revenue": 72704.11
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-12",
       "region": "East",
-      "monthly_revenue": 88488.34
+      "monthly_revenue": 81512.6
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-12",
       "region": "North",
-      "monthly_revenue": 36402.25
+      "monthly_revenue": 56996.74
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-12",
       "region": "South",
-      "monthly_revenue": 66414.86
+      "monthly_revenue": 36124.69
     },
     {
       "category": "Food & Beverage",
       "year_month": "2025-12",
       "region": "West",
-      "monthly_revenue": 30496.44
+      "monthly_revenue": 65721.01
     },
     {
       "category": "Food & Beverage",
       "year_month": "2026-01",
       "region": "Central",
-      "monthly_revenue": 21981.02
+      "monthly_revenue": 26120.58
     },
     {
       "category": "Food & Beverage",
       "year_month": "2026-01",
       "region": "East",
-      "monthly_revenue": 29711.03
+      "monthly_revenue": 22094.15
     },
     {
       "category": "Food & Beverage",
       "year_month": "2026-01",
       "region": "North",
-      "monthly_revenue": 2504.93
+      "monthly_revenue": 19293.68
     },
     {
       "category": "Food & Beverage",
       "year_month": "2026-01",
       "region": "South",
-      "monthly_revenue": 32122.33
+      "monthly_revenue": 26711.13
     },
     {
       "category": "Food & Beverage",
       "year_month": "2026-01",
       "region": "West",
-      "monthly_revenue": 25400.01
+      "monthly_revenue": 60329.54
     },
     {
       "category": "Food & Beverage",
       "year_month": "2026-02",
       "region": "Central",
-      "monthly_revenue": 47993.51
+      "monthly_revenue": 33022.94
     },
     {
       "category": "Food & Beverage",
       "year_month": "2026-02",
       "region": "East",
-      "monthly_revenue": 35972.74
+      "monthly_revenue": 23813.82
     },
     {
       "category": "Food & Beverage",
       "year_month": "2026-02",
       "region": "North",
-      "monthly_revenue": 14031.48
+      "monthly_revenue": 30579.91
     },
     {
       "category": "Food & Beverage",
       "year_month": "2026-02",
       "region": "South",
-      "monthly_revenue": 35508.75
+      "monthly_revenue": 38593.78
     },
     {
       "category": "Food & Beverage",
       "year_month": "2026-02",
       "region": "West",
-      "monthly_revenue": 23559.3
+      "monthly_revenue": 24380.14
     },
     {
       "category": "Food & Beverage",
       "year_month": "2026-03",
       "region": "Central",
-      "monthly_revenue": 805.05
+      "monthly_revenue": 7992.62
     },
     {
       "category": "Food & Beverage",
       "year_month": "2026-03",
       "region": "East",
-      "monthly_revenue": 5690.68
+      "monthly_revenue": 3398.5
     },
     {
       "category": "Food & Beverage",
       "year_month": "2026-03",
       "region": "North",
-      "monthly_revenue": 9176.78
+      "monthly_revenue": 12442.64
     },
     {
       "category": "Food & Beverage",
       "year_month": "2026-03",
       "region": "South",
-      "monthly_revenue": 15483.94
+      "monthly_revenue": 20722.6
     },
     {
       "category": "Food & Beverage",
       "year_month": "2026-03",
       "region": "West",
-      "monthly_revenue": 17098.74
+      "monthly_revenue": 8730.9
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-01",
       "region": "Central",
-      "monthly_revenue": 26762.45
+      "monthly_revenue": 12970.24
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-01",
       "region": "East",
-      "monthly_revenue": 35921.3
+      "monthly_revenue": 9887.73
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-01",
       "region": "North",
-      "monthly_revenue": 30983.06
+      "monthly_revenue": 25471.77
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-01",
       "region": "South",
-      "monthly_revenue": 29578.92
+      "monthly_revenue": 8597.07
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-01",
       "region": "West",
-      "monthly_revenue": 33890.91
+      "monthly_revenue": 12474.18
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-02",
       "region": "Central",
-      "monthly_revenue": 24680.38
+      "monthly_revenue": 4222.91
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-02",
       "region": "East",
-      "monthly_revenue": 29878.52
+      "monthly_revenue": 21756.2
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-02",
       "region": "North",
-      "monthly_revenue": 28863.15
+      "monthly_revenue": 6387.06
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-02",
       "region": "South",
-      "monthly_revenue": 16569.37
+      "monthly_revenue": 4428.22
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-02",
       "region": "West",
-      "monthly_revenue": 27637.07
+      "monthly_revenue": 3282.06
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-03",
       "region": "Central",
-      "monthly_revenue": 19785.7
+      "monthly_revenue": 19342.26
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-03",
       "region": "East",
-      "monthly_revenue": 30023.01
+      "monthly_revenue": 7440.12
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-03",
       "region": "North",
-      "monthly_revenue": 33936.66
+      "monthly_revenue": 21214.48
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-03",
       "region": "South",
-      "monthly_revenue": 12995.78
+      "monthly_revenue": 5718.9
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-03",
       "region": "West",
-      "monthly_revenue": 62872.44
+      "monthly_revenue": 13863.98
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-04",
       "region": "Central",
-      "monthly_revenue": 27862.14
-    },
-    {
-      "category": "Home & Garden",
-      "year_month": "2025-04",
-      "region": "East",
-      "monthly_revenue": 29291.34
+      "monthly_revenue": 19848.66
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-04",
       "region": "North",
-      "monthly_revenue": 27500.02
+      "monthly_revenue": 13227.88
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-04",
       "region": "South",
-      "monthly_revenue": 17749.7
+      "monthly_revenue": 18245.68
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-04",
       "region": "West",
-      "monthly_revenue": 18747.84
+      "monthly_revenue": 10997.36
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-05",
       "region": "Central",
-      "monthly_revenue": 42020.46
+      "monthly_revenue": 18943.78
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-05",
       "region": "East",
-      "monthly_revenue": 20738.13
+      "monthly_revenue": 1902.62
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-05",
       "region": "North",
-      "monthly_revenue": 9354.36
+      "monthly_revenue": 15142.21
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-05",
       "region": "South",
-      "monthly_revenue": 63172.53
+      "monthly_revenue": 36158.49
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-05",
       "region": "West",
-      "monthly_revenue": 19609.22
+      "monthly_revenue": 4718.65
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-06",
       "region": "Central",
-      "monthly_revenue": 31413.29
+      "monthly_revenue": 9983.13
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-06",
       "region": "East",
-      "monthly_revenue": 21047.32
+      "monthly_revenue": 15798.95
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-06",
       "region": "North",
-      "monthly_revenue": 20934.8
+      "monthly_revenue": 8126.19
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-06",
       "region": "South",
-      "monthly_revenue": 27114.92
+      "monthly_revenue": 17045.27
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-06",
       "region": "West",
-      "monthly_revenue": 21817.94
+      "monthly_revenue": 11540.19
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-07",
       "region": "Central",
-      "monthly_revenue": 39416.71
+      "monthly_revenue": 14640.12
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-07",
       "region": "East",
-      "monthly_revenue": 45494.45
+      "monthly_revenue": 5966.89
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-07",
       "region": "North",
-      "monthly_revenue": 30638.95
+      "monthly_revenue": 17703.3
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-07",
       "region": "South",
-      "monthly_revenue": 37039.1
+      "monthly_revenue": 18472.89
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-07",
       "region": "West",
-      "monthly_revenue": 15444.06
+      "monthly_revenue": 2769.07
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-08",
       "region": "Central",
-      "monthly_revenue": 17616.75
+      "monthly_revenue": 15597.0
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-08",
       "region": "East",
-      "monthly_revenue": 18237.82
+      "monthly_revenue": 12880.76
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-08",
       "region": "North",
-      "monthly_revenue": 42499.03
+      "monthly_revenue": 32846.95
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-08",
       "region": "South",
-      "monthly_revenue": 47898.61
+      "monthly_revenue": 16588.97
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-08",
       "region": "West",
-      "monthly_revenue": 30366.01
+      "monthly_revenue": 24884.32
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-09",
       "region": "Central",
-      "monthly_revenue": 18593.23
+      "monthly_revenue": 5375.56
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-09",
       "region": "East",
-      "monthly_revenue": 72505.26
+      "monthly_revenue": 23501.41
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-09",
       "region": "North",
-      "monthly_revenue": 31368.82
+      "monthly_revenue": 6885.95
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-09",
       "region": "South",
-      "monthly_revenue": 30146.04
+      "monthly_revenue": 45179.93
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-09",
       "region": "West",
-      "monthly_revenue": 11359.98
+      "monthly_revenue": 9765.94
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-10",
       "region": "Central",
-      "monthly_revenue": 52991.35
+      "monthly_revenue": 10799.41
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-10",
       "region": "East",
-      "monthly_revenue": 62685.92
+      "monthly_revenue": 21640.3
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-10",
       "region": "North",
-      "monthly_revenue": 83866.34
+      "monthly_revenue": 43072.55
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-10",
       "region": "South",
-      "monthly_revenue": 49616.99
+      "monthly_revenue": 47529.29
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-10",
       "region": "West",
-      "monthly_revenue": 25295.37
+      "monthly_revenue": 34156.56
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-11",
       "region": "Central",
-      "monthly_revenue": 91675.92
+      "monthly_revenue": 78128.89
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-11",
       "region": "East",
-      "monthly_revenue": 95327.83
+      "monthly_revenue": 56488.86
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-11",
       "region": "North",
-      "monthly_revenue": 89259.97
+      "monthly_revenue": 92534.27
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-11",
       "region": "South",
-      "monthly_revenue": 82913.35
+      "monthly_revenue": 54870.76
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-11",
       "region": "West",
-      "monthly_revenue": 72610.31
+      "monthly_revenue": 63890.05
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-12",
       "region": "Central",
-      "monthly_revenue": 108578.34
+      "monthly_revenue": 58527.54
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-12",
       "region": "East",
-      "monthly_revenue": 47995.67
+      "monthly_revenue": 37137.76
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-12",
       "region": "North",
-      "monthly_revenue": 71735.67
+      "monthly_revenue": 22680.24
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-12",
       "region": "South",
-      "monthly_revenue": 84535.67
+      "monthly_revenue": 23817.46
     },
     {
       "category": "Home & Garden",
       "year_month": "2025-12",
       "region": "West",
-      "monthly_revenue": 93555.44
+      "monthly_revenue": 31197.3
     },
     {
       "category": "Home & Garden",
       "year_month": "2026-01",
       "region": "Central",
-      "monthly_revenue": 49306.88
+      "monthly_revenue": 8043.59
     },
     {
       "category": "Home & Garden",
       "year_month": "2026-01",
       "region": "East",
-      "monthly_revenue": 27298.23
+      "monthly_revenue": 19393.07
     },
     {
       "category": "Home & Garden",
       "year_month": "2026-01",
       "region": "North",
-      "monthly_revenue": 29936.73
+      "monthly_revenue": 40764.56
     },
     {
       "category": "Home & Garden",
       "year_month": "2026-01",
       "region": "South",
-      "monthly_revenue": 32499.19
+      "monthly_revenue": 32040.9
     },
     {
       "category": "Home & Garden",
       "year_month": "2026-01",
       "region": "West",
-      "monthly_revenue": 35351.33
+      "monthly_revenue": 18544.53
     },
     {
       "category": "Home & Garden",
       "year_month": "2026-02",
       "region": "Central",
-      "monthly_revenue": 47830.02
+      "monthly_revenue": 28690.71
     },
     {
       "category": "Home & Garden",
       "year_month": "2026-02",
       "region": "East",
-      "monthly_revenue": 40278.3
+      "monthly_revenue": 26383.72
     },
     {
       "category": "Home & Garden",
       "year_month": "2026-02",
       "region": "North",
-      "monthly_revenue": 46478.03
+      "monthly_revenue": 16098.12
     },
     {
       "category": "Home & Garden",
       "year_month": "2026-02",
       "region": "South",
-      "monthly_revenue": 36703.93
+      "monthly_revenue": 25326.08
     },
     {
       "category": "Home & Garden",
       "year_month": "2026-02",
       "region": "West",
-      "monthly_revenue": 17860.22
+      "monthly_revenue": 31893.16
     },
     {
       "category": "Home & Garden",
       "year_month": "2026-03",
       "region": "Central",
-      "monthly_revenue": 7347.48
-    },
-    {
-      "category": "Home & Garden",
-      "year_month": "2026-03",
-      "region": "East",
-      "monthly_revenue": 18560.79
+      "monthly_revenue": 4295.27
     },
     {
       "category": "Home & Garden",
       "year_month": "2026-03",
       "region": "North",
-      "monthly_revenue": 22805.46
+      "monthly_revenue": 2655.3
     },
     {
       "category": "Home & Garden",
       "year_month": "2026-03",
       "region": "South",
-      "monthly_revenue": 12374.5
+      "monthly_revenue": 12523.81
     },
     {
       "category": "Home & Garden",
       "year_month": "2026-03",
       "region": "West",
-      "monthly_revenue": 35287.3
+      "monthly_revenue": 22851.44
     },
     {
       "category": "Sports",
       "year_month": "2025-01",
       "region": "Central",
-      "monthly_revenue": 9812.11
+      "monthly_revenue": 23491.82
     },
     {
       "category": "Sports",
       "year_month": "2025-01",
       "region": "East",
-      "monthly_revenue": 15029.8
+      "monthly_revenue": 34538.84
     },
     {
       "category": "Sports",
       "year_month": "2025-01",
       "region": "North",
-      "monthly_revenue": 30611.7
+      "monthly_revenue": 41374.57
     },
     {
       "category": "Sports",
       "year_month": "2025-01",
       "region": "South",
-      "monthly_revenue": 27832.65
+      "monthly_revenue": 25377.8
     },
     {
       "category": "Sports",
       "year_month": "2025-01",
       "region": "West",
-      "monthly_revenue": 16933.41
+      "monthly_revenue": 23507.76
     },
     {
       "category": "Sports",
       "year_month": "2025-02",
       "region": "Central",
-      "monthly_revenue": 35432.5
+      "monthly_revenue": 28888.45
     },
     {
       "category": "Sports",
       "year_month": "2025-02",
       "region": "East",
-      "monthly_revenue": 16455.9
+      "monthly_revenue": 31026.48
     },
     {
       "category": "Sports",
       "year_month": "2025-02",
       "region": "North",
-      "monthly_revenue": 13393.76
+      "monthly_revenue": 25830.9
     },
     {
       "category": "Sports",
       "year_month": "2025-02",
       "region": "South",
-      "monthly_revenue": 13774.28
+      "monthly_revenue": 12992.21
     },
     {
       "category": "Sports",
       "year_month": "2025-02",
       "region": "West",
-      "monthly_revenue": 6601.57
+      "monthly_revenue": 45525.67
     },
     {
       "category": "Sports",
       "year_month": "2025-03",
       "region": "Central",
-      "monthly_revenue": 21070.35
+      "monthly_revenue": 12775.93
     },
     {
       "category": "Sports",
       "year_month": "2025-03",
       "region": "East",
-      "monthly_revenue": 14741.2
+      "monthly_revenue": 42073.81
     },
     {
       "category": "Sports",
       "year_month": "2025-03",
       "region": "North",
-      "monthly_revenue": 14582.07
+      "monthly_revenue": 24185.78
     },
     {
       "category": "Sports",
       "year_month": "2025-03",
       "region": "South",
-      "monthly_revenue": 13133.0
+      "monthly_revenue": 22313.14
     },
     {
       "category": "Sports",
       "year_month": "2025-03",
       "region": "West",
-      "monthly_revenue": 20124.18
+      "monthly_revenue": 23934.05
     },
     {
       "category": "Sports",
       "year_month": "2025-04",
       "region": "Central",
-      "monthly_revenue": 6207.3
+      "monthly_revenue": 11417.27
     },
     {
       "category": "Sports",
       "year_month": "2025-04",
       "region": "East",
-      "monthly_revenue": 14973.97
+      "monthly_revenue": 38450.17
     },
     {
       "category": "Sports",
       "year_month": "2025-04",
       "region": "North",
-      "monthly_revenue": 18052.77
+      "monthly_revenue": 32984.88
     },
     {
       "category": "Sports",
       "year_month": "2025-04",
       "region": "South",
-      "monthly_revenue": 80.43
+      "monthly_revenue": 10304.51
     },
     {
       "category": "Sports",
       "year_month": "2025-04",
       "region": "West",
-      "monthly_revenue": 9279.67
+      "monthly_revenue": 19679.0
     },
     {
       "category": "Sports",
       "year_month": "2025-05",
       "region": "Central",
-      "monthly_revenue": 45156.11
+      "monthly_revenue": 32065.56
     },
     {
       "category": "Sports",
       "year_month": "2025-05",
       "region": "East",
-      "monthly_revenue": 24585.88
+      "monthly_revenue": 23524.75
     },
     {
       "category": "Sports",
       "year_month": "2025-05",
       "region": "North",
-      "monthly_revenue": 25853.94
+      "monthly_revenue": 20426.4
     },
     {
       "category": "Sports",
       "year_month": "2025-05",
       "region": "South",
-      "monthly_revenue": 8045.36
+      "monthly_revenue": 15269.14
     },
     {
       "category": "Sports",
       "year_month": "2025-05",
       "region": "West",
-      "monthly_revenue": 509.29
+      "monthly_revenue": 15439.76
     },
     {
       "category": "Sports",
       "year_month": "2025-06",
       "region": "Central",
-      "monthly_revenue": 22572.42
+      "monthly_revenue": 19154.89
     },
     {
       "category": "Sports",
       "year_month": "2025-06",
       "region": "East",
-      "monthly_revenue": 4412.87
+      "monthly_revenue": 27813.36
     },
     {
       "category": "Sports",
       "year_month": "2025-06",
       "region": "North",
-      "monthly_revenue": 12914.88
+      "monthly_revenue": 22571.54
     },
     {
       "category": "Sports",
       "year_month": "2025-06",
       "region": "South",
-      "monthly_revenue": 17816.47
+      "monthly_revenue": 37250.28
     },
     {
       "category": "Sports",
       "year_month": "2025-06",
       "region": "West",
-      "monthly_revenue": 19627.98
+      "monthly_revenue": 39739.1
     },
     {
       "category": "Sports",
       "year_month": "2025-07",
       "region": "Central",
-      "monthly_revenue": 17720.24
+      "monthly_revenue": 23791.51
     },
     {
       "category": "Sports",
       "year_month": "2025-07",
       "region": "East",
-      "monthly_revenue": 6646.4
+      "monthly_revenue": 20503.0
     },
     {
       "category": "Sports",
       "year_month": "2025-07",
       "region": "North",
-      "monthly_revenue": 12036.44
+      "monthly_revenue": 21690.5
     },
     {
       "category": "Sports",
       "year_month": "2025-07",
       "region": "South",
-      "monthly_revenue": 1219.28
+      "monthly_revenue": 14445.14
     },
     {
       "category": "Sports",
       "year_month": "2025-07",
       "region": "West",
-      "monthly_revenue": 20408.47
+      "monthly_revenue": 18581.19
     },
     {
       "category": "Sports",
       "year_month": "2025-08",
       "region": "Central",
-      "monthly_revenue": 10366.53
+      "monthly_revenue": 18931.44
     },
     {
       "category": "Sports",
       "year_month": "2025-08",
       "region": "East",
-      "monthly_revenue": 10224.25
+      "monthly_revenue": 14603.44
     },
     {
       "category": "Sports",
       "year_month": "2025-08",
       "region": "North",
-      "monthly_revenue": 15810.42
+      "monthly_revenue": 31700.05
     },
     {
       "category": "Sports",
       "year_month": "2025-08",
       "region": "South",
-      "monthly_revenue": 13325.76
+      "monthly_revenue": 32529.96
     },
     {
       "category": "Sports",
       "year_month": "2025-08",
       "region": "West",
-      "monthly_revenue": 19500.04
+      "monthly_revenue": 10902.03
     },
     {
       "category": "Sports",
       "year_month": "2025-09",
       "region": "Central",
-      "monthly_revenue": 22546.52
+      "monthly_revenue": 20597.04
     },
     {
       "category": "Sports",
       "year_month": "2025-09",
       "region": "East",
-      "monthly_revenue": 18349.2
+      "monthly_revenue": 24174.33
     },
     {
       "category": "Sports",
       "year_month": "2025-09",
       "region": "North",
-      "monthly_revenue": 18277.45
+      "monthly_revenue": 42599.12
     },
     {
       "category": "Sports",
       "year_month": "2025-09",
       "region": "South",
-      "monthly_revenue": 14857.44
+      "monthly_revenue": 34047.35
     },
     {
       "category": "Sports",
       "year_month": "2025-09",
       "region": "West",
-      "monthly_revenue": 11616.7
+      "monthly_revenue": 22266.25
     },
     {
       "category": "Sports",
       "year_month": "2025-10",
       "region": "Central",
-      "monthly_revenue": 37299.63
+      "monthly_revenue": 56361.61
     },
     {
       "category": "Sports",
       "year_month": "2025-10",
       "region": "East",
-      "monthly_revenue": 30916.27
+      "monthly_revenue": 34710.92
     },
     {
       "category": "Sports",
       "year_month": "2025-10",
       "region": "North",
-      "monthly_revenue": 37997.87
+      "monthly_revenue": 55563.63
     },
     {
       "category": "Sports",
       "year_month": "2025-10",
       "region": "South",
-      "monthly_revenue": 27016.03
+      "monthly_revenue": 34966.78
     },
     {
       "category": "Sports",
       "year_month": "2025-10",
       "region": "West",
-      "monthly_revenue": 31902.2
+      "monthly_revenue": 53359.58
     },
     {
       "category": "Sports",
       "year_month": "2025-11",
       "region": "Central",
-      "monthly_revenue": 26840.58
+      "monthly_revenue": 73235.3
     },
     {
       "category": "Sports",
       "year_month": "2025-11",
       "region": "East",
-      "monthly_revenue": 38042.64
+      "monthly_revenue": 59779.01
     },
     {
       "category": "Sports",
       "year_month": "2025-11",
       "region": "North",
-      "monthly_revenue": 43804.76
+      "monthly_revenue": 60411.32
     },
     {
       "category": "Sports",
       "year_month": "2025-11",
       "region": "South",
-      "monthly_revenue": 44647.6
+      "monthly_revenue": 53868.21
     },
     {
       "category": "Sports",
       "year_month": "2025-11",
       "region": "West",
-      "monthly_revenue": 34230.4
+      "monthly_revenue": 61641.5
     },
     {
       "category": "Sports",
       "year_month": "2025-12",
       "region": "Central",
-      "monthly_revenue": 49926.56
+      "monthly_revenue": 77386.46
     },
     {
       "category": "Sports",
       "year_month": "2025-12",
       "region": "East",
-      "monthly_revenue": 59436.83
+      "monthly_revenue": 68459.25
     },
     {
       "category": "Sports",
       "year_month": "2025-12",
       "region": "North",
-      "monthly_revenue": 52219.99
+      "monthly_revenue": 53243.88
     },
     {
       "category": "Sports",
       "year_month": "2025-12",
       "region": "South",
-      "monthly_revenue": 43200.14
+      "monthly_revenue": 55163.02
     },
     {
       "category": "Sports",
       "year_month": "2025-12",
       "region": "West",
-      "monthly_revenue": 43926.93
+      "monthly_revenue": 89454.08
     },
     {
       "category": "Sports",
       "year_month": "2026-01",
       "region": "Central",
-      "monthly_revenue": 13093.0
+      "monthly_revenue": 20157.27
     },
     {
       "category": "Sports",
       "year_month": "2026-01",
       "region": "East",
-      "monthly_revenue": 36913.47
+      "monthly_revenue": 39035.91
     },
     {
       "category": "Sports",
       "year_month": "2026-01",
       "region": "North",
-      "monthly_revenue": 25620.39
+      "monthly_revenue": 27723.48
     },
     {
       "category": "Sports",
       "year_month": "2026-01",
       "region": "South",
-      "monthly_revenue": 23881.2
+      "monthly_revenue": 57706.84
     },
     {
       "category": "Sports",
       "year_month": "2026-01",
       "region": "West",
-      "monthly_revenue": 50832.32
+      "monthly_revenue": 38772.78
     },
     {
       "category": "Sports",
       "year_month": "2026-02",
       "region": "Central",
-      "monthly_revenue": 10670.87
+      "monthly_revenue": 26222.81
     },
     {
       "category": "Sports",
       "year_month": "2026-02",
       "region": "East",
-      "monthly_revenue": 17041.87
+      "monthly_revenue": 35590.22
     },
     {
       "category": "Sports",
       "year_month": "2026-02",
       "region": "North",
-      "monthly_revenue": 11966.74
+      "monthly_revenue": 22618.33
     },
     {
       "category": "Sports",
       "year_month": "2026-02",
       "region": "South",
-      "monthly_revenue": 28843.32
+      "monthly_revenue": 35825.27
     },
     {
       "category": "Sports",
       "year_month": "2026-02",
       "region": "West",
-      "monthly_revenue": 22523.59
+      "monthly_revenue": 16875.25
     },
     {
       "category": "Sports",
       "year_month": "2026-03",
       "region": "Central",
-      "monthly_revenue": 10562.93
+      "monthly_revenue": 9616.25
     },
     {
       "category": "Sports",
       "year_month": "2026-03",
       "region": "East",
-      "monthly_revenue": 3844.6
+      "monthly_revenue": 27324.85
     },
     {
       "category": "Sports",
       "year_month": "2026-03",
       "region": "North",
-      "monthly_revenue": 4625.38
+      "monthly_revenue": 25319.74
     },
     {
       "category": "Sports",
       "year_month": "2026-03",
       "region": "South",
-      "monthly_revenue": 1808.24
+      "monthly_revenue": 13801.29
     },
     {
       "category": "Sports",
       "year_month": "2026-03",
       "region": "West",
-      "monthly_revenue": 5933.48
+      "monthly_revenue": 52447.02
     },
     {
       "category": "Toys",
       "year_month": "2025-01",
       "region": "Central",
-      "monthly_revenue": 26140.57
+      "monthly_revenue": 31937.3
     },
     {
       "category": "Toys",
       "year_month": "2025-01",
       "region": "East",
-      "monthly_revenue": 15390.72
+      "monthly_revenue": 13812.22
     },
     {
       "category": "Toys",
       "year_month": "2025-01",
       "region": "North",
-      "monthly_revenue": 29722.98
+      "monthly_revenue": 29276.01
     },
     {
       "category": "Toys",
       "year_month": "2025-01",
       "region": "South",
-      "monthly_revenue": 22718.25
+      "monthly_revenue": 39940.09
     },
     {
       "category": "Toys",
       "year_month": "2025-01",
       "region": "West",
-      "monthly_revenue": 9611.05
+      "monthly_revenue": 17398.85
     },
     {
       "category": "Toys",
       "year_month": "2025-02",
       "region": "Central",
-      "monthly_revenue": 7627.28
+      "monthly_revenue": 11683.87
     },
     {
       "category": "Toys",
       "year_month": "2025-02",
       "region": "East",
-      "monthly_revenue": 19337.07
+      "monthly_revenue": 35470.55
     },
     {
       "category": "Toys",
       "year_month": "2025-02",
       "region": "North",
-      "monthly_revenue": 15959.86
+      "monthly_revenue": 21506.43
     },
     {
       "category": "Toys",
       "year_month": "2025-02",
       "region": "South",
-      "monthly_revenue": 11673.84
+      "monthly_revenue": 16896.74
     },
     {
       "category": "Toys",
       "year_month": "2025-02",
       "region": "West",
-      "monthly_revenue": 27269.82
+      "monthly_revenue": 28603.81
     },
     {
       "category": "Toys",
       "year_month": "2025-03",
       "region": "Central",
-      "monthly_revenue": 3917.14
+      "monthly_revenue": 22540.71
     },
     {
       "category": "Toys",
       "year_month": "2025-03",
       "region": "East",
-      "monthly_revenue": 19585.74
+      "monthly_revenue": 13882.52
     },
     {
       "category": "Toys",
       "year_month": "2025-03",
       "region": "North",
-      "monthly_revenue": 24479.72
+      "monthly_revenue": 35707.62
     },
     {
       "category": "Toys",
       "year_month": "2025-03",
       "region": "South",
-      "monthly_revenue": 5132.88
+      "monthly_revenue": 2124.63
     },
     {
       "category": "Toys",
       "year_month": "2025-03",
       "region": "West",
-      "monthly_revenue": 14471.28
+      "monthly_revenue": 33425.15
     },
     {
       "category": "Toys",
       "year_month": "2025-04",
       "region": "Central",
-      "monthly_revenue": 11805.09
+      "monthly_revenue": 10323.04
     },
     {
       "category": "Toys",
       "year_month": "2025-04",
       "region": "East",
-      "monthly_revenue": 24732.17
+      "monthly_revenue": 54236.24
     },
     {
       "category": "Toys",
       "year_month": "2025-04",
       "region": "North",
-      "monthly_revenue": 31594.12
+      "monthly_revenue": 24125.7
     },
     {
       "category": "Toys",
       "year_month": "2025-04",
       "region": "South",
-      "monthly_revenue": 33705.79
+      "monthly_revenue": 33663.77
     },
     {
       "category": "Toys",
       "year_month": "2025-04",
       "region": "West",
-      "monthly_revenue": 11688.43
+      "monthly_revenue": 34393.26
     },
     {
       "category": "Toys",
       "year_month": "2025-05",
       "region": "Central",
-      "monthly_revenue": 13211.04
+      "monthly_revenue": 7093.54
     },
     {
       "category": "Toys",
       "year_month": "2025-05",
       "region": "East",
-      "monthly_revenue": 13517.0
+      "monthly_revenue": 27570.05
     },
     {
       "category": "Toys",
       "year_month": "2025-05",
       "region": "North",
-      "monthly_revenue": 16866.15
+      "monthly_revenue": 28428.51
     },
     {
       "category": "Toys",
       "year_month": "2025-05",
       "region": "South",
-      "monthly_revenue": 33418.77
+      "monthly_revenue": 14639.84
     },
     {
       "category": "Toys",
       "year_month": "2025-05",
       "region": "West",
-      "monthly_revenue": 13049.0
+      "monthly_revenue": 15638.76
     },
     {
       "category": "Toys",
       "year_month": "2025-06",
       "region": "Central",
-      "monthly_revenue": 24664.52
+      "monthly_revenue": 12392.74
     },
     {
       "category": "Toys",
       "year_month": "2025-06",
       "region": "East",
-      "monthly_revenue": 9227.46
+      "monthly_revenue": 20328.25
     },
     {
       "category": "Toys",
       "year_month": "2025-06",
       "region": "North",
-      "monthly_revenue": 29518.58
+      "monthly_revenue": 24999.43
     },
     {
       "category": "Toys",
       "year_month": "2025-06",
       "region": "South",
-      "monthly_revenue": 33253.16
+      "monthly_revenue": 13698.41
     },
     {
       "category": "Toys",
       "year_month": "2025-06",
       "region": "West",
-      "monthly_revenue": 30586.05
+      "monthly_revenue": 26700.59
     },
     {
       "category": "Toys",
       "year_month": "2025-07",
       "region": "Central",
-      "monthly_revenue": 25915.35
+      "monthly_revenue": 17177.44
     },
     {
       "category": "Toys",
       "year_month": "2025-07",
       "region": "East",
-      "monthly_revenue": 7292.62
+      "monthly_revenue": 26572.01
     },
     {
       "category": "Toys",
       "year_month": "2025-07",
       "region": "North",
-      "monthly_revenue": 18713.79
+      "monthly_revenue": 9967.94
     },
     {
       "category": "Toys",
       "year_month": "2025-07",
       "region": "South",
-      "monthly_revenue": 875.61
+      "monthly_revenue": 23347.55
     },
     {
       "category": "Toys",
       "year_month": "2025-07",
       "region": "West",
-      "monthly_revenue": 24570.63
+      "monthly_revenue": 40046.29
     },
     {
       "category": "Toys",
       "year_month": "2025-08",
       "region": "Central",
-      "monthly_revenue": 21624.76
+      "monthly_revenue": 19658.12
     },
     {
       "category": "Toys",
       "year_month": "2025-08",
       "region": "East",
-      "monthly_revenue": 15275.67
+      "monthly_revenue": 14484.12
     },
     {
       "category": "Toys",
       "year_month": "2025-08",
       "region": "North",
-      "monthly_revenue": 27154.94
+      "monthly_revenue": 52097.25
     },
     {
       "category": "Toys",
       "year_month": "2025-08",
       "region": "South",
-      "monthly_revenue": 10230.94
+      "monthly_revenue": 40442.35
     },
     {
       "category": "Toys",
       "year_month": "2025-08",
       "region": "West",
-      "monthly_revenue": 24468.89
+      "monthly_revenue": 20017.1
     },
     {
       "category": "Toys",
       "year_month": "2025-09",
       "region": "Central",
-      "monthly_revenue": 4101.39
+      "monthly_revenue": 14931.54
     },
     {
       "category": "Toys",
       "year_month": "2025-09",
       "region": "East",
-      "monthly_revenue": 27322.93
+      "monthly_revenue": 14890.07
     },
     {
       "category": "Toys",
       "year_month": "2025-09",
       "region": "North",
-      "monthly_revenue": 26584.49
+      "monthly_revenue": 58113.9
     },
     {
       "category": "Toys",
       "year_month": "2025-09",
       "region": "South",
-      "monthly_revenue": 42584.57
+      "monthly_revenue": 21778.24
     },
     {
       "category": "Toys",
       "year_month": "2025-09",
       "region": "West",
-      "monthly_revenue": 13543.67
+      "monthly_revenue": 37068.54
     },
     {
       "category": "Toys",
       "year_month": "2025-10",
       "region": "Central",
-      "monthly_revenue": 21104.07
+      "monthly_revenue": 38347.65
     },
     {
       "category": "Toys",
       "year_month": "2025-10",
       "region": "East",
-      "monthly_revenue": 18607.8
+      "monthly_revenue": 35279.61
     },
     {
       "category": "Toys",
       "year_month": "2025-10",
       "region": "North",
-      "monthly_revenue": 50537.53
+      "monthly_revenue": 60918.8
     },
     {
       "category": "Toys",
       "year_month": "2025-10",
       "region": "South",
-      "monthly_revenue": 31772.29
+      "monthly_revenue": 45980.02
     },
     {
       "category": "Toys",
       "year_month": "2025-10",
       "region": "West",
-      "monthly_revenue": 52275.86
+      "monthly_revenue": 23915.92
     },
     {
       "category": "Toys",
       "year_month": "2025-11",
       "region": "Central",
-      "monthly_revenue": 47112.37
+      "monthly_revenue": 60358.45
     },
     {
       "category": "Toys",
       "year_month": "2025-11",
       "region": "East",
-      "monthly_revenue": 37282.05
+      "monthly_revenue": 53341.95
     },
     {
       "category": "Toys",
       "year_month": "2025-11",
       "region": "North",
-      "monthly_revenue": 93774.85
+      "monthly_revenue": 60191.24
     },
     {
       "category": "Toys",
       "year_month": "2025-11",
       "region": "South",
-      "monthly_revenue": 47674.66
+      "monthly_revenue": 42837.34
     },
     {
       "category": "Toys",
       "year_month": "2025-11",
       "region": "West",
-      "monthly_revenue": 84664.92
+      "monthly_revenue": 60767.35
     },
     {
       "category": "Toys",
       "year_month": "2025-12",
       "region": "Central",
-      "monthly_revenue": 62553.85
+      "monthly_revenue": 75295.15
     },
     {
       "category": "Toys",
       "year_month": "2025-12",
       "region": "East",
-      "monthly_revenue": 35460.15
+      "monthly_revenue": 49601.93
     },
     {
       "category": "Toys",
       "year_month": "2025-12",
       "region": "North",
-      "monthly_revenue": 52835.91
+      "monthly_revenue": 68330.16
     },
     {
       "category": "Toys",
       "year_month": "2025-12",
       "region": "South",
-      "monthly_revenue": 57414.23
+      "monthly_revenue": 89941.63
     },
     {
       "category": "Toys",
       "year_month": "2025-12",
       "region": "West",
-      "monthly_revenue": 55307.51
+      "monthly_revenue": 36079.9
     },
     {
       "category": "Toys",
       "year_month": "2026-01",
       "region": "Central",
-      "monthly_revenue": 20267.64
+      "monthly_revenue": 28064.08
     },
     {
       "category": "Toys",
       "year_month": "2026-01",
       "region": "East",
-      "monthly_revenue": 25406.88
+      "monthly_revenue": 55909.99
     },
     {
       "category": "Toys",
       "year_month": "2026-01",
       "region": "North",
-      "monthly_revenue": 36651.1
+      "monthly_revenue": 16041.88
     },
     {
       "category": "Toys",
       "year_month": "2026-01",
       "region": "South",
-      "monthly_revenue": 52086.26
+      "monthly_revenue": 41869.28
     },
     {
       "category": "Toys",
       "year_month": "2026-01",
       "region": "West",
-      "monthly_revenue": 29736.49
+      "monthly_revenue": 36875.39
     },
     {
       "category": "Toys",
       "year_month": "2026-02",
       "region": "Central",
-      "monthly_revenue": 22892.79
+      "monthly_revenue": 22615.75
     },
     {
       "category": "Toys",
       "year_month": "2026-02",
       "region": "East",
-      "monthly_revenue": 8733.35
+      "monthly_revenue": 20352.91
     },
     {
       "category": "Toys",
       "year_month": "2026-02",
       "region": "North",
-      "monthly_revenue": 30026.24
+      "monthly_revenue": 33816.9
     },
     {
       "category": "Toys",
       "year_month": "2026-02",
       "region": "South",
-      "monthly_revenue": 20033.29
+      "monthly_revenue": 21189.02
     },
     {
       "category": "Toys",
       "year_month": "2026-02",
       "region": "West",
-      "monthly_revenue": 32100.73
+      "monthly_revenue": 24871.97
     },
     {
       "category": "Toys",
       "year_month": "2026-03",
       "region": "Central",
-      "monthly_revenue": 5270.58
+      "monthly_revenue": 5853.99
     },
     {
       "category": "Toys",
       "year_month": "2026-03",
       "region": "East",
-      "monthly_revenue": 13792.18
+      "monthly_revenue": 27206.95
     },
     {
       "category": "Toys",
       "year_month": "2026-03",
       "region": "North",
-      "monthly_revenue": 8799.89
+      "monthly_revenue": 11670.57
     },
     {
       "category": "Toys",
       "year_month": "2026-03",
       "region": "South",
-      "monthly_revenue": 15734.74
+      "monthly_revenue": 28093.66
     },
     {
       "category": "Toys",
       "year_month": "2026-03",
       "region": "West",
-      "monthly_revenue": 28546.26
+      "monthly_revenue": 19420.21
     }
   ]
 }

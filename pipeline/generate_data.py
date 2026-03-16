@@ -66,16 +66,29 @@ def generate_customers(n=500):
 # products.csv → id, name, category, price, supplier
 # ---------------------------------------------------------------------------
 
+# Stock ranges per category — faster-moving categories carry less stock
+STOCK_RANGE = {
+    'Food & Beverage': (20,  120),
+    'Books':           (30,  150),
+    'Clothing':        (40,  200),
+    'Sports':          (40,  200),
+    'Toys':            (60,  250),
+    'Home & Garden':   (80,  350),
+    'Electronics':     (100, 400),
+}
+
 def generate_products(n=200):
     records = []
     for _ in range(n):
         category = random.choice(CATEGORIES)
+        lo, hi = STOCK_RANGE[category]
         records.append({
-            'id':       fake.uuid4(),
-            'name':     f"{random.choice(ADJECTIVES)} {random.choice(PRODUCT_NAMES[category])}",
-            'category': category,
-            'price':    round(random.uniform(5.0, 999.0), 2),
-            'supplier': fake.company(),
+            'id':             fake.uuid4(),
+            'name':           f"{random.choice(ADJECTIVES)} {random.choice(PRODUCT_NAMES[category])}",
+            'category':       category,
+            'price':          round(random.uniform(5.0, 999.0), 2),
+            'supplier':       fake.company(),
+            'stock_quantity': random.randint(lo, hi),
         })
     return pd.DataFrame(records)
 

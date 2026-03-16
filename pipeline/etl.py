@@ -48,6 +48,7 @@ products['price'] = products['price'].clip(1.0, 9999.0)
 KNOWN_CATEGORIES = ['Electronics', 'Clothing', 'Food & Beverage', 'Home & Garden', 'Sports', 'Books', 'Toys']
 products['category'] = products['category'].where(products['category'].isin(KNOWN_CATEGORIES), other='Other')
 products['name'] = products['name'].fillna('Unknown Product')
+products['stock_quantity'] = products['stock_quantity'].fillna(0).astype(int).clip(lower=0)
 
 print(f"Cleaned products: {len(products)} rows")
 
@@ -255,6 +256,42 @@ cat_region_df['total_revenue'] = cat_region_df['total_revenue'].round(2)
 
 save_json(cat_region_df.to_dict(orient='records'), METRICS / "sales_by_category_region.json")
 print("  -> sales_by_category_region.json")
+
+
+# --- inventory.json ----------------------------------------------------------
+# Inventory turnover = units_sold / stock_quantity  (unit-based, no cost proxy)
+# Days on hand       = 365 / turnover_rate
+# Stock value        = stock_quantity × price  (current holding value)
+
+inventory_df = (
+    sales
+    .groupby('product_id')
+    .agg(total_units_sold=('quantity', 'sum'))
+    .reset_index()
+    .merge(products[['id', 'name', 'category', 'price', 'stock_quantity']],
+           left_on='product_id', right_on='id', how='left')
+    .drop(columns=['id'])
+)
+
+inventory_df['turnover_rate'] = (
+    inventory_df['total_units_sold'] / inventory_df['stock_quantity']
+).round(2)
+
+# Cap days_on_hand at 9999 for zero-sales products to avoid inf
+inventory_df['days_on_hand'] = np.where(
+    inventory_df['turnover_rate'] > 0,
+    (365 / inventory_df['turnover_rate']).round(0).astype(int),
+    9999,
+)
+
+inventory_df['stock_value'] = (
+    inventory_df['stock_quantity'] * inventory_df['price']
+).round(2)
+
+inventory_df = inventory_df.sort_values('turnover_rate')
+
+save_json(inventory_df.to_dict(orient='records'), METRICS / "inventory.json")
+print("  -> inventory.json")
 
 
 print("\nETL complete. Metrics saved to data/metrics/")

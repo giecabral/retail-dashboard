@@ -1,201 +1,201 @@
-id,name,category,price,supplier
-c9ce44bd-7c3f-4add-9a38-5db590eeb067,Essential Yoga Mat,Sports,610.97,Shannon-Farmer
-c8acffcf-a04d-4d14-997d-bae10bc2ea72,Pro Data Science Handbook,Books,626.76,Smith-Noble
-002c4c22-74de-4f70-b0f8-1dba28719b9b,Deluxe Green Tea Pack,Food & Beverage,161.11,Harris-Barker
-4d470ed6-a666-4769-a1d4-6f8221c50e41,Essential Denim Jeans,Clothing,160.59,Baxter LLC
-40198303-5c45-4e4d-a793-13b817e52113,Premium Doormat,Home & Garden,472.09,Watson Ltd
-a0279a18-6576-4410-8d41-ee472a5fda18,Ultra Mechanical Keyboard,Electronics,707.71,Barber-Fischer
-b4258e19-1758-447e-a7cd-e1436de21429,Premium Python Programming Book,Books,688.26,Smith Group
-39e7a4f1-97fb-413a-a1f8-9d0613f3cade,Deluxe Honey Jar,Food & Beverage,662.22,"Frazier, Smith and Dominguez"
-dc3f42e0-fcf7-4842-9edf-3bfad12e0eb5,Premium Denim Jeans,Clothing,546.3,Benson-Woods
-bb134f02-16de-46c9-a210-def63a9c4308,Ultra Fiction Novel,Books,826.67,Garcia LLC
-61fa01ba-231a-47c7-8c9b-ff5ce1887eaf,Pro USB-C Hub,Electronics,792.87,May Ltd
-9033da65-87cf-43fd-9183-6c4f249204c7,Deluxe Skipping Rope,Sports,920.67,Bishop and Sons
-368acd40-b8f1-4e3c-99e7-703a70aa5b0d,Pro Desk Organizer,Home & Garden,689.55,"Goodman, Gillespie and Jensen"
-16312fc6-379d-48f9-9c26-8108714011a1,Premium Fiction Novel,Books,502.47,Taylor Inc
-59fe3d53-624f-4a4b-bae1-e13796ee50e5,Premium Plant Pot,Home & Garden,599.45,Edwards-Taylor
-3f87dfc2-1591-42f2-a505-da9c46e75a2c,Deluxe Wall Clock,Home & Garden,605.09,"Burke, Griffith and Mitchell"
-d90f74e9-06dd-46ca-b0c3-0a59f0f7ad22,Pro Webcam,Electronics,961.14,"Liu, Harris and Lawson"
-4ba8a4ca-6449-4b6f-bf72-ae52304b2370,Essential Toy Robot,Toys,950.08,"Brown, Hurst and Blevins"
-3db788a6-1cdc-44c2-a2c9-65b27eb0f62a,Deluxe Board Game,Toys,577.79,Little-Jones
-fca45567-0316-42d6-ba4a-58efe3837348,Ultra Action Figure,Toys,520.85,Peck-Anderson
-6bbdb66f-9181-4091-96c6-f45cdc5e4e78,Lite Throw Pillow,Home & Garden,995.96,Payne-Thompson
-c536c66e-fcc4-491b-b457-07c678946a15,Deluxe Desk Organizer,Home & Garden,968.24,Smith Inc
-0a3217d2-373a-4df8-831e-930f0387f74d,Lite Picture Frame,Home & Garden,336.31,Fry Group
-b66edbf4-a0ea-4251-8957-43a281b13b80,Pro Self-Help Journal,Books,332.82,"Wang, Henderson and Morales"
-9db54283-89a3-4811-895c-4fdea3fa4069,Premium Fiction Novel,Books,663.61,Ramirez LLC
-3404c02a-ebc1-4b52-82e4-dd4a143ac1c5,Essential Scented Candle,Home & Garden,457.1,Herrera Group
-d5a386d9-c362-4810-a261-1b8d9620bee6,Lite Hot Sauce Set,Food & Beverage,120.23,"Becker, Jones and Hale"
-3d175712-d8b2-4277-b413-db19bade8d5d,Premium Card Game,Toys,824.98,Sanchez Group
-9bdc70d1-9cbf-4b8c-b410-2d5d1db14bfc,Deluxe Laptop Stand,Electronics,464.2,Parker Ltd
-1e93d127-2cf7-4140-bd9b-c648a8761e85,Ultra Laptop Stand,Electronics,364.61,Zimmerman Ltd
-f3f8dea4-7f14-4afa-a9f0-ef7c02e7df89,Premium Action Figure,Toys,760.43,Mills-Logan
-5f32d5d8-2abe-4585-825e-0259b88416d2,Lite Hoodie,Clothing,135.23,Brady LLC
-c57c7498-1e38-4711-a2ec-13f4bba1aed9,Premium Sparkling Water,Food & Beverage,125.7,Rogers Group
-4350ab06-1059-4a28-861b-4f5b45a08539,Essential Data Science Handbook,Books,710.52,"Proctor, Burton and Crawford"
-7fe670f3-0e31-41ec-9c31-146482c299f0,Essential Protein Bar,Food & Beverage,553.94,"Jackson, Moore and Ayala"
-b90800f3-ac93-481a-92eb-eab0e4eec67c,Ultra Smart Speaker,Electronics,463.68,Perez PLC
-dce8e1c5-dbd3-4aec-8b46-117300a85473,Deluxe USB-C Hub,Electronics,500.39,Sanchez Group
-266bf2ea-eb93-478c-a20a-f1585d2d904f,Lite Leadership Playbook,Books,706.18,Velazquez Inc
-b6ca1127-e9f8-4970-8d98-f9e28d888beb,Premium Desk Organizer,Home & Garden,247.27,"Rios, Walker and Wright"
-45712959-51e7-44e4-b864-ca08ea75752d,Ultra Ankle Weights,Sports,194.47,Duncan Inc
-0d7bec04-e6e5-4b32-ac5f-12ef8085c147,Essential Water Bottle,Sports,863.84,Walker PLC
-66a302d6-f43e-4c48-8bc1-f9e5fb3df063,Premium Hot Sauce Set,Food & Beverage,933.64,Wiley LLC
-53c9fe59-4f89-43b2-9847-dc53c605e58a,Lite Yoga Mat,Sports,286.14,Tran Inc
-9055a36f-4aa5-49d3-b35f-2f595e717fca,Essential Honey Jar,Food & Beverage,997.91,Stevenson-Sanchez
-7e4ce29f-f8cb-4b4c-9779-0e845e472e22,Ultra Desk Organizer,Home & Garden,540.35,Oconnor PLC
-268b84b6-3ec0-4285-8bc4-ec0ec2aef674,Lite Energy Drink Pack,Food & Beverage,763.3,Randolph Inc
-a2cd1590-58af-493c-8aa2-b4c93ba5bd76,Premium Wall Clock,Home & Garden,869.38,"Wiley, Tapia and Smith"
-bcf2fc3b-d958-44c2-a053-8c1ba84510a1,Ultra Mindfulness Workbook,Books,385.67,"Parker, Harris and Bird"
-0f554896-f610-496b-bdf5-9abf6b790d01,Premium Building Block Set,Toys,321.27,Dawson Inc
-e5b4a1ae-3b41-4943-abd8-a3b10b3d0c36,Deluxe Picture Frame,Home & Garden,388.76,"Gutierrez, Huang and Ellis"
-1877bc06-94ad-4252-95bc-2a3ebf7655d7,Deluxe Self-Help Journal,Books,497.36,"Anderson, Wilkins and Jones"
-a995ecc3-6f5b-49a6-8ff1-c51f915cb31b,Ultra Laptop Stand,Electronics,964.56,Young LLC
-cd0254db-ed11-45d7-90a4-6c85d9d57b02,Pro Sparkling Water,Food & Beverage,104.11,Haynes-Moss
-3bcdf203-459e-4674-b3e7-f042516c3b0a,Pro Throw Pillow,Home & Garden,412.52,Harding and Sons
-1be5a4c3-95af-4d0c-8528-5425c7a9f33c,Ultra Python Programming Book,Books,471.67,Garcia Group
-1ee89a4c-6811-44e2-9064-7c59774f6354,Lite Honey Jar,Food & Beverage,693.55,"Howard, Townsend and Hayes"
-1eb2a7b8-da3c-45ca-83d7-8f2b769de1e3,Pro History Almanac,Books,852.23,Moore Ltd
-b266986c-b467-48bd-938e-13e44de1087b,Essential Art Supply Set,Toys,953.41,"Williams, Huff and Murphy"
-f7e9101d-3f8b-4433-b60e-695c1759ba96,Deluxe Travel Photography Book,Books,872.15,Foster-Williams
-fd9cfbb0-d1f1-4485-829a-4a7c4c80d33a,Essential Smart Speaker,Electronics,238.36,Johnson Group
-bf8211bc-8e52-4c42-b3c3-74a6dac726b6,Lite Data Science Handbook,Books,747.29,"Wright, Murray and Lara"
-0fc98d2e-030f-4be9-9f17-8f9323c97a1e,Pro Plant Pot,Home & Garden,446.02,Anderson Group
-f004e897-a15b-4e18-afb0-64065f4b1a97,Lite Business Strategy Guide,Books,50.72,"Miller, Willis and Lowery"
-10813d45-ff45-48a2-8594-b24f13325c31,Pro Board Game,Toys,361.31,Orr Group
-e7b33085-178b-4968-a0f8-7ba2cf2e3296,Ultra Bamboo Cutting Board,Home & Garden,532.98,Martinez-Dunlap
-92ea1324-ec93-4596-ab01-57230cf697a5,Deluxe Water Bottle,Sports,173.96,Underwood-Foster
-6d39da75-aee7-4ab2-a1fa-8e7a078c26ce,Essential Bluetooth Earbuds,Electronics,620.99,Gomez and Sons
-e2280fe3-722d-4e13-87a4-8c4246653497,Premium Compression Leggings,Clothing,147.26,Johnson PLC
-4b8c031f-a5b4-4983-beeb-c04a9df2372e,Deluxe Storage Basket,Home & Garden,461.81,Jenkins-Pierce
-620d4a1f-479f-4628-9674-eb650f9c5300,Pro Travel Photography Book,Books,900.8,Barnes Ltd
-3fc825ac-869b-400f-8c15-2a1be2789642,Essential Self-Help Journal,Books,78.42,"Mcknight, Stephens and Smith"
-5beec570-b69f-45c5-882b-a1be61eb64e6,Essential Granola Mix,Food & Beverage,640.11,Stephens-Washington
-5254aad3-809c-4839-90ce-82e8e9a53368,Deluxe Storage Basket,Home & Garden,459.09,Nelson-Johnson
-e550d736-0780-4e71-b811-b51998dc9e0b,Ultra Dried Fruit Mix,Food & Beverage,853.22,Brown-Frey
-95804c2a-c44f-44b8-9b80-b8d18788dfed,Ultra Bluetooth Earbuds,Electronics,573.49,Dickson Inc
-443b1d0f-3dbc-4093-a828-44423f738f50,Lite Foam Roller,Sports,26.81,"Velasquez, Stark and Brown"
-93608edf-382b-4b86-b2a3-2efdff138c80,Deluxe Art Supply Set,Toys,277.83,Kelly-Combs
-3c8e9d78-2d14-49f4-ac78-644fd86065a2,Deluxe Yoga Mat,Sports,910.15,"Stewart, Rojas and Howard"
-b357f3f9-b415-4cea-8738-8ba49770a3db,Premium Fiction Novel,Books,776.09,Meza-Elliott
-d631c383-3030-44d0-b2c8-47439027e770,Essential Rain Coat,Clothing,222.69,Weaver-Thompson
-3b8d3447-0e61-465f-971b-1b8009b7fdf7,Essential Athletic Shorts,Clothing,678.7,"Robinson, Fox and Smith"
-ce7334f2-3393-4b6c-9d37-efb6eafb3e90,Deluxe Self-Help Journal,Books,629.48,Peterson and Sons
-de4379cb-d823-4076-8d6b-b03beb3537a0,Deluxe Business Strategy Guide,Books,312.08,Brown-Hernandez
-c63ce21d-2443-4958-aacf-33a9b466fab6,Pro Doormat,Home & Garden,367.67,Mathis LLC
-b45c9a54-5fa3-4531-9291-6e60f5e72daf,Pro Athletic Shorts,Clothing,329.76,"Foster, Garcia and Turner"
-bb7b6c05-2852-4ca2-b9d2-014a22ee7f07,Ultra Bamboo Cutting Board,Home & Garden,136.37,Conner-Yu
-b509f08a-2c98-4bca-9139-7c06a630ad9d,Lite Dumbbell Set,Sports,503.78,"Steele, Mcfarland and Buchanan"
-d08012b8-96c5-4fe7-aa60-4892392612e9,Ultra Granola Mix,Food & Beverage,913.56,Gray Ltd
-2d7e4a45-2099-471f-8b65-7bccb0416f19,Lite Wall Clock,Home & Garden,804.41,"Smith, Miles and Berry"
-f7164b73-c555-43ed-be89-56c8d9cb3540,Pro Throw Pillow,Home & Garden,754.63,"Johnson, Guzman and Mccall"
-a3bfe403-388c-4751-9c83-79aef7b02805,Deluxe Polo Shirt,Clothing,966.47,"Garcia, Crawford and Rivera"
-fb7d3ba1-58c8-4c48-bced-4d1f13eb22c9,Essential Science Kit,Toys,94.76,Jackson-Mcclure
-ab86bafd-b57e-4883-9258-6d9016b6bf61,Pro Storage Basket,Home & Garden,538.35,"Daniel, Rogers and Smith"
-115affac-b173-4cdf-bfe1-e8f335adde88,Lite Storage Basket,Home & Garden,586.05,Scott-Rodriguez
-702f31e5-62cc-4604-8c53-644b0053f649,Deluxe Science Kit,Toys,112.7,"Barnes, Jackson and Gutierrez"
-8bc83a02-59ea-4936-a0f3-4ebce1bbb8cd,Premium Running Jacket,Clothing,620.83,Garcia-Mendoza
-c21c3fb3-a6a5-40ff-93fb-71d0dd326d9c,Lite Skipping Rope,Sports,225.04,"Perez, Hayes and Lloyd"
-51976e75-0523-44fd-8b7f-2183088dbd82,Deluxe LED Monitor,Electronics,908.93,Lynn-Jones
-29310971-601e-4211-a34f-76b42b8c03bf,Deluxe Dried Fruit Mix,Food & Beverage,120.98,"Jones, Mcmahon and Spence"
-9d17d218-fc3b-4de5-9812-62ac5683ede0,Pro Mechanical Keyboard,Electronics,994.95,Bush-Reynolds
-e3c6dedb-9b79-4afa-aa3d-418da754a29f,Pro Webcam,Electronics,886.94,Moore-Garcia
-68c690b2-30a2-4ee8-b972-2cc1349ef4a9,Premium Cargo Pants,Clothing,373.79,"Spencer, Frost and Fernandez"
-3ccff6eb-4c22-42f3-8811-e562a91cf192,Deluxe Leadership Playbook,Books,421.61,Williams PLC
-2751ab86-7dae-4949-9700-b4618cb6b0ba,Deluxe Self-Help Journal,Books,885.1,Ward Group
-a97a2846-d2ea-4f18-8b67-97a1166ecfe3,Pro Travel Photography Book,Books,616.96,"Greene, Gonzalez and Johnson"
-fa207403-4ab4-47e3-a360-76812bbba89d,Pro Hot Sauce Set,Food & Beverage,220.97,Wells Inc
-788fd0cd-65c0-4b93-88ed-abdd4ef03f80,Ultra Wall Clock,Home & Garden,103.76,Jacobson-Baker
-2f546033-6334-4a2a-8b4b-d7e7a4515ae0,Lite Leadership Playbook,Books,901.29,Mcclure-Wood
-7092d401-4367-4d58-8b6c-03c8721e5419,Lite Business Strategy Guide,Books,400.75,Baker-Hood
-c0927b74-26b0-4ff6-8fc7-9913907276ea,Pro Cargo Pants,Clothing,96.12,"Contreras, Miller and Cooper"
-c1a72883-f880-4878-a9fb-07638a9c66f7,Deluxe Compression Leggings,Clothing,970.27,"Perez, Brown and Hughes"
-891778e8-f733-4094-ab2b-78b985c7f3be,Lite Webcam,Electronics,987.89,"Camacho, Wells and Keith"
-6511e61a-1436-45f5-8c81-926079ec533c,Essential Stuffed Animal,Toys,73.2,"Johnson, Duncan and Black"
-9eca381b-fb95-40fc-ad72-ed05924cde09,Essential Stuffed Animal,Toys,587.86,Martinez Group
-2acb4fbd-fbff-4a7d-b2f5-b1762c41cbd3,Ultra Science Kit,Toys,774.72,Stokes and Sons
-fcffe9e3-140f-4589-ac62-4c2c0aeccec7,Essential Building Block Set,Toys,280.61,"Graham, Osborn and Burton"
-51db1a37-4204-4733-9855-0b1ed5881c1c,Ultra Hoodie,Clothing,254.15,"Sloan, Jones and Hughes"
-db4bb8eb-537d-4bd1-8d53-6c7565b90e94,Pro Running Jacket,Clothing,136.01,Stone-Stark
-9f80b96b-b34e-456a-895b-61f8032a461a,Ultra Honey Jar,Food & Beverage,326.83,"Mills, Barnes and Perry"
-952a5345-9682-49ff-910c-4cb725f06b0a,Lite Running Jacket,Clothing,131.0,Buckley PLC
-493d6196-c926-4021-99da-8262c7903dc5,Essential Plant Pot,Home & Garden,746.19,"Beard, Humphrey and Baker"
-9be4f19f-9270-4d60-bc4f-48e4a7a02a3d,Premium Wall Clock,Home & Garden,515.16,Johnson-Hill
-ae49c079-9bd0-44c7-9e45-455e24d38751,Premium Laptop Stand,Electronics,225.22,"Morales, Foster and Koch"
-bee975da-0c9e-4550-bcd1-ff3fb0c58278,Pro Dumbbell Set,Sports,304.82,Mccall-Prince
-cb2cc805-d140-4430-967e-642e052dfb9a,Pro Business Strategy Guide,Books,997.6,Collins-Cameron
-1924c644-af52-4666-b239-09f4dbb54645,Premium Art Supply Set,Toys,686.98,Taylor Ltd
-52246d05-d369-4867-8626-e38f716fb276,Deluxe Desk Organizer,Home & Garden,78.05,Daniel-Jacobs
-361db014-7114-46de-b01c-8db316db80db,Lite Smart Watch,Electronics,152.44,Figueroa-Malone
-0e63813e-d22e-4226-9fb8-944dde0018aa,Lite Compression Leggings,Clothing,634.28,"Moody, Jones and Mckinney"
-d9ee7dc9-c7cf-4ca8-a2b9-f24c67443fb8,Deluxe Gym Gloves,Sports,383.62,"Suarez, Johnson and Lee"
-0ec0ad4b-d644-4a9d-b362-d476d53ae57f,Essential Foam Roller,Sports,455.99,Johnson Inc
-32f8dbab-b462-43e8-9c41-8a83eb04159c,Premium Resistance Bands,Sports,793.34,Richardson-Marshall
-1fb621ae-ec4e-4cbb-a2aa-378c659e0258,Deluxe Laptop Stand,Electronics,721.51,"Johnson, Watson and Wheeler"
-797e3984-ded7-43ef-b5e4-a9c12d761ffa,Premium Cargo Pants,Clothing,887.76,"Arnold, Cooper and Monroe"
-b0588256-d4b3-48cf-bfbb-eab342378962,Lite Desk Organizer,Home & Garden,401.34,Mitchell Group
-927f8103-da94-48c0-a9b4-4cb10cb5ee5c,Pro History Almanac,Books,429.2,Vincent Ltd
-44e2a94b-34ec-4264-ad7d-6f8139a0f145,Lite History Almanac,Books,952.87,"Ortiz, Smith and Deleon"
-795e6f2b-0247-4360-aea4-a441c47fa57e,Premium Python Programming Book,Books,95.68,Holland PLC
-409ca8f2-3948-4e22-822a-addacd0579e2,Pro Bluetooth Earbuds,Electronics,100.99,"Trujillo, Torres and Rasmussen"
-e53e5f4c-6c7e-4a2c-867f-358ba48aa108,Lite Self-Help Journal,Books,558.03,York-Stevens
-ad5cba24-4d59-416b-b779-857f37dc8c78,Essential Dumbbell Set,Sports,332.67,"Holloway, Sanders and Garcia"
-f76b9723-a990-4071-bfda-9a9382f29004,Premium Portable Charger,Electronics,873.37,Hoffman-Wheeler
-1bacbd0d-af35-430b-8c68-eb17485d831c,Premium Building Block Set,Toys,967.59,Brown-Mcneil
-46e1ee40-dc8a-46a7-933c-2ed5a3fe0479,Lite Gym Gloves,Sports,107.98,Douglas-Farley
-2661c426-3038-4dd7-8c7d-9313a6c681b0,Ultra Water Bottle,Sports,657.8,"Cannon, Yoder and Trujillo"
-6772fe9f-999b-4859-8f5e-0f0bcd67b5df,Pro Rain Coat,Clothing,845.3,"Flores, Taylor and Johnson"
-4269c28c-4bac-4edf-bf5a-229e7f53d344,Pro Granola Mix,Food & Beverage,575.66,Sullivan-Doyle
-92715f6e-fea8-4e3a-b544-01cb95410a9d,Premium Card Game,Toys,973.7,Cooper Ltd
-a36884f5-88dd-4880-afb2-8b3d38eccb4d,Essential Toy Robot,Toys,675.93,Knox-Powers
-2b843ef3-d86d-455d-8cd9-916481df62f4,Pro Skipping Rope,Sports,928.51,"Walter, White and Davis"
-b9a5d4d0-4237-41f1-bdac-dc5e20c0f275,Deluxe Board Game,Toys,33.78,"Hines, White and Frazier"
-38e59b27-16dc-4a6e-a789-077055ec024a,Deluxe Granola Mix,Food & Beverage,921.01,Walker-Savage
-54d1332a-e308-4ddc-89c0-4b7d6ba4170b,Pro Olive Oil Bottle,Food & Beverage,869.64,Green-Carter
-0dbdc5da-7875-45b9-9e26-ed31d9e92758,Deluxe Ankle Weights,Sports,74.17,"Silva, Blackburn and Jones"
-1eac41d9-801f-4909-b1cd-9f6ee3b16d36,Deluxe Business Strategy Guide,Books,96.21,"James, Evans and Brown"
-fe0a824e-232a-4e82-a699-6aabdaaf7529,Ultra Ankle Weights,Sports,422.31,Cooper PLC
-752366ce-fc95-4bba-a818-4f34e4917f7d,Ultra Hot Sauce Set,Food & Beverage,314.77,Stewart Ltd
-7cd2192f-14b0-4f62-8768-b07f2e2bdc6c,Essential Honey Jar,Food & Beverage,89.45,Welch-Thompson
-73b9c2ac-0134-476b-8ed9-fa95a26e865b,Ultra USB-C Hub,Electronics,754.91,Clark-Ayala
-7d54ec82-288f-4435-83b5-34db938703c9,Deluxe Smart Speaker,Electronics,275.47,Anderson Group
-6dd49c96-6744-4b9e-aded-cba5a22c3d4f,Premium Travel Photography Book,Books,608.43,Reyes-Johnson
-f337b261-5f83-42d5-bb0c-7919330ccff5,Lite Bamboo Cutting Board,Home & Garden,755.41,Mcclain PLC
-010e4265-ad3f-4dd4-8496-26ba30c9a2be,Lite Bluetooth Earbuds,Electronics,115.22,"Gross, Perez and Wiley"
-62305d27-1a4b-4606-a101-9bff4fe54745,Deluxe Mindfulness Workbook,Books,488.71,"Chapman, Jackson and Colon"
-74b79620-4a73-40bf-b2ce-7eeb4c56fb8f,Lite Business Strategy Guide,Books,224.2,"Meyer, Warren and Hamilton"
-57bd56c9-2240-463b-bed7-47beafd0d2f7,Pro Yoga Mat,Sports,208.2,Howard-Lopez
-cfdfc6f9-eb0f-427c-a82a-3879f2b5a7ea,Ultra Athletic Shorts,Clothing,292.71,Smith-Walker
-bbec721d-3610-401c-a196-b3b5fc21109b,Pro LED Monitor,Electronics,747.53,Lawrence and Sons
-a689d07f-b60b-4f87-9dd8-effc1f878b32,Ultra Polo Shirt,Clothing,534.39,Brooks Ltd
-9f85c2dd-88e4-4a48-8570-9e30417b6634,Essential Hoodie,Clothing,833.35,Wheeler Inc
-d60bf603-a750-450e-9bad-52a8a976dc4d,Lite Remote Control Car,Toys,399.69,Williams Inc
-1fa3ed1f-6158-4f88-b1be-94c36ab1cdb6,Pro Cooking Recipe Book,Books,23.63,"King, Miles and Harris"
-4d15f7d8-0261-487a-a15c-159aaf8ca888,Lite Smart Watch,Electronics,431.71,Stanley-Bates
-b362cd55-9b0a-4a0b-9f6f-acc1451d38fe,Deluxe Picture Frame,Home & Garden,292.78,Barnes Inc
-1e23da4b-9e21-441f-b801-102682f73861,Pro Wall Clock,Home & Garden,175.84,Wilson-Rodriguez
-c72850c1-3322-468b-9be7-8aec32da81f0,Premium Gym Gloves,Sports,92.6,Decker-Dudley
-4b9c22f4-68e5-48cd-b414-6e4a5ba0c3e0,Pro Stuffed Animal,Toys,438.06,Williams Group
-eee13cae-b02e-41aa-b52b-6ec8e90d21cb,Essential Plant Pot,Home & Garden,398.39,Rivera-Smith
-1c453357-e829-4a67-96c8-e3d7abf0263e,Deluxe Hot Sauce Set,Food & Beverage,225.24,"Caldwell, Hernandez and Davis"
-b93c4b0b-b93b-470c-9336-5c0c82ff1f2e,Ultra Remote Control Car,Toys,512.42,Conway Ltd
-fa2fbd74-fd19-45cc-b4ed-a60e3b2d520b,Essential Laptop Stand,Electronics,197.74,Baker-Williams
-0a190939-dfc7-4b26-acb9-41fcd02c75f9,Lite Science Kit,Toys,728.01,Ward-Rhodes
-1851d1cf-1dab-410a-bd10-f87c6d0e0597,Deluxe Puzzle Game,Toys,239.85,Smith and Sons
-54231dbe-2ba6-4158-a5ae-cf37a9d1a28e,Lite Wool Sweater,Clothing,177.46,Kline-Friedman
-17cba85d-bbaa-474f-a0e3-c5ce44afecb7,Deluxe Denim Jeans,Clothing,181.08,Briggs-White
-74dfb83f-f659-4188-a676-cc7566995af5,Deluxe Action Figure,Toys,466.17,Houston-Vaughn
-a61acd8e-6bf7-440f-8cc6-2fed7a6e43d0,Essential Pull-Up Bar,Sports,682.05,Wilson Ltd
-f1458426-fb48-4ded-8f03-7337b9f6143b,Deluxe Skipping Rope,Sports,326.27,Garcia PLC
-adab2c2f-91a6-46da-8d61-39887b90942f,Lite Self-Help Journal,Books,442.12,White-James
-dcd1c413-0760-401f-9c81-fc465bcd236c,Premium Storage Basket,Home & Garden,796.55,"Hobbs, Acosta and Snow"
-1ce97871-7cf5-4d5f-ab9f-33cb7bab1baa,Pro Gym Gloves,Sports,509.29,Alexander-Brown
-b45e9463-032a-49e0-9071-e5f0a7ac590c,Premium Sparkling Water,Food & Beverage,42.38,"Warren, Manning and Cummings"
-ab7aeb66-f4ac-47e2-ba57-5cea39571344,Lite Green Tea Pack,Food & Beverage,645.8,Stone-Watts
-a9660a5a-6ecf-4ed2-9861-c9f39e44e98c,Pro Toy Robot,Toys,595.52,"Wright, Reed and Rhodes"
-d3916dcf-d6ca-4e2c-a60e-37cc62874624,Premium Doormat,Home & Garden,555.99,"Mcclain, Salazar and Smith"
-d94df188-816c-4054-a82c-6470ef32f72a,Deluxe Building Block Set,Toys,452.04,Christian-Booth
-52150ed8-7ddc-4413-805d-b774132a5e58,Essential Stuffed Animal,Toys,324.6,Rivera LLC
-8ced4707-3903-4b65-81c6-1eeb0ce3c8c8,Essential Throw Pillow,Home & Garden,956.98,"Gray, Montoya and Miller"
-72b696ca-92b2-4acd-8d1f-75a371b65ca1,Pro Wall Clock,Home & Garden,981.49,Gates Group
-7f53dc0a-fb0d-4cda-9e63-926150e96888,Essential USB-C Hub,Electronics,43.91,"Valdez, Garcia and Gutierrez"
+id,name,category,price,supplier,stock_quantity
+c9ce44bd-7c3f-4add-9a38-5db590eeb067,Essential Yoga Mat,Sports,610.97,Shannon-Farmer,65
+c8acffcf-a04d-4d14-997d-bae10bc2ea72,Ultra Stuffed Animal,Toys,268.06,Smith-Noble,80
+002c4c22-74de-4f70-b0f8-1dba28719b9b,Ultra Cotton T-Shirt,Clothing,553.68,Harris-Barker,80
+4d470ed6-a666-4769-a1d4-6f8221c50e41,Premium LED Monitor,Electronics,690.23,Baxter LLC,340
+40198303-5c45-4e4d-a793-13b817e52113,Pro Ground Coffee,Food & Beverage,291.38,Watson Ltd,56
+a0279a18-6576-4410-8d41-ee472a5fda18,Premium Python Programming Book,Books,688.26,Barber-Fischer,148
+b4258e19-1758-447e-a7cd-e1436de21429,Deluxe Honey Jar,Food & Beverage,662.22,Smith Group,45
+39e7a4f1-97fb-413a-a1f8-9d0613f3cade,Pro Garden Trowel,Home & Garden,228.46,"Frazier, Smith and Dominguez",156
+dc3f42e0-fcf7-4842-9edf-3bfad12e0eb5,Ultra Green Tea Pack,Food & Beverage,64.28,Benson-Woods,59
+bb134f02-16de-46c9-a210-def63a9c4308,Deluxe Skipping Rope,Sports,920.67,Garcia LLC,152
+61fa01ba-231a-47c7-8c9b-ff5ce1887eaf,Premium Mechanical Keyboard,Electronics,700.54,May Ltd,239
+9033da65-87cf-43fd-9183-6c4f249204c7,Essential Pull-Up Bar,Sports,440.13,Bishop and Sons,193
+368acd40-b8f1-4e3c-99e7-703a70aa5b0d,Premium Portable Charger,Electronics,605.09,"Goodman, Gillespie and Jensen",113
+16312fc6-379d-48f9-9c26-8108714011a1,Ultra Smart Watch,Electronics,588.6,Taylor Inc,110
+59fe3d53-624f-4a4b-bae1-e13796ee50e5,Deluxe Board Game,Toys,577.79,Edwards-Taylor,104
+3f87dfc2-1591-42f2-a505-da9c46e75a2c,Essential Desk Organizer,Home & Garden,915.58,"Burke, Griffith and Mitchell",172
+d90f74e9-06dd-46ca-b0c3-0a59f0f7ad22,Premium Pull-Up Bar,Sports,968.24,"Liu, Harris and Lawson",160
+4ba8a4ca-6449-4b6f-bf72-ae52304b2370,Premium Hot Sauce Set,Food & Beverage,324.13,"Brown, Hurst and Blevins",33
+3db788a6-1cdc-44c2-a2c9-65b27eb0f62a,Ultra Science Kit,Toys,414.18,Little-Jones,186
+fca45567-0316-42d6-ba4a-58efe3837348,Deluxe Dried Fruit Mix,Food & Beverage,813.68,Peck-Anderson,90
+6bbdb66f-9181-4091-96c6-f45cdc5e4e78,Premium Smart Speaker,Electronics,317.63,Payne-Thompson,265
+c536c66e-fcc4-491b-b457-07c678946a15,Premium Laptop Stand,Electronics,824.98,Smith Inc,100
+0a3217d2-373a-4df8-831e-930f0387f74d,Essential Travel Photography Book,Books,415.77,Fry Group,54
+b66edbf4-a0ea-4251-8957-43a281b13b80,Lite Skipping Rope,Sports,756.9,"Wang, Henderson and Morales",200
+9db54283-89a3-4811-895c-4fdea3fa4069,Pro Bamboo Cutting Board,Home & Garden,270.45,Ramirez LLC,147
+3404c02a-ebc1-4b52-82e4-dd4a143ac1c5,Premium Sparkling Water,Food & Beverage,125.7,Herrera Group,100
+d5a386d9-c362-4810-a261-1b8d9620bee6,Ultra Water Bottle,Sports,313.89,"Becker, Jones and Hale",43
+3d175712-d8b2-4277-b413-db19bade8d5d,Premium Resistance Bands,Sports,228.35,Sanchez Group,69
+9bdc70d1-9cbf-4b8c-b410-2d5d1db14bfc,Pro Throw Pillow,Home & Garden,500.39,Parker Ltd,229
+1e93d127-2cf7-4140-bd9b-c648a8761e85,Deluxe Foam Roller,Sports,418.0,Zimmerman Ltd,163
+f3f8dea4-7f14-4afa-a9f0-ef7c02e7df89,Ultra Desk Organizer,Home & Garden,552.96,Mills-Logan,276
+5f32d5d8-2abe-4585-825e-0259b88416d2,Essential Hoodie,Clothing,746.81,Brady LLC,74
+c57c7498-1e38-4711-a2ec-13f4bba1aed9,Pro Board Game,Toys,773.04,Rogers Group,166
+4350ab06-1059-4a28-861b-4f5b45a08539,Essential Granola Mix,Food & Beverage,820.63,"Proctor, Burton and Crawford",56
+7fe670f3-0e31-41ec-9c31-146482c299f0,Lite Mindfulness Workbook,Books,581.44,"Jackson, Moore and Ayala",114
+b90800f3-ac93-481a-92eb-eab0e4eec67c,Ultra Desk Organizer,Home & Garden,540.35,Perez PLC,256
+dce8e1c5-dbd3-4aec-8b46-117300a85473,Essential Energy Drink Pack,Food & Beverage,379.95,Sanchez Group,61
+266bf2ea-eb93-478c-a20a-f1585d2d904f,Ultra Stuffed Animal,Toys,573.37,Velazquez Inc,119
+b6ca1127-e9f8-4970-8d98-f9e28d888beb,Premium Building Block Set,Toys,321.27,"Rios, Walker and Wright",181
+45712959-51e7-44e4-b864-ca08ea75752d,Premium Cooking Recipe Book,Books,987.48,Duncan Inc,131
+0d7bec04-e6e5-4b32-ac5f-12ef8085c147,Deluxe Puzzle Game,Toys,497.36,Walker PLC,69
+66a302d6-f43e-4c48-8bc1-f9e5fb3df063,Essential Compression Leggings,Clothing,335.0,Wiley LLC,65
+53c9fe59-4f89-43b2-9847-dc53c605e58a,Premium Remote Control Car,Toys,527.8,Tran Inc,176
+9055a36f-4aa5-49d3-b35f-2f595e717fca,Deluxe USB-C Hub,Electronics,412.52,Stevenson-Sanchez,179
+7e4ce29f-f8cb-4b4c-9779-0e845e472e22,Premium Mechanical Keyboard,Electronics,341.53,Oconnor PLC,303
+268b84b6-3ec0-4285-8bc4-ec0ec2aef674,Pro History Almanac,Books,852.23,Randolph Inc,139
+a2cd1590-58af-493c-8aa2-b4c93ba5bd76,Premium Gym Gloves,Sports,628.04,"Wiley, Tapia and Smith",164
+bcf2fc3b-d958-44c2-a053-8c1ba84510a1,Essential Building Block Set,Toys,618.75,"Parker, Harris and Bird",120
+0f554896-f610-496b-bdf5-9abf6b790d01,Deluxe Fiction Novel,Books,996.44,Dawson Inc,125
+e5b4a1ae-3b41-4943-abd8-a3b10b3d0c36,Premium Smart Speaker,Electronics,760.81,"Gutierrez, Huang and Ellis",151
+1877bc06-94ad-4252-95bc-2a3ebf7655d7,Ultra Storage Basket,Home & Garden,903.0,"Anderson, Wilkins and Jones",103
+a995ecc3-6f5b-49a6-8ff1-c51f915cb31b,Pro Granola Mix,Food & Beverage,361.31,Young LLC,75
+cd0254db-ed11-45d7-90a4-6c85d9d57b02,Ultra Hoodie,Clothing,414.58,Haynes-Moss,86
+3bcdf203-459e-4674-b3e7-f042516c3b0a,Ultra Denim Jeans,Clothing,610.83,Harding and Sons,137
+1be5a4c3-95af-4d0c-8528-5425c7a9f33c,Deluxe Jump Rope,Sports,499.68,Garcia Group,189
+1ee89a4c-6811-44e2-9064-7c59774f6354,Ultra Cargo Pants,Clothing,639.08,"Howard, Townsend and Hayes",157
+1eb2a7b8-da3c-45ca-83d7-8f2b769de1e3,Deluxe Protein Bar,Food & Beverage,898.52,Moore Ltd,79
+b266986c-b467-48bd-938e-13e44de1087b,Deluxe Energy Drink Pack,Food & Beverage,162.03,"Williams, Huff and Murphy",76
+f7e9101d-3f8b-4433-b60e-695c1759ba96,Essential Granola Mix,Food & Beverage,640.11,Foster-Williams,74
+fd9cfbb0-d1f1-4485-829a-4a7c4c80d33a,Lite Travel Photography Book,Books,845.23,Johnson Group,55
+bf8211bc-8e52-4c42-b3c3-74a6dac726b6,Premium Plant Pot,Home & Garden,240.78,"Wright, Murray and Lara",263
+0fc98d2e-030f-4be9-9f17-8f9323c97a1e,Lite Foam Roller,Sports,26.81,Anderson Group,141
+f004e897-a15b-4e18-afb0-64065f4b1a97,Pro Honey Jar,Food & Beverage,864.88,"Miller, Willis and Lowery",119
+10813d45-ff45-48a2-8594-b24f13325c31,Pro Mindfulness Workbook,Books,745.7,Orr Group,136
+e7b33085-178b-4968-a0f8-7ba2cf2e3296,Ultra Honey Jar,Food & Beverage,802.12,Martinez-Dunlap,48
+92ea1324-ec93-4596-ab01-57230cf697a5,Ultra Mindfulness Workbook,Books,254.12,Underwood-Foster,126
+6d39da75-aee7-4ab2-a1fa-8e7a078c26ce,Deluxe Self-Help Journal,Books,629.48,Gomez and Sons,145
+e2280fe3-722d-4e13-87a4-8c4246653497,Deluxe Business Strategy Guide,Books,312.08,Johnson PLC,86
+4b8c031f-a5b4-4983-beeb-c04a9df2372e,Essential Portable Charger,Electronics,732.97,Jenkins-Pierce,146
+620d4a1f-479f-4628-9674-eb650f9c5300,Lite Dried Fruit Mix,Food & Beverage,179.59,Barnes Ltd,36
+3fc825ac-869b-400f-8c15-2a1be2789642,Essential Science Kit,Toys,532.67,"Mcknight, Stephens and Smith",129
+5beec570-b69f-45c5-882b-a1be61eb64e6,Ultra Board Game,Toys,913.56,Stephens-Washington,183
+5254aad3-809c-4839-90ce-82e8e9a53368,Lite Science Kit,Toys,804.41,Nelson-Johnson,179
+e550d736-0780-4e71-b811-b51998dc9e0b,Ultra Webcam,Electronics,859.98,Brown-Frey,303
+95804c2a-c44f-44b8-9b80-b8d18788dfed,Essential Science Kit,Toys,94.76,Dickson Inc,161
+443b1d0f-3dbc-4093-a828-44423f738f50,Lite Laptop Stand,Electronics,127.85,"Velasquez, Stark and Brown",288
+93608edf-382b-4b86-b2a3-2efdff138c80,Deluxe Fiction Novel,Books,586.05,Kelly-Combs,135
+3c8e9d78-2d14-49f4-ac78-644fd86065a2,Lite Python Programming Book,Books,675.79,"Stewart, Rojas and Howard",90
+b357f3f9-b415-4cea-8738-8ba49770a3db,Essential Laptop Stand,Electronics,331.04,Meza-Elliott,213
+d631c383-3030-44d0-b2c8-47439027e770,Pro Travel Photography Book,Books,908.93,Weaver-Thompson,68
+3b8d3447-0e61-465f-971b-1b8009b7fdf7,Premium Python Programming Book,Books,143.94,"Robinson, Fox and Smith",34
+ce7334f2-3393-4b6c-9d37-efb6eafb3e90,Premium Green Tea Pack,Food & Beverage,101.61,Peterson and Sons,88
+de4379cb-d823-4076-8d6b-b03beb3537a0,Premium Cargo Pants,Clothing,373.79,Brown-Hernandez,178
+c63ce21d-2443-4958-aacf-33a9b466fab6,Essential Throw Pillow,Home & Garden,885.1,Mathis LLC,130
+b45c9a54-5fa3-4531-9291-6e60f5e72daf,Premium Toy Robot,Toys,410.67,"Foster, Garcia and Turner",131
+bb7b6c05-2852-4ca2-b9d2-014a22ee7f07,Deluxe Portable Charger,Electronics,220.97,Conner-Yu,327
+b509f08a-2c98-4bca-9139-7c06a630ad9d,Lite Denim Jeans,Clothing,980.04,"Steele, Mcfarland and Buchanan",134
+d08012b8-96c5-4fe7-aa60-4892392612e9,Deluxe Gym Gloves,Sports,65.19,Gray Ltd,110
+2d7e4a45-2099-471f-8b65-7bccb0416f19,Pro Cargo Pants,Clothing,96.12,"Smith, Miles and Berry",94
+f7164b73-c555-43ed-be89-56c8d9cb3540,Deluxe Mindfulness Workbook,Books,970.27,"Johnson, Guzman and Mccall",36
+a3bfe403-388c-4751-9c83-79aef7b02805,Lite Stuffed Animal,Toys,987.89,"Garcia, Crawford and Rivera",204
+fb7d3ba1-58c8-4c48-bced-4d1f13eb22c9,Pro Hoodie,Clothing,210.91,Jackson-Mcclure,95
+ab86bafd-b57e-4883-9258-6d9016b6bf61,Ultra Science Kit,Toys,774.72,"Daniel, Rogers and Smith",212
+115affac-b173-4cdf-bfe1-e8f335adde88,Lite USB-C Hub,Electronics,986.6,Scott-Rodriguez,376
+702f31e5-62cc-4604-8c53-644b0053f649,Ultra Green Tea Pack,Food & Beverage,662.09,"Barnes, Jackson and Gutierrez",23
+8bc83a02-59ea-4936-a0f3-4ebce1bbb8cd,Pro Rain Coat,Clothing,790.24,Garcia-Mendoza,100
+c21c3fb3-a6a5-40ff-93fb-71d0dd326d9c,Lite Yoga Mat,Sports,178.2,"Perez, Hayes and Lloyd",53
+51976e75-0523-44fd-8b7f-2183088dbd82,Deluxe Polo Shirt,Clothing,527.93,Lynn-Jones,56
+29310971-601e-4211-a34f-76b42b8c03bf,Premium Wall Clock,Home & Garden,515.16,"Jones, Mcmahon and Spence",135
+9d17d218-fc3b-4de5-9812-62ac5683ede0,Essential Bamboo Cutting Board,Home & Garden,944.74,Bush-Reynolds,102
+e3c6dedb-9b79-4afa-aa3d-418da754a29f,Deluxe Leadership Playbook,Books,304.82,Moore-Garcia,112
+68c690b2-30a2-4ee8-b972-2cc1349ef4a9,Pro LED Monitor,Electronics,847.21,"Spencer, Frost and Fernandez",318
+3ccff6eb-4c22-42f3-8811-e562a91cf192,Pro Travel Photography Book,Books,713.13,Williams PLC,86
+2751ab86-7dae-4949-9700-b4618cb6b0ba,Pro Portable Charger,Electronics,609.65,Ward Group,133
+a97a2846-d2ea-4f18-8b67-97a1166ecfe3,Lite Compression Leggings,Clothing,634.28,"Greene, Gonzalez and Johnson",180
+fa207403-4ab4-47e3-a360-76812bbba89d,Lite Cooking Recipe Book,Books,993.66,Wells Inc,97
+788fd0cd-65c0-4b93-88ed-abdd4ef03f80,Premium Energy Drink Pack,Food & Beverage,606.79,Jacobson-Baker,32
+2f546033-6334-4a2a-8b4b-d7e7a4515ae0,Deluxe Remote Control Car,Toys,852.68,Mcclure-Wood,226
+7092d401-4367-4d58-8b6c-03c8721e5419,Essential Stuffed Animal,Toys,432.49,Baker-Hood,118
+c0927b74-26b0-4ff6-8fc7-9913907276ea,Lite Desk Organizer,Home & Garden,401.34,"Contreras, Miller and Cooper",128
+c1a72883-f880-4878-a9fb-07638a9c66f7,Premium Hot Sauce Set,Food & Beverage,666.12,"Perez, Brown and Hughes",67
+891778e8-f733-4094-ab2b-78b985c7f3be,Deluxe Cargo Pants,Clothing,71.73,"Camacho, Wells and Keith",61
+6511e61a-1436-45f5-8c81-926079ec533c,Premium Smart Speaker,Electronics,745.12,"Johnson, Duncan and Black",290
+9eca381b-fb95-40fc-ad72-ed05924cde09,Ultra Card Game,Toys,64.62,Martinez Group,203
+2acb4fbd-fbff-4a7d-b2f5-b1762c41cbd3,Lite Resistance Bands,Sports,413.34,Stokes and Sons,148
+fcffe9e3-140f-4589-ac62-4c2c0aeccec7,Deluxe Building Block Set,Toys,967.59,"Graham, Osborn and Burton",213
+51db1a37-4204-4733-9855-0b1ed5881c1c,Lite Green Tea Pack,Food & Beverage,579.45,"Sloan, Jones and Hughes",47
+db4bb8eb-537d-4bd1-8d53-6c7565b90e94,Deluxe Cargo Pants,Clothing,227.9,Stone-Stark,67
+9f80b96b-b34e-456a-895b-61f8032a461a,Essential Hot Sauce Set,Food & Beverage,119.2,"Mills, Barnes and Perry",55
+952a5345-9682-49ff-910c-4cb725f06b0a,Ultra Ankle Weights,Sports,845.08,Buckley PLC,199
+493d6196-c926-4021-99da-8262c7903dc5,Deluxe Dumbbell Set,Sports,31.1,"Beard, Humphrey and Baker",108
+9be4f19f-9270-4d60-bc4f-48e4a7a02a3d,Ultra Mechanical Keyboard,Electronics,703.48,Johnson-Hill,258
+ae49c079-9bd0-44c7-9e45-455e24d38751,Lite Protein Bar,Food & Beverage,185.32,"Morales, Foster and Koch",38
+bee975da-0c9e-4550-bcd1-ff3fb0c58278,Deluxe Ankle Weights,Sports,74.17,Mccall-Prince,47
+cb2cc805-d140-4430-967e-642e052dfb9a,Deluxe Laptop Stand,Electronics,218.84,Collins-Cameron,314
+1924c644-af52-4666-b239-09f4dbb54645,Lite Throw Pillow,Home & Garden,372.83,Taylor Ltd,246
+52246d05-d369-4867-8626-e38f716fb276,Essential Toy Robot,Toys,89.45,Daniel-Jacobs,73
+361db014-7114-46de-b01c-8db316db80db,Ultra Compression Leggings,Clothing,54.46,Figueroa-Malone,60
+0e63813e-d22e-4226-9fb8-944dde0018aa,Premium Dried Fruit Mix,Food & Beverage,487.75,"Moody, Jones and Mckinney",76
+d9ee7dc9-c7cf-4ca8-a2b9-f24c67443fb8,Lite Bamboo Cutting Board,Home & Garden,755.41,"Suarez, Johnson and Lee",138
+0ec0ad4b-d644-4a9d-b362-d476d53ae57f,Premium Green Tea Pack,Food & Beverage,286.55,Johnson Inc,106
+32f8dbab-b462-43e8-9c41-8a83eb04159c,Premium Dumbbell Set,Sports,668.13,Richardson-Marshall,51
+1fb621ae-ec4e-4cbb-a2aa-378c659e0258,Premium Compression Leggings,Clothing,59.45,"Johnson, Watson and Wheeler",92
+797e3984-ded7-43ef-b5e4-a9c12d761ffa,Ultra Olive Oil Bottle,Food & Beverage,764.58,"Arnold, Cooper and Monroe",57
+b0588256-d4b3-48cf-bfbb-eab342378962,Pro Protein Bar,Food & Beverage,499.4,Mitchell Group,75
+927f8103-da94-48c0-a9b4-4cb10cb5ee5c,Ultra Polo Shirt,Clothing,534.39,Vincent Ltd,98
+44e2a94b-34ec-4264-ad7d-6f8139a0f145,Essential Gym Gloves,Sports,76.64,"Ortiz, Smith and Deleon",50
+795e6f2b-0247-4360-aea4-a441c47fa57e,Pro Desk Organizer,Home & Garden,920.64,Holland PLC,240
+409ca8f2-3948-4e22-822a-addacd0579e2,Premium Skipping Rope,Sports,407.0,"Trujillo, Torres and Rasmussen",146
+e53e5f4c-6c7e-4a2c-867f-358ba48aa108,Pro Dried Fruit Mix,Food & Beverage,25.73,York-Stevens,61
+ad5cba24-4d59-416b-b779-857f37dc8c78,Essential Cargo Pants,Clothing,832.03,"Holloway, Sanders and Garcia",132
+f76b9723-a990-4071-bfda-9a9382f29004,Premium Smart Speaker,Electronics,246.86,Hoffman-Wheeler,305
+1bacbd0d-af35-430b-8c68-eb17485d831c,Pro Ankle Weights,Sports,870.3,Brown-Mcneil,126
+46e1ee40-dc8a-46a7-933c-2ed5a3fe0479,Lite Cotton T-Shirt,Clothing,80.92,Douglas-Farley,69
+2661c426-3038-4dd7-8c7d-9313a6c681b0,Essential Jump Rope,Sports,905.49,"Cannon, Yoder and Trujillo",129
+6772fe9f-999b-4859-8f5e-0f0bcd67b5df,Deluxe Olive Oil Bottle,Food & Beverage,239.85,"Flores, Taylor and Johnson",38
+4269c28c-4bac-4edf-bf5a-229e7f53d344,Ultra Olive Oil Bottle,Food & Beverage,603.78,Sullivan-Doyle,117
+92715f6e-fea8-4e3a-b544-01cb95410a9d,Deluxe Remote Control Car,Toys,181.08,Cooper Ltd,220
+a36884f5-88dd-4880-afb2-8b3d38eccb4d,Premium Doormat,Home & Garden,760.32,Knox-Powers,309
+2b843ef3-d86d-455d-8cd9-916481df62f4,Essential Mindfulness Workbook,Books,326.27,"Walter, White and Davis",110
+b9a5d4d0-4237-41f1-bdac-dc5e20c0f275,Ultra Sparkling Water,Food & Beverage,72.88,"Hines, White and Frazier",76
+38e59b27-16dc-4a6e-a789-077055ec024a,Lite Fiction Novel,Books,592.87,Walker-Savage,75
+54d1332a-e308-4ddc-89c0-4b7d6ba4170b,Pro Foam Roller,Sports,463.97,Green-Carter,49
+0dbdc5da-7875-45b9-9e26-ed31d9e92758,Lite Mechanical Keyboard,Electronics,81.27,"Silva, Blackburn and Jones",146
+1eac41d9-801f-4909-b1cd-9f6ee3b16d36,Essential Dumbbell Set,Sports,387.18,"James, Evans and Brown",188
+fe0a824e-232a-4e82-a699-6aabdaaf7529,Deluxe Yoga Mat,Sports,452.04,Cooper PLC,186
+752366ce-fc95-4bba-a818-4f34e4917f7d,Ultra History Almanac,Books,606.38,Stewart Ltd,94
+7cd2192f-14b0-4f62-8768-b07f2e2bdc6c,Pro Cargo Pants,Clothing,107.88,Welch-Thompson,127
+73b9c2ac-0134-476b-8ed9-fa95a26e865b,Pro Leadership Playbook,Books,647.25,Clark-Ayala,35
+7d54ec82-288f-4435-83b5-34db938703c9,Deluxe Cargo Pants,Clothing,990.04,Anderson Group,174
+6dd49c96-6744-4b9e-aded-cba5a22c3d4f,Essential Water Bottle,Sports,366.71,Reyes-Johnson,112
+f337b261-5f83-42d5-bb0c-7919330ccff5,Premium Wall Clock,Home & Garden,679.82,Mcclain PLC,106
+010e4265-ad3f-4dd4-8496-26ba30c9a2be,Deluxe Science Kit,Toys,70.52,"Gross, Perez and Wiley",84
+62305d27-1a4b-4606-a101-9bff4fe54745,Deluxe Ankle Weights,Sports,287.44,"Chapman, Jackson and Colon",194
+74b79620-4a73-40bf-b2ce-7eeb4c56fb8f,Ultra Science Kit,Toys,86.01,"Meyer, Warren and Hamilton",229
+57bd56c9-2240-463b-bed7-47beafd0d2f7,Lite Athletic Shorts,Clothing,966.89,Howard-Lopez,140
+cfdfc6f9-eb0f-427c-a82a-3879f2b5a7ea,Essential Denim Jeans,Clothing,312.72,Smith-Walker,136
+bbec721d-3610-401c-a196-b3b5fc21109b,Lite Self-Help Journal,Books,671.1,Lawrence and Sons,136
+a689d07f-b60b-4f87-9dd8-effc1f878b32,Deluxe Leadership Playbook,Books,97.89,Brooks Ltd,115
+9f85c2dd-88e4-4a48-8570-9e30417b6634,Essential Wall Clock,Home & Garden,23.12,Wheeler Inc,238
+d60bf603-a750-450e-9bad-52a8a976dc4d,Ultra Rain Coat,Clothing,946.98,Williams Inc,164
+1fa3ed1f-6158-4f88-b1be-94c36ab1cdb6,Ultra Cotton T-Shirt,Clothing,159.02,"King, Miles and Harris",115
+4d15f7d8-0261-487a-a15c-159aaf8ca888,Pro Card Game,Toys,771.25,Stanley-Bates,249
+b362cd55-9b0a-4a0b-9f6f-acc1451d38fe,Pro Gym Gloves,Sports,876.13,Barnes Inc,198
+1e23da4b-9e21-441f-b801-102682f73861,Essential Polo Shirt,Clothing,158.33,Wilson-Rodriguez,86
+c72850c1-3322-468b-9be7-8aec32da81f0,Deluxe Toy Robot,Toys,809.19,Decker-Dudley,102
+4b9c22f4-68e5-48cd-b414-6e4a5ba0c3e0,Premium Business Strategy Guide,Books,413.39,Williams Group,116
+eee13cae-b02e-41aa-b52b-6ec8e90d21cb,Ultra Travel Photography Book,Books,611.93,Rivera-Smith,126
+1c453357-e829-4a67-96c8-e3d7abf0263e,Premium Data Science Handbook,Books,535.81,"Caldwell, Hernandez and Davis",69
+b93c4b0b-b93b-470c-9336-5c0c82ff1f2e,Premium Stuffed Animal,Toys,370.63,Conway Ltd,206
+fa2fbd74-fd19-45cc-b4ed-a60e3b2d520b,Premium Storage Basket,Home & Garden,778.46,Baker-Williams,337
+0a190939-dfc7-4b26-acb9-41fcd02c75f9,Premium Water Bottle,Sports,816.99,Ward-Rhodes,194
+1851d1cf-1dab-410a-bd10-f87c6d0e0597,Lite Running Jacket,Clothing,642.33,Smith and Sons,135
+54231dbe-2ba6-4158-a5ae-cf37a9d1a28e,Pro Dumbbell Set,Sports,851.06,Kline-Friedman,112
+17cba85d-bbaa-474f-a0e3-c5ce44afecb7,Ultra Mechanical Keyboard,Electronics,451.62,Briggs-White,362
+74dfb83f-f659-4188-a676-cc7566995af5,Premium Denim Jeans,Clothing,945.73,Houston-Vaughn,96
+a61acd8e-6bf7-440f-8cc6-2fed7a6e43d0,Premium Science Kit,Toys,929.89,Wilson Ltd,166
+f1458426-fb48-4ded-8f03-7337b9f6143b,Premium Laptop Stand,Electronics,376.72,Garcia PLC,297
+adab2c2f-91a6-46da-8d61-39887b90942f,Lite Webcam,Electronics,33.02,White-James,150
+dcd1c413-0760-401f-9c81-fc465bcd236c,Deluxe Science Kit,Toys,791.63,"Hobbs, Acosta and Snow",95
+1ce97871-7cf5-4d5f-ab9f-33cb7bab1baa,Lite LED Monitor,Electronics,696.9,Alexander-Brown,171
+b45e9463-032a-49e0-9071-e5f0a7ac590c,Deluxe Action Figure,Toys,450.91,"Warren, Manning and Cummings",61
+ab7aeb66-f4ac-47e2-ba57-5cea39571344,Pro Mechanical Keyboard,Electronics,219.36,Stone-Watts,176
+a9660a5a-6ecf-4ed2-9861-c9f39e44e98c,Deluxe Skipping Rope,Sports,529.6,"Wright, Reed and Rhodes",68
+d3916dcf-d6ca-4e2c-a60e-37cc62874624,Lite Stuffed Animal,Toys,304.34,"Mcclain, Salazar and Smith",72
+d94df188-816c-4054-a82c-6470ef32f72a,Premium Compression Leggings,Clothing,459.37,Christian-Booth,68
+52150ed8-7ddc-4413-805d-b774132a5e58,Premium Toy Robot,Toys,537.84,Rivera LLC,221
+8ced4707-3903-4b65-81c6-1eeb0ce3c8c8,Essential Jump Rope,Sports,719.23,"Gray, Montoya and Miller",114
+72b696ca-92b2-4acd-8d1f-75a371b65ca1,Pro Doormat,Home & Garden,355.7,Gates Group,293
+7f53dc0a-fb0d-4cda-9e63-926150e96888,Deluxe Denim Jeans,Clothing,525.34,"Valdez, Garcia and Gutierrez",132
