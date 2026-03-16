@@ -9,7 +9,8 @@ A full-stack retail analytics dashboard built as part of the **Aplos Assessment*
 | Layer | Technology |
 |-------|-----------|
 | Data generation | Python (Faker, NumPy, Pandas) |
-| ETL | Python (Pandas) |
+| ETL | Python (Pandas, NumPy) |
+| Python package manager | uv |
 | Backend API | Next.js API Routes (TypeScript) |
 | Frontend | Next.js 14 App Router (TypeScript) |
 | UI Components | shadcn/ui + Tailwind CSS |
@@ -22,26 +23,31 @@ A full-stack retail analytics dashboard built as part of the **Aplos Assessment*
 
 ```
 retail-dashboard/
+├── data/
+│   ├── raw/                 # Generated CSVs (committed — fixed input dataset)
+│   ├── cleaned/             # Intermediate cleaned CSVs (gitignored — reproducible)
+│   └── metrics/             # Pre-aggregated JSON consumed by the API
+├── docs/
+│   └── Retail Analytics Ontology.png
 ├── pipeline/
 │   ├── generate_data.py     # Synthetic dataset generation
-│   ├── etl.py               # Pre-aggregation → JSON metrics
-│   └── data/
-│       └── raw/             # Generated CSV files
+│   ├── etl.py               # Cleaning + aggregation → JSON metrics
+│   ├── pyproject.toml       # uv-managed Python dependencies
+│   └── uv.lock
 ├── web/
 │   ├── app/
-│   │   └── page.tsx         # Main dashboard page
+│   │   └── page.tsx         # Main dashboard page (state, filters, fetches)
 │   ├── components/
 │   │   ├── AppHeader.tsx
 │   │   ├── InsightsPanel.tsx
-│   │   ├── charts/          # Recharts chart components
-│   │   ├── filters/         # Category, region, date filters
-│   │   └── ui/              # KPICard, ChartEmptyState, shadcn primitives
-│   ├── pages/api/           # Next.js API routes (one per metric)
-│   ├── public/metrics/      # Pre-aggregated JSON served by APIs
+│   │   ├── charts/          # One file per Recharts chart component
+│   │   ├── filters/         # CategoryFilter, RegionFilter, DateRangeFilter
+│   │   └── ui/              # KPICard, ChartEmptyState, skeleton + shadcn primitives
+│   ├── pages/api/           # Next.js API routes (one per metric endpoint)
 │   ├── lib/
-│   │   └── loadMetric.ts    # JSON loader utility
+│   │   └── loadMetric.ts    # JSON file loader utility
 │   └── types/
-│       └── metrics.ts       # Shared TypeScript interfaces
+│       └── metrics.ts       # Shared TypeScript response interfaces
 └── README.md
 ```
 
@@ -53,10 +59,11 @@ retail-dashboard/
 
 ```bash
 cd pipeline
-pip install pandas numpy faker
-python generate_data.py   # writes CSV files to data/raw/
-python etl.py             # aggregates and writes JSON to web/public/metrics/
+uv run python generate_data.py   # writes CSVs to data/raw/
+uv run python etl.py             # cleans data and writes JSON to data/metrics/
 ```
+
+> Dependencies (`faker`, `pandas`, `numpy`) are declared in `pyproject.toml` and locked in `uv.lock`. `uv run` creates the virtual environment automatically on first use — no manual `pip install` required.
 
 ### 2 — Install frontend dependencies
 
@@ -129,7 +136,7 @@ customers (1) ──< transactions (N) >── (1) products
 | `sales_by_region.json` | Revenue + units + transactions per (region, category) |
 | `sales_by_category.json` | Summary and monthly trend per (category, region) |
 | `sales_by_age_group.json` | Revenue per (age_group, category, region) |
-| `category_by_region.json` | Revenue + units per (category, region) |
+| `sales_by_category_region.json` | Revenue + units per (category, region) |
 | `inventory.json` | Turnover rate, days-on-hand, stock value per product; sorted ascending by turnover (slowest first) |
 
 **Inventory turnover formula**
@@ -185,7 +192,20 @@ The dashboard is split into two tabs:
 | `InventoryTurnoverChart` | Horizontal bar | Slowest-moving products with 1× reference line |
 
 ### Empty states
-`ChartEmptyState` is a reusable component used by all charts. It renders a contextual icon and message when a filter or date selection returns no data.
+`ChartEmptyState` is a reusable component used by all charts. It renders a contextual icon and message when a filter or date selection returns no data. Two variants exist:
+- `filter` — shown when category/region filters return no matches
+- `date` — shown when the selected trend period has no sales records
+
+### Loading states
+Charts and KPI cards render skeleton placeholders while data is in flight. `KPICard` accepts a `loading` prop that swaps numeric content for an animated `Skeleton`. Chart containers display a `ChartCardSkeleton` (title + axes outline) until the fetch resolves, avoiding layout shift and the "0 / empty" flash that would otherwise appear.
+
+### Error handling
+Every API route is wrapped in a `try/catch` that returns a structured `{ error }` JSON with an appropriate HTTP status code. The dashboard detects fetch errors and surfaces an inline error banner above the charts so failures are visible without crashing the page.
+
+### Code conventions
+- All shared response shapes are declared once in `web/types/metrics.ts` and imported by both API routes and chart components — no inline `any` types.
+- `loadMetric.ts` is the single utility for reading pre-aggregated JSON, keeping file-path logic out of every route handler.
+- Multi-value query params (`category`, `region`) are parsed through a shared `parseList` helper inside each route to avoid repeated boilerplate.
 
 ---
 
@@ -215,4 +235,6 @@ The Insights panel surfaces four computed findings from the full dataset:
 
 - **Category-aware stock ranges**: each product category has realistic stock range bounds during generation. This produces naturally varied turnover rates across categories rather than uniform random noise.
 
-- **Generated data excluded from version control**: raw CSVs (`pipeline/data/raw/`) and any intermediate cleaned files are listed in `.gitignore`. Because all data is fully reproducible by running `generate_data.py` followed by `etl.py`, committing it would add binary-like bulk to the repository with no traceability benefit. Only the final pre-aggregated JSON metrics (`web/public/metrics/`) are tracked, as they are the build artifact the frontend depends on.
+- **Component folder split by responsibility**: `components/charts/` holds domain chart components (one file per chart); `components/filters/` holds filter controls; `components/ui/` holds reusable primitives (shadcn-generated + custom: `KPICard`, `ChartEmptyState`, `skeleton`). This keeps chart-specific logic isolated and makes the UI primitives easy to share without cross-importing between domains.
+
+- **Intermediate cleaned data excluded from version control**: `pipeline/data/cleaned/` is listed in `.gitignore` while raw CSVs are committed. Cleaned files are intermediate artefacts produced by the pipeline and are fully reproducible — committing them would create noise in diffs every time generation parameters change, with no traceability benefit. Raw CSVs are committed because they represent the fixed input dataset the assessment is evaluated against.
