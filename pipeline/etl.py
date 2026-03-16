@@ -27,45 +27,74 @@ print(f"Loaded: {len(customers)} customers, {len(products)} products, {len(sales
 # Step 2 — Clean customers
 # ---------------------------------------------------------------------------
 
+n = len(customers)
 customers = customers.dropna(subset=['id'])
-customers = customers.drop_duplicates(subset=['id'], keep='first')
-customers['region'] = customers['region'].where(
-    customers['region'].isin(['North', 'South', 'East', 'West', 'Central']), other='Unknown'
-)
-customers['age'] = customers['age'].clip(0, 120)
+print(f"  customers: dropped {n - len(customers)} rows with null id")
 
+n = len(customers)
+customers = customers.drop_duplicates(subset=['id'], keep='first')
+print(f"  customers: dropped {n - len(customers)} duplicate rows")
+
+invalid_regions = ~customers['region'].isin(['North', 'South', 'East', 'West', 'Central'])
+print(f"  customers: remapped {invalid_regions.sum()} rows with unknown region → 'Unknown'")
+customers['region'] = customers['region'].where(~invalid_regions, other='Unknown')
+
+age_clipped = ((customers['age'] < 0) | (customers['age'] > 120)).sum()
+customers['age'] = customers['age'].clip(0, 120)
+print(f"  customers: clipped {age_clipped} out-of-range ages")
 print(f"Cleaned customers: {len(customers)} rows")
 
 # ---------------------------------------------------------------------------
 # Step 3 — Clean products
 # ---------------------------------------------------------------------------
 
+n = len(products)
 products = products.dropna(subset=['id'])
+print(f"  products: dropped {n - len(products)} rows with null id")
+
+n = len(products)
 products = products[products['price'].notna() & (products['price'] > 0)]
+print(f"  products: dropped {n - len(products)} rows with missing/non-positive price")
+
+n = len(products)
 products = products.drop_duplicates(subset=['id'], keep='first')
+print(f"  products: dropped {n - len(products)} duplicate rows")
+
 products['price'] = products['price'].clip(1.0, 9999.0)
 
 KNOWN_CATEGORIES = ['Electronics', 'Clothing', 'Food & Beverage', 'Home & Garden', 'Sports', 'Books', 'Toys']
-products['category'] = products['category'].where(products['category'].isin(KNOWN_CATEGORIES), other='Other')
-products['name'] = products['name'].fillna('Unknown Product')
-products['stock_quantity'] = products['stock_quantity'].fillna(0).astype(int).clip(lower=0)
+unknown_cats = ~products['category'].isin(KNOWN_CATEGORIES)
+print(f"  products: remapped {unknown_cats.sum()} rows with unknown category → 'Other'")
+products['category'] = products['category'].where(~unknown_cats, other='Other')
 
+null_names = products['name'].isna().sum()
+products['name'] = products['name'].fillna('Unknown Product')
+if null_names: print(f"  products: filled {null_names} null names")
+
+products['stock_quantity'] = products['stock_quantity'].fillna(0).astype(int).clip(lower=0)
 print(f"Cleaned products: {len(products)} rows")
 
 # ---------------------------------------------------------------------------
 # Step 4 — Clean sales
 # ---------------------------------------------------------------------------
 
+n = len(sales)
 sales['date'] = pd.to_datetime(sales['date'])
 sales = sales.drop_duplicates()
+print(f"  sales: dropped {n - len(sales)} exact duplicate rows")
 
 valid_customers = set(customers['id'])
 valid_products  = set(products['id'])
+n = len(sales)
 sales = sales[
     sales['customer_id'].isin(valid_customers) &
     sales['product_id'].isin(valid_products)
 ]
+print(f"  sales: dropped {n - len(sales)} rows with orphaned customer_id or product_id")
+
+n = len(sales)
 sales = sales[(sales['quantity'] >= 1) & (sales['quantity'] <= 10)]
+print(f"  sales: dropped {n - len(sales)} rows with out-of-range quantity")
 
 # Derive revenue
 sales = sales.merge(products[['id', 'price']], left_on='product_id', right_on='id', how='left')
