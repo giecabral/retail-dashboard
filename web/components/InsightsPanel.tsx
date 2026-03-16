@@ -22,12 +22,20 @@ interface Insight {
 export default function InsightsPanel({ regionData, ageGroupData, inventoryData }: Props) {
   if (!regionData.length) return null
 
-  // 1. Top revenue region and its share
+  // 1. Top revenue region, its share, and spread across regions
   const totalRevenue = regionData.reduce((s, r) => s + r.total_revenue, 0)
-  const topRegion    = [...regionData].sort((a, b) => b.total_revenue - a.total_revenue)[0]
+  const sortedRegions = [...regionData].sort((a, b) => b.total_revenue - a.total_revenue)
+  const topRegion    = sortedRegions[0]
+  const bottomRegion = sortedRegions[sortedRegions.length - 1]
   const regionShare  = totalRevenue > 0
     ? `${((topRegion.total_revenue / totalRevenue) * 100).toFixed(0)}%`
     : '—'
+  const bottomShare  = totalRevenue > 0 && bottomRegion
+    ? ((bottomRegion.total_revenue / totalRevenue) * 100).toFixed(0)
+    : null
+  const spreadPct    = totalRevenue > 0 && bottomRegion
+    ? (((topRegion.total_revenue - bottomRegion.total_revenue) / totalRevenue) * 100).toFixed(0)
+    : null
 
   // 2. Inventory at risk (turnover < 1×)
   const atRiskCount = inventoryData.filter(d => d.turnover_rate < 1).length
@@ -64,7 +72,7 @@ export default function InsightsPanel({ regionData, ageGroupData, inventoryData 
       icon:        <MapPin className="h-5 w-5" />,
       metric:      regionShare,
       title:       `${topRegion?.region ?? '—'} leads in revenue`,
-      description: `The ${topRegion?.region ?? '—'} region drives ${regionShare} of total revenue — the highest concentration of any region.`,
+      description: `The ${topRegion?.region ?? '—'} region drives ${regionShare} of total revenue. ${bottomShare && spreadPct ? `The lowest region (${bottomRegion?.region}) holds ${bottomShare}% — only a ${spreadPct}pp spread, suggesting a well-balanced geographic distribution.` : ''}`,
       borderColor: 'border-indigo-500',
       iconBg:      'bg-indigo-50',
       iconColor:   'text-indigo-600',
