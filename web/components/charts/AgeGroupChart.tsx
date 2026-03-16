@@ -10,13 +10,13 @@ interface Props {
 }
 
 const COLORS: Record<string, string> = {
-  Electronics:      '#2563eb',
-  Clothing:         '#0ea5e9',
-  'Food & Beverage':'#06b6d4',
-  'Home & Garden':  '#14b8a6',
-  Sports:           '#0891b2',
-  Books:            '#3b82f6',
-  Toys:             '#22d3ee',
+  Electronics:      '#6366f1',
+  Clothing:         '#f59e0b',
+  'Food & Beverage':'#10b981',
+  'Home & Garden':  '#ec4899',
+  Sports:           '#f97316',
+  Books:            '#8b5cf6',
+  Toys:             '#06b6d4',
   Other:            '#94a3b8',
 }
 
@@ -45,7 +45,12 @@ export default function AgeGroupChart({ data }: Props) {
         <CartesianGrid strokeDasharray="3 3" vertical={false} />
         <XAxis dataKey="age_group" tick={{ fontSize: 12 }} />
         <YAxis tickFormatter={v => `$${(v / 1000).toFixed(0)}k`} tick={{ fontSize: 11 }} />
-        <Tooltip formatter={(v, name) => [`$${Number(v).toLocaleString()}`, String(name)]} />
+        <Tooltip
+          contentStyle={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 8, fontSize: 12 }}
+          labelStyle={{ color: '#111827', fontWeight: 600 }}
+          itemStyle={{ color: '#374151' }}
+          formatter={(v, name) => [`$${Number(v).toLocaleString()}`, String(name)]}
+        />
         <Legend />
         {categories.map(cat => (
           <Bar

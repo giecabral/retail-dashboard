@@ -1,9 +1,20 @@
 'use client'
 
 import {
-  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
+  BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
 } from 'recharts'
 import type { TopProduct } from '@/types/metrics'
+
+const CATEGORY_COLORS: Record<string, string> = {
+  Electronics:      '#6366f1',
+  Clothing:         '#f59e0b',
+  'Food & Beverage':'#10b981',
+  'Home & Garden':  '#ec4899',
+  Sports:           '#f97316',
+  Books:            '#8b5cf6',
+  Toys:             '#06b6d4',
+  Other:            '#94a3b8',
+}
 
 interface Props {
   data: TopProduct[]
@@ -18,6 +29,7 @@ export default function TopProductsChart({ data }: Props) {
     name: truncate(p.name),
     revenue: p.total_revenue,
     units: p.total_units,
+    category: p.category,
   }))
 
   return (
@@ -32,16 +44,23 @@ export default function TopProductsChart({ data }: Props) {
         <YAxis
           type="category"
           dataKey="name"
-          width={145}
+          width={100}
           tick={{ fontSize: 10 }}
         />
         <Tooltip
+          contentStyle={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 8, fontSize: 12 }}
+          labelStyle={{ color: '#111827', fontWeight: 600 }}
+          itemStyle={{ color: '#374151' }}
           formatter={(value, name) => [
             name === 'revenue' ? `$${Number(value).toLocaleString()}` : value,
             name === 'revenue' ? 'Revenue' : 'Units',
           ]}
         />
-        <Bar dataKey="revenue" fill="#2563eb" radius={[0, 4, 4, 0]} />
+        <Bar dataKey="revenue" radius={[0, 4, 4, 0]}>
+          {chartData.map((entry, i) => (
+            <Cell key={i} fill={CATEGORY_COLORS[entry.category] ?? '#94a3b8'} />
+          ))}
+        </Bar>
       </BarChart>
     </ResponsiveContainer>
   )

@@ -9,7 +9,13 @@ interface Props {
   data: RegionSale[]
 }
 
-const COLORS = ['#2563eb', '#0ea5e9', '#06b6d4', '#14b8a6', '#0891b2']
+const REGION_COLORS: Record<string, string> = {
+  North:   '#6366f1',
+  South:   '#f59e0b',
+  East:    '#10b981',
+  West:    '#f43f5e',
+  Central: '#f97316',
+}
 
 export default function SalesByRegionChart({ data }: Props) {
   if (!data.length) return <p className="text-muted-foreground text-center py-8">No data</p>
@@ -29,11 +35,16 @@ export default function SalesByRegionChart({ data }: Props) {
           label={({ name, percent }) => `${name} ${((percent ?? 0) * 100).toFixed(0)}%`}
           labelLine={false}
         >
-          {chartData.map((_, i) => (
-            <Cell key={i} fill={COLORS[i % COLORS.length]} />
+          {chartData.map((entry, i) => (
+            <Cell key={i} fill={REGION_COLORS[entry.name] ?? '#94a3b8'} />
           ))}
         </Pie>
-        <Tooltip formatter={(v) => [`$${Number(v).toLocaleString()}`, 'Revenue']} />
+        <Tooltip
+          contentStyle={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 8, fontSize: 12 }}
+          labelStyle={{ color: '#111827', fontWeight: 600 }}
+          itemStyle={{ color: '#374151' }}
+          formatter={(v) => [`$${Number(v).toLocaleString()}`, 'Revenue']}
+        />
         <Legend />
       </PieChart>
     </ResponsiveContainer>
