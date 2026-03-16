@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback } from 'react'
 import { format } from 'date-fns'
-import { DollarSign, Package, Users, TrendingUp } from 'lucide-react'
+import { DollarSign, Package, ShoppingCart, TrendingUp } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import KPICard from '@/components/ui/KPICard'
 import TopProductsChart from '@/components/charts/TopProductsChart'
@@ -10,12 +10,13 @@ import SalesByRegionChart from '@/components/charts/SalesByRegionChart'
 import SalesByCategoryChart from '@/components/charts/SalesByCategoryChart'
 import AgeGroupChart from '@/components/charts/AgeGroupChart'
 import CategoryRegionChart from '@/components/charts/CategoryRegionChart'
+import InventoryTurnoverChart from '@/components/charts/InventoryTurnoverChart'
 import RegionFilter from '@/components/filters/RegionFilter'
 import CategoryFilter from '@/components/filters/CategoryFilter'
 import DateRangeFilter from '@/components/filters/DateRangeFilter'
 import type {
   TopProduct, RegionSale, CategorySaleResponse,
-  AgeGroupSale, CategoryRegionSale,
+  AgeGroupSale, CategoryRegionSale, InventoryItem,
 } from '@/types/metrics'
 import AppHeader from '@/components/AppHeader'
 
@@ -29,8 +30,9 @@ export default function DashboardPage() {
   const [regionData, setRegionData] = useState<RegionSale[]>([])
   const [categoryData, setCategoryData] = useState<CategorySaleResponse>({ summary: [], monthly: [] })
   const [ageGroupData, setAgeGroupData] = useState<AgeGroupSale[]>([])
-  const [catRegionData, setCatRegionData] = useState<CategoryRegionSale[]>([])
-  const [loading, setLoading] = useState(true)
+  const [catRegionData, setCatRegionData]   = useState<CategoryRegionSale[]>([])
+  const [inventoryData, setInventoryData]   = useState<InventoryItem[]>([])
+  const [loading, setLoading]               = useState(true)
 
   const fetchAll = useCallback(async () => {
     setLoading(true)
@@ -41,12 +43,13 @@ export default function DashboardPage() {
     const toYearMonth = (d: Date) =>
       `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`
 
-    const [tp, rd, cd, ag, cr] = await Promise.all([
+    const [tp, rd, cd, ag, cr, inv] = await Promise.all([
       fetch(`/api/top-products?${params}&limit=10`).then(r => r.json()),
       fetch(`/api/sales-by-region?${params}`).then(r => r.json()),
       fetch(`/api/sales-by-category?${params}&from=${toYearMonth(dateFrom)}&to=${toYearMonth(dateTo)}`).then(r => r.json()),
       fetch(`/api/sales-by-age-group?${params}`).then(r => r.json()),
       fetch(`/api/category-by-region?${params}`).then(r => r.json()),
+      fetch(`/api/inventory?${params}&limit=15`).then(r => r.json()),
     ])
 
     setTopProducts(tp)
@@ -54,15 +57,17 @@ export default function DashboardPage() {
     setCategoryData(cd)
     setAgeGroupData(ag)
     setCatRegionData(cr)
+    setInventoryData(inv)
     setLoading(false)
   }, [regions, categories, dateFrom, dateTo])
 
   useEffect(() => { fetchAll() }, [fetchAll])
 
   // Derived KPIs
-  const totalRevenue = regionData.reduce((s, r) => s + r.total_revenue, 0)
-  const totalUnits = regionData.reduce((s, r) => s + r.total_units, 0)
-  const totalCustomers = regionData.reduce((s, r) => s + r.unique_customers, 0)
+  const totalRevenue      = regionData.reduce((s, r) => s + r.total_revenue, 0)
+  const totalUnits        = regionData.reduce((s, r) => s + r.total_units, 0)
+  const totalTransactions = regionData.reduce((s, r) => s + r.num_transactions, 0)
+  const avgOrderValue     = totalTransactions > 0 ? totalRevenue / totalTransactions : 0
   const topCategory = categoryData.summary.length
     ? [...categoryData.summary].sort((a, b) => b.total_revenue - a.total_revenue)[0].category
     : '—'
@@ -94,10 +99,10 @@ export default function DashboardPage() {
             icon={<Package className="h-4 w-4" />}
           />
           <KPICard
-            title="Unique Customers"
-            value={totalCustomers.toLocaleString()}
+            title="Avg. Order Value"
+            value={`$${avgOrderValue.toLocaleString(undefined, { maximumFractionDigits: 2, minimumFractionDigits: 2 })}`}
             subtitle={regions.length === 0 ? 'All regions' : regions.join(', ')}
-            icon={<Users className="h-4 w-4" />}
+            icon={<ShoppingCart className="h-4 w-4" />}
           />
           <KPICard
             title="Top Category"
@@ -154,6 +159,20 @@ export default function DashboardPage() {
           </CardHeader>
           <CardContent>
             <SalesByCategoryChart data={categoryData.monthly} />
+          </CardContent>
+        </Card>
+
+        <Card className="mt-6">
+          <CardHeader>
+            <CardTitle className="flex items-baseline gap-2">
+              Slowest-Moving Products
+              <span className="text-xs font-normal text-muted-foreground">
+                by inventory turnover · {categories.length === 0 ? 'all categories' : categories.join(', ')}
+              </span>
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <InventoryTurnoverChart data={inventoryData} />
           </CardContent>
         </Card>
       </div>
