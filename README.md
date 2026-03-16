@@ -108,19 +108,21 @@ Open http://localhost:3000
 ### Entities
 
 **customers** (`customers.csv`)
-- `id`, `name`, `age_group` (`18-24`, `25-34`, `35-44`, `45-54`, `55+`), `region` (`North`, `South`, `East`, `West`)
+- `id`, `name`, `age` (numeric, 18–75), `region` (`North`, `South`, `East`, `West`, `Central`)
+- `age_group` (`18-24`, `25-34`, `35-44`, `45-54`, `55+`) is derived in the ETL via `pd.cut`
 
 **products** (`products.csv`)
-- `id`, `name`, `category` (Electronics, Clothing, Food & Beverage, Home & Garden, Sports, Books, Toys), `price`, `stock_quantity`
+- `id`, `name`, `category` (Electronics, Clothing, Food & Beverage, Home & Garden, Sports, Books, Toys), `price`, `supplier`, `stock_quantity`
 - Stock ranges are category-aware: e.g. Food & Beverage (20–120 units) vs Electronics (100–400 units)
 
-**transactions** (`transactions.csv`)
-- `id`, `customer_id`, `product_id`, `quantity`, `unit_price`, `total_price`, `transaction_date`
-- 5 000 transactions spanning January 2025 – March 2026
+**sales** (`sales.csv`)
+- `id`, `customer_id`, `product_id`, `date`, `quantity`
+- 5 000 records spanning January 2025 – March 2026
+- `revenue` is derived in the ETL by joining with the products price
 
 ### Relationships
 ```
-customers (1) ──< transactions (N) >── (1) products
+customers (1) ──< sales (N) >── (1) products
 ```
 
 ---
@@ -128,12 +130,12 @@ customers (1) ──< transactions (N) >── (1) products
 ## ETL Pipeline
 
 **`generate_data.py`**
-- Generates 200 customers, 200 products, and 5 000 transactions using Faker
+- Generates 500 customers, 200 products, and 5 000 sales records using Faker
 - Assigns realistic stock quantities per category to produce varied inventory turnover
-- Prices randomised per category within defined ranges
+- Transaction dates are weighted to produce a Q4 2025 seasonal peak
 
 **`etl.py`**
-- Reads the three CSVs, merges them, and produces pre-aggregated JSON files saved to `web/public/metrics/`
+- Reads the three CSVs, merges them, and produces pre-aggregated JSON files saved to `data/metrics/`
 - All metrics include both category and region dimensions to support cross-filtering in the API layer
 
 | Output file | Aggregation |
@@ -173,7 +175,7 @@ All endpoints accept optional `category` and `region` query params (repeatable).
 ## Frontend Architecture
 
 ### Filtering
-Three filters live in `page.tsx` state and are passed as URL params to every API call:
+Three filters are managed in `useDashboard.ts` and passed as URL params to every API call:
 - **Category** — multi-select checkbox dropdown
 - **Region** — multi-select checkbox dropdown
 - **Trend Period** — date range picker (affects only the Monthly Revenue by Category chart)
