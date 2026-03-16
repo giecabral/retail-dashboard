@@ -10,9 +10,10 @@ function parseList(v: string | string[] | undefined): string[] {
   return Array.isArray(v) ? v : v ? [v] : []
 }
 
-export default function handler(req: NextApiRequest, res: NextApiResponse<CategorySaleResponse>) {
+export default function handler(req: NextApiRequest, res: NextApiResponse<CategorySaleResponse | { error: string }>) {
   if (req.method !== 'GET') { res.status(405).end(); return }
 
+  try {
   const { category, region, from, to } = req.query
   const raw = loadMetric<RawData>('sales_by_category.json')
 
@@ -64,9 +65,13 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Catego
     }
   }
 
-  res.setHeader('Cache-Control', 's-maxage=60, stale-while-revalidate')
-  res.status(200).json({
-    summary: Array.from(sumMap.values()),
-    monthly: Array.from(monMap.values()),
-  })
+    res.setHeader('Cache-Control', 's-maxage=60, stale-while-revalidate')
+    res.status(200).json({
+      summary: Array.from(sumMap.values()),
+      monthly: Array.from(monMap.values()),
+    })
+  } catch (err) {
+    console.error('[sales-by-category]', err)
+    res.status(500).json({ error: 'Failed to load sales by category' })
+  }
 }
