@@ -37,6 +37,7 @@ export default function DashboardPage() {
   const [catRegionData, setCatRegionData] = useState<CategoryRegionSale[]>([])
   const [inventoryData, setInventoryData] = useState<InventoryItem[]>([])
   const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
 
   // Unfiltered data — used only by InsightsPanel so insights are always dataset-wide
   const [regionFull, setRegionFull] = useState<RegionSale[]>([])
@@ -46,6 +47,7 @@ export default function DashboardPage() {
   // Fetch filtered data whenever filters change
   const fetchAll = useCallback(async () => {
     setLoading(true)
+    setError(null)
     const params = new URLSearchParams()
     categories.forEach(c => params.append('category', c))
     regions.forEach(r => params.append('region', r))
@@ -53,22 +55,27 @@ export default function DashboardPage() {
     const toYearMonth = (d: Date) =>
       `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`
 
-    const [tp, rd, cd, ag, cr, inv] = await Promise.all([
-      fetch(`/api/top-products?${params}&limit=10`).then(r => r.json()),
-      fetch(`/api/sales-by-region?${params}`).then(r => r.json()),
-      fetch(`/api/sales-by-category?${params}&from=${toYearMonth(dateFrom)}&to=${toYearMonth(dateTo)}`).then(r => r.json()),
-      fetch(`/api/sales-by-age-group?${params}`).then(r => r.json()),
-      fetch(`/api/category-by-region?${params}`).then(r => r.json()),
-      fetch(`/api/inventory?${params}&limit=200`).then(r => r.json()),
-    ])
+    try {
+      const [tp, rd, cd, ag, cr, inv] = await Promise.all([
+        fetch(`/api/top-products?${params}&limit=10`).then(r => { if (!r.ok) throw new Error('top-products'); return r.json() }),
+        fetch(`/api/sales-by-region?${params}`).then(r => { if (!r.ok) throw new Error('sales-by-region'); return r.json() }),
+        fetch(`/api/sales-by-category?${params}&from=${toYearMonth(dateFrom)}&to=${toYearMonth(dateTo)}`).then(r => { if (!r.ok) throw new Error('sales-by-category'); return r.json() }),
+        fetch(`/api/sales-by-age-group?${params}`).then(r => { if (!r.ok) throw new Error('sales-by-age-group'); return r.json() }),
+        fetch(`/api/category-by-region?${params}`).then(r => { if (!r.ok) throw new Error('category-by-region'); return r.json() }),
+        fetch(`/api/inventory?${params}&limit=200`).then(r => { if (!r.ok) throw new Error('inventory'); return r.json() }),
+      ])
 
-    setTopProducts(tp)
-    setRegionData(rd)
-    setCategoryData(cd)
-    setAgeGroupData(ag)
-    setCatRegionData(cr)
-    setInventoryData(inv)
-    setLoading(false)
+      setTopProducts(tp)
+      setRegionData(rd)
+      setCategoryData(cd)
+      setAgeGroupData(ag)
+      setCatRegionData(cr)
+      setInventoryData(inv)
+    } catch {
+      setError('Failed to load dashboard data. Please refresh the page.')
+    } finally {
+      setLoading(false)
+    }
   }, [regions, categories, dateFrom, dateTo])
 
   // Fetch full-dataset data once on mount for insights
@@ -108,6 +115,12 @@ export default function DashboardPage() {
             onChange={(f, t) => { setDateFrom(f); setDateTo(t) }}
           />
         </div>
+        {error && (
+          <div className="mb-6 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+            {error}
+          </div>
+        )}
+
         <div className="mb-6">
           <div className="flex gap-1 mb-4 w-fit rounded-lg bg-white p-1 shadow-sm border border-input">
             {(['kpis', 'insights'] as const).map(tab => (
