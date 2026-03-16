@@ -54,7 +54,7 @@ export default function DateRangeFilter({ from, to, onChange }: Props) {
 
   return (
     <div className="flex flex-col gap-1">
-      <span className="text-xs font-medium text-muted-foreground">Date Range</span>
+      <span className="text-xs font-medium text-muted-foreground">Trend Period</span>
       <Popover open={open} onOpenChange={setOpen}>
         <PopoverTrigger className="flex items-center gap-2 rounded-md border border-input bg-background px-3 py-2 text-sm shadow-sm hover:bg-accent transition-colors cursor-pointer">
           <CalendarIcon className="h-4 w-4 text-muted-foreground shrink-0" />
