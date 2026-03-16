@@ -4,7 +4,8 @@ import { useEffect, useState, useCallback } from 'react'
 import { format } from 'date-fns'
 import { DollarSign, Package, ShoppingCart, TrendingUp } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import KPICard from '@/components/ui/KPICard'
+import KPICard, { KPICardSkeleton } from '@/components/ui/KPICard'
+import ChartCardSkeleton from '@/components/ui/ChartCardSkeleton'
 import TopProductsChart from '@/components/charts/TopProductsChart'
 import SalesByRegionChart from '@/components/charts/SalesByRegionChart'
 import SalesByCategoryChart from '@/components/charts/SalesByCategoryChart'
@@ -123,35 +124,43 @@ export default function DashboardPage() {
             ))}
           </div>
           {activeTab === 'kpis' && (
-            <>
-              {loading && <p className="text-muted-foreground text-sm mb-4">Loading…</p>}
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-                <KPICard
-                  title="Total Revenue"
-                  value={`$${totalRevenue.toLocaleString(undefined, { maximumFractionDigits: 0 })}`}
-                  subtitle={regions.length === 0 ? 'All regions' : regions.join(', ')}
-                  icon={<DollarSign className="h-4 w-4" />}
-                />
-                <KPICard
-                  title="Units Sold"
-                  value={totalUnits.toLocaleString()}
-                  subtitle={regions.length === 0 ? 'All regions' : regions.join(', ')}
-                  icon={<Package className="h-4 w-4" />}
-                />
-                <KPICard
-                  title="Avg. Order Value"
-                  value={`$${avgOrderValue.toLocaleString(undefined, { maximumFractionDigits: 2, minimumFractionDigits: 2 })}`}
-                  subtitle={regions.length === 0 ? 'All regions' : regions.join(', ')}
-                  icon={<ShoppingCart className="h-4 w-4" />}
-                />
-                <KPICard
-                  title="Top Category"
-                  value={topCategory}
-                  subtitle="By total revenue"
-                  icon={<TrendingUp className="h-4 w-4" />}
-                />
-              </div>
-            </>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+              {loading ? (
+                <>
+                  <KPICardSkeleton />
+                  <KPICardSkeleton />
+                  <KPICardSkeleton />
+                  <KPICardSkeleton />
+                </>
+              ) : (
+                <>
+                  <KPICard
+                    title="Total Revenue"
+                    value={`$${totalRevenue.toLocaleString(undefined, { maximumFractionDigits: 0 })}`}
+                    subtitle={regions.length === 0 ? 'All regions' : regions.join(', ')}
+                    icon={<DollarSign className="h-4 w-4" />}
+                  />
+                  <KPICard
+                    title="Units Sold"
+                    value={totalUnits.toLocaleString()}
+                    subtitle={regions.length === 0 ? 'All regions' : regions.join(', ')}
+                    icon={<Package className="h-4 w-4" />}
+                  />
+                  <KPICard
+                    title="Avg. Order Value"
+                    value={`$${avgOrderValue.toLocaleString(undefined, { maximumFractionDigits: 2, minimumFractionDigits: 2 })}`}
+                    subtitle={regions.length === 0 ? 'All regions' : regions.join(', ')}
+                    icon={<ShoppingCart className="h-4 w-4" />}
+                  />
+                  <KPICard
+                    title="Top Category"
+                    value={topCategory}
+                    subtitle="By total revenue"
+                    icon={<TrendingUp className="h-4 w-4" />}
+                  />
+                </>
+              )}
+            </div>
           )}
 
           {activeTab === 'insights' && (
@@ -165,74 +174,100 @@ export default function DashboardPage() {
 
         {/* Row 1 — Top Products + Revenue by Region */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
-          <Card>
-            <CardHeader>
-              <CardTitle>Top 10 Products by Revenue</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <TopProductsChart data={topProducts} />
-            </CardContent>
-          </Card>
+          {loading ? (
+            <>
+              <ChartCardSkeleton />
+              <ChartCardSkeleton />
+            </>
+          ) : (
+            <>
+              <Card>
+                <CardHeader>
+                  <CardTitle>Top 10 Products by Revenue</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <TopProductsChart data={topProducts} />
+                </CardContent>
+              </Card>
 
-          <Card>
-            <CardHeader>
-              <CardTitle>Revenue by Region</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <SalesByRegionChart data={regionData} />
-            </CardContent>
-          </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle>Revenue by Region</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <SalesByRegionChart data={regionData} />
+                </CardContent>
+              </Card>
+            </>
+          )}
         </div>
 
         {/* Row 2 — Age Group + Category × Region */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <Card>
-            <CardHeader>
-              <CardTitle>Revenue by Age Group & Category</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <AgeGroupChart data={ageGroupData} />
-            </CardContent>
-          </Card>
-          <Card>
-            <CardHeader>
-              <CardTitle>Category Preference by Region</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <CategoryRegionChart data={catRegionData} />
-            </CardContent>
-          </Card>
+          {loading ? (
+            <>
+              <ChartCardSkeleton />
+              <ChartCardSkeleton />
+            </>
+          ) : (
+            <>
+              <Card>
+                <CardHeader>
+                  <CardTitle>Revenue by Age Group & Category</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <AgeGroupChart data={ageGroupData} />
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle>Category Preference by Region</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CategoryRegionChart data={catRegionData} />
+                </CardContent>
+              </Card>
+            </>
+          )}
         </div>
 
         {/* Row 3 — Monthly trend */}
-        <Card className="mt-6">
-          <CardHeader>
-            <CardTitle className="flex items-baseline gap-2">
-              Monthly Revenue by Category
-              <span className="text-xs font-normal text-muted-foreground">
-                {format(dateFrom, 'MMM yyyy')} – {format(dateTo, 'MMM yyyy')}
-              </span>
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <SalesByCategoryChart data={categoryData.monthly} />
-          </CardContent>
-        </Card>
+        {loading ? (
+          <ChartCardSkeleton className="mt-6" />
+        ) : (
+          <Card className="mt-6">
+            <CardHeader>
+              <CardTitle className="flex items-baseline gap-2">
+                Monthly Revenue by Category
+                <span className="text-xs font-normal text-muted-foreground">
+                  {format(dateFrom, 'MMM yyyy')} – {format(dateTo, 'MMM yyyy')}
+                </span>
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <SalesByCategoryChart data={categoryData.monthly} />
+            </CardContent>
+          </Card>
+        )}
 
         {/* Row 4 — Inventory turnover */}
-        <Card className="mt-6">
-          <CardHeader>
-            <CardTitle className="flex items-baseline gap-2">
-              Slowest-Moving Products
-              <span className="text-xs font-normal text-muted-foreground">
-                by inventory turnover · {categories.length === 0 ? 'all categories' : categories.join(', ')}
-              </span>
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <InventoryTurnoverChart data={inventoryData.slice(0, 15)} />
-          </CardContent>
-        </Card>
+        {loading ? (
+          <ChartCardSkeleton className="mt-6" />
+        ) : (
+          <Card className="mt-6">
+            <CardHeader>
+              <CardTitle className="flex items-baseline gap-2">
+                Slowest-Moving Products
+                <span className="text-xs font-normal text-muted-foreground">
+                  by inventory turnover · {categories.length === 0 ? 'all categories' : categories.join(', ')}
+                </span>
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <InventoryTurnoverChart data={inventoryData.slice(0, 15)} />
+            </CardContent>
+          </Card>
+        )}
 
       </div>
     </main>

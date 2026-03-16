@@ -1,6 +1,7 @@
 'use client'
 
 import { Card, CardContent } from '@/components/ui/card'
+import { Skeleton } from '@/components/ui/skeleton'
 import type { ReactNode } from 'react'
 
 interface KPICardProps {
@@ -24,6 +25,21 @@ export default function KPICard({ title, value, subtitle, icon }: KPICardProps) 
         {subtitle && (
           <p className="text-xs text-muted-foreground mt-1">{subtitle}</p>
         )}
+      </CardContent>
+    </Card>
+  )
+}
+
+export function KPICardSkeleton() {
+  return (
+    <Card className="border-t-4 border-t-blue-200 shadow-sm">
+      <CardContent className="py-1 px-4">
+        <div className="flex items-start justify-between">
+          <Skeleton className="h-4 w-24 mt-1" />
+          <Skeleton className="h-8 w-8 rounded-lg" />
+        </div>
+        <Skeleton className="h-8 w-32 mt-2" />
+        <Skeleton className="h-3 w-20 mt-2" />
       </CardContent>
     </Card>
   )
