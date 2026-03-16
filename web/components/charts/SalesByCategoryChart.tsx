@@ -4,21 +4,11 @@ import {
   AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
 } from 'recharts'
 import ChartEmptyState from '@/components/ui/ChartEmptyState'
+import { CATEGORY_COLORS, TOOLTIP_STYLE } from '@/lib/constants'
 import type { MonthlyCategorySale } from '@/types/metrics'
 
 interface Props {
   data: MonthlyCategorySale[]
-}
-
-const COLORS: Record<string, string> = {
-  Electronics:      '#6366f1',
-  Clothing:         '#f59e0b',
-  'Food & Beverage':'#10b981',
-  'Home & Garden':  '#ec4899',
-  Sports:           '#f97316',
-  Books:            '#8b5cf6',
-  Toys:             '#06b6d4',
-  Other:            '#94a3b8',
 }
 
 function pivotMonthly(monthly: MonthlyCategorySale[]) {
@@ -45,9 +35,7 @@ export default function SalesByCategoryChart({ data }: Props) {
         <XAxis dataKey="year_month" tick={{ fontSize: 11 }} />
         <YAxis tickFormatter={v => `$${(v / 1000).toFixed(0)}k`} tick={{ fontSize: 11 }} />
         <Tooltip
-          contentStyle={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 8, fontSize: 12 }}
-          labelStyle={{ color: '#111827', fontWeight: 600 }}
-          itemStyle={{ color: '#374151' }}
+          {...TOOLTIP_STYLE}
           formatter={(v, name) => [`$${Number(v).toLocaleString()}`, String(name)]}
         />
         <Legend />
@@ -57,8 +45,8 @@ export default function SalesByCategoryChart({ data }: Props) {
             type="monotone"
             dataKey={cat}
             stackId="1"
-            fill={COLORS[cat] ?? '#94a3b8'}
-            stroke={COLORS[cat] ?? '#94a3b8'}
+            fill={CATEGORY_COLORS[cat] ?? '#94a3b8'}
+            stroke={CATEGORY_COLORS[cat] ?? '#94a3b8'}
             fillOpacity={0.7}
           />
         ))}

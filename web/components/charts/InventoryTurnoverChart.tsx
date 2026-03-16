@@ -4,21 +4,11 @@ import {
   BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine,
 } from 'recharts'
 import ChartEmptyState from '@/components/ui/ChartEmptyState'
+import { CATEGORY_COLORS } from '@/lib/constants'
 import type { InventoryItem } from '@/types/metrics'
 
 interface Props {
   data: InventoryItem[]
-}
-
-const CATEGORY_COLORS: Record<string, string> = {
-  Electronics: '#6366f1',
-  Clothing: '#f59e0b',
-  'Food & Beverage': '#10b981',
-  'Home & Garden': '#ec4899',
-  Sports: '#f97316',
-  Books: '#8b5cf6',
-  Toys: '#06b6d4',
-  Other: '#94a3b8',
 }
 
 const truncate = (s: string, n = 24) => s.length > n ? s.slice(0, n - 1) + '…' : s

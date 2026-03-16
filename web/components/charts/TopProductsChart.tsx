@@ -4,18 +4,8 @@ import {
   BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
 } from 'recharts'
 import ChartEmptyState from '@/components/ui/ChartEmptyState'
+import { CATEGORY_COLORS, TOOLTIP_STYLE } from '@/lib/constants'
 import type { TopProduct } from '@/types/metrics'
-
-const CATEGORY_COLORS: Record<string, string> = {
-  Electronics:      '#6366f1',
-  Clothing:         '#f59e0b',
-  'Food & Beverage':'#10b981',
-  'Home & Garden':  '#ec4899',
-  Sports:           '#f97316',
-  Books:            '#8b5cf6',
-  Toys:             '#06b6d4',
-  Other:            '#94a3b8',
-}
 
 interface Props {
   data: TopProduct[]
@@ -49,9 +39,7 @@ export default function TopProductsChart({ data }: Props) {
           tick={{ fontSize: 10 }}
         />
         <Tooltip
-          contentStyle={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 8, fontSize: 12 }}
-          labelStyle={{ color: '#111827', fontWeight: 600 }}
-          itemStyle={{ color: '#374151' }}
+          {...TOOLTIP_STYLE}
           formatter={(value, name) => [
             name === 'revenue' ? `$${Number(value).toLocaleString()}` : value,
             name === 'revenue' ? 'Revenue' : 'Units',

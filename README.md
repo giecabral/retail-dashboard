@@ -36,16 +36,21 @@ retail-dashboard/
 │   └── uv.lock
 ├── web/
 │   ├── app/
-│   │   └── page.tsx         # Main dashboard page (state, filters, fetches)
+│   │   └── page.tsx         # Dashboard layout only — no state or fetch logic
 │   ├── components/
 │   │   ├── AppHeader.tsx
 │   │   ├── InsightsPanel.tsx
 │   │   ├── charts/          # One file per Recharts chart component
 │   │   ├── filters/         # CategoryFilter, RegionFilter, DateRangeFilter
 │   │   └── ui/              # KPICard, ChartEmptyState, skeleton + shadcn primitives
+│   ├── hooks/
+│   │   └── useDashboard.ts  # All dashboard state, fetches, and derived KPIs
 │   ├── pages/api/           # Next.js API routes (one per metric endpoint)
+│   ├── services/
+│   │   └── metrics.ts       # Typed API client functions (wraps all fetch calls)
 │   ├── lib/
-│   │   └── loadMetric.ts    # JSON file loader utility
+│   │   ├── constants.ts     # CATEGORY_COLORS, REGION_COLORS, CATEGORIES, REGIONS, TOOLTIP_STYLE
+│   │   └── loadMetric.ts    # JSON file loader utility (used by API routes)
 │   └── types/
 │       └── metrics.ts       # Shared TypeScript response interfaces
 └── README.md
@@ -204,6 +209,9 @@ Every API route is wrapped in a `try/catch` that returns a structured `{ error }
 
 ### Code conventions
 - All shared response shapes are declared once in `web/types/metrics.ts` and imported by both API routes and chart components — no inline `any` types.
+- `lib/constants.ts` is the single source of truth for color palettes (`CATEGORY_COLORS`, `REGION_COLORS`), filter option lists (`CATEGORIES`, `REGIONS`), default date bounds, and the shared Recharts `TOOLTIP_STYLE`. All chart and filter components import from here — no local duplicates.
+- `services/metrics.ts` centralises every API call behind a typed `metricsService` object. Components and hooks never construct URLs or call `fetch` directly.
+- `hooks/useDashboard.ts` owns all dashboard state (filters, data, loading, error) and derived KPIs. `page.tsx` is layout-only and delegates entirely to this hook.
 - `loadMetric.ts` is the single utility for reading pre-aggregated JSON, keeping file-path logic out of every route handler.
 - Multi-value query params (`category`, `region`) are parsed through a shared `parseList` helper inside each route to avoid repeated boilerplate.
 
@@ -235,6 +243,6 @@ The Insights panel surfaces four computed findings from the full dataset:
 
 - **Category-aware stock ranges**: each product category has realistic stock range bounds during generation. This produces naturally varied turnover rates across categories rather than uniform random noise.
 
-- **Component folder split by responsibility**: `components/charts/` holds domain chart components (one file per chart); `components/filters/` holds filter controls; `components/ui/` holds reusable primitives (shadcn-generated + custom: `KPICard`, `ChartEmptyState`, `skeleton`). This keeps chart-specific logic isolated and makes the UI primitives easy to share without cross-importing between domains.
+- **Folder split by responsibility**: `components/charts/` holds domain chart components; `components/filters/` holds filter controls; `components/ui/` holds reusable primitives; `hooks/` owns stateful logic; `services/` owns data fetching; `lib/` owns shared utilities and constants. This keeps each layer independently readable and prevents logic from leaking across concerns.
 
 - **Intermediate cleaned data excluded from version control**: `pipeline/data/cleaned/` is listed in `.gitignore` while raw CSVs are committed. Cleaned files are intermediate artefacts produced by the pipeline and are fully reproducible — committing them would create noise in diffs every time generation parameters change, with no traceability benefit. Raw CSVs are committed because they represent the fixed input dataset the assessment is evaluated against.

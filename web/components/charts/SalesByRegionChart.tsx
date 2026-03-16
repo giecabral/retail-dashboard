@@ -4,18 +4,11 @@ import {
   PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer,
 } from 'recharts'
 import ChartEmptyState from '@/components/ui/ChartEmptyState'
+import { REGION_COLORS, TOOLTIP_STYLE } from '@/lib/constants'
 import type { RegionSale } from '@/types/metrics'
 
 interface Props {
   data: RegionSale[]
-}
-
-const REGION_COLORS: Record<string, string> = {
-  North:   '#6366f1',
-  South:   '#f59e0b',
-  East:    '#10b981',
-  West:    '#f43f5e',
-  Central: '#f97316',
 }
 
 export default function SalesByRegionChart({ data }: Props) {
@@ -41,9 +34,7 @@ export default function SalesByRegionChart({ data }: Props) {
           ))}
         </Pie>
         <Tooltip
-          contentStyle={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 8, fontSize: 12 }}
-          labelStyle={{ color: '#111827', fontWeight: 600 }}
-          itemStyle={{ color: '#374151' }}
+          {...TOOLTIP_STYLE}
           formatter={(v) => [`$${Number(v).toLocaleString()}`, 'Revenue']}
         />
         <Legend />

@@ -4,18 +4,11 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
 } from 'recharts'
 import ChartEmptyState from '@/components/ui/ChartEmptyState'
+import { REGION_COLORS, TOOLTIP_STYLE } from '@/lib/constants'
 import type { CategoryRegionSale } from '@/types/metrics'
 
 interface Props {
   data: CategoryRegionSale[]
-}
-
-const REGION_COLORS: Record<string, string> = {
-  North: '#6366f1',
-  South: '#f59e0b',
-  East: '#10b981',
-  West: '#f43f5e',
-  Central: '#f97316',
 }
 
 function pivotByCategory(data: CategoryRegionSale[]) {
@@ -42,9 +35,7 @@ export default function CategoryRegionChart({ data }: Props) {
         <XAxis angle={10} dataKey="category" tick={{ fontSize: 10, textAnchor: 'start' }} interval={0} />
         <YAxis tickFormatter={v => `$${(v / 1000).toFixed(0)}k`} tick={{ fontSize: 11 }} />
         <Tooltip
-          contentStyle={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 8, fontSize: 12 }}
-          labelStyle={{ color: '#111827', fontWeight: 600 }}
-          itemStyle={{ color: '#374151' }}
+          {...TOOLTIP_STYLE}
           formatter={(v, name) => [`$${Number(v).toLocaleString()}`, String(name)]}
         />
         {regions.map(r => (
