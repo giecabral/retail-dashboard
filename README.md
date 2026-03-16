@@ -10,6 +10,7 @@ A full-stack retail analytics dashboard built as part of the **Aplos Assessment*
 |-------|-----------|
 | Data generation | Python (Faker, NumPy, Pandas) |
 | ETL | Python (Pandas, NumPy) |
+| Python logging | Loguru |
 | Python package manager | uv |
 | Backend API | Next.js API Routes (TypeScript) |
 | Frontend | Next.js 14 App Router (TypeScript) |
@@ -244,5 +245,7 @@ The Insights panel surfaces four computed findings from the full dataset:
 - **Category-aware stock ranges**: each product category has realistic stock range bounds during generation. This produces naturally varied turnover rates across categories rather than uniform random noise.
 
 - **Folder split by responsibility**: `components/charts/` holds domain chart components; `components/filters/` holds filter controls; `components/ui/` holds reusable primitives; `hooks/` owns stateful logic; `services/` owns data fetching; `lib/` owns shared utilities and constants. This keeps each layer independently readable and prevents logic from leaking across concerns.
+
+- **Structured pipeline logging with loguru**: `print()` statements were replaced with `loguru` to produce timestamped, levelled output. The level strategy is: `INFO` for stage announcements and row counts; `DEBUG` for cleaning steps that changed nothing (routine confirmation, noise-free in production); `WARNING` when a cleaning step actually drops or remaps data (actionable signal); `SUCCESS` for every file written. API route errors in the Next.js layer use `console.error('[route-name]', err)` — the Node.js standard, picked up automatically by any deployment platform's log aggregator.
 
 - **Intermediate cleaned data excluded from version control**: `pipeline/data/cleaned/` is listed in `.gitignore` while raw CSVs are committed. Cleaned files are intermediate artefacts produced by the pipeline and are fully reproducible — committing them would create noise in diffs every time generation parameters change, with no traceability benefit. Raw CSVs are committed because they represent the fixed input dataset the assessment is evaluated against.

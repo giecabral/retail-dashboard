@@ -1,8 +1,13 @@
+import sys
 import random
 from faker import Faker
 import pandas as pd
 import numpy as np
 from pathlib import Path
+from loguru import logger
+
+logger.remove()
+logger.add(sys.stderr, format="{time:YYYY-MM-DD HH:mm:ss} | {level:<8} | {message}", colorize=True)
 
 fake = Faker()
 Faker.seed(42)
@@ -133,19 +138,21 @@ def generate_sales(df_customers, df_products, n=5000):
 # ---------------------------------------------------------------------------
 
 if __name__ == '__main__':
-    print("Generating customers...")
+    logger.info("Starting data generation")
+
+    logger.info("Generating customers")
     df_customers = generate_customers(500)
     df_customers.to_csv(RAW_DIR / "customers.csv", index=False)
-    print(f"  -> {len(df_customers)} rows saved to data/raw/customers.csv")
+    logger.success(f"customers.csv — {len(df_customers)} rows written")
 
-    print("Generating products...")
+    logger.info("Generating products")
     df_products = generate_products(200)
     df_products.to_csv(RAW_DIR / "products.csv", index=False)
-    print(f"  -> {len(df_products)} rows saved to data/raw/products.csv")
+    logger.success(f"products.csv — {len(df_products)} rows written")
 
-    print("Generating sales...")
+    logger.info("Generating sales")
     df_sales = generate_sales(df_customers, df_products, 5000)
     df_sales.to_csv(RAW_DIR / "sales.csv", index=False)
-    print(f"  -> {len(df_sales)} rows saved to data/raw/sales.csv")
+    logger.success(f"sales.csv — {len(df_sales)} rows written")
 
-    print("\nDone. Raw CSVs written to data/raw/")
+    logger.info("Raw CSVs written to data/raw/")

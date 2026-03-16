@@ -1,9 +1,32 @@
+import sys
 import pandas as pd
 import numpy as np
 import json
 from pathlib import Path
+from loguru import logger
+
+logger.remove()
+logger.add(sys.stderr, format="{time:YYYY-MM-DD HH:mm:ss} | {level:<8} | {message}", colorize=True)
 
 np.random.seed(42)
+
+
+def log_dropped(entity: str, reason: str, count: int) -> None:
+    """Log a cleaning step. WARNING if rows were actually removed, DEBUG if count is zero."""
+    msg = f"{entity}: dropped {count} row{'s' if count != 1 else ''} — {reason}"
+    if count > 0:
+        logger.warning(msg)
+    else:
+        logger.debug(msg)
+
+
+def log_remapped(entity: str, reason: str, count: int) -> None:
+    """Log a value-remapping step. WARNING if values were changed, DEBUG otherwise."""
+    msg = f"{entity}: remapped {count} value{'s' if count != 1 else ''} — {reason}"
+    if count > 0:
+        logger.warning(msg)
+    else:
+        logger.debug(msg)
 
 BASE    = Path(__file__).parent.parent
 RAW     = BASE / "data" / "raw"
@@ -21,67 +44,74 @@ customers = pd.read_csv(RAW / "customers.csv")
 products  = pd.read_csv(RAW / "products.csv")
 sales     = pd.read_csv(RAW / "sales.csv")
 
-print(f"Loaded: {len(customers)} customers, {len(products)} products, {len(sales)} sales")
+logger.info(f"Loaded: {len(customers)} customers, {len(products)} products, {len(sales)} sales")
 
 # ---------------------------------------------------------------------------
 # Step 2 — Clean customers
 # ---------------------------------------------------------------------------
 
+logger.info("Cleaning customers")
+
 n = len(customers)
 customers = customers.dropna(subset=['id'])
-print(f"  customers: dropped {n - len(customers)} rows with null id")
+log_dropped("customers", "null id", n - len(customers))
 
 n = len(customers)
 customers = customers.drop_duplicates(subset=['id'], keep='first')
-print(f"  customers: dropped {n - len(customers)} duplicate rows")
+log_dropped("customers", "duplicate id", n - len(customers))
 
 invalid_regions = ~customers['region'].isin(['North', 'South', 'East', 'West', 'Central'])
-print(f"  customers: remapped {invalid_regions.sum()} rows with unknown region → 'Unknown'")
+log_remapped("customers", "unknown region → 'Unknown'", int(invalid_regions.sum()))
 customers['region'] = customers['region'].where(~invalid_regions, other='Unknown')
 
-age_clipped = ((customers['age'] < 0) | (customers['age'] > 120)).sum()
+age_clipped = int(((customers['age'] < 0) | (customers['age'] > 120)).sum())
 customers['age'] = customers['age'].clip(0, 120)
-print(f"  customers: clipped {age_clipped} out-of-range ages")
-print(f"Cleaned customers: {len(customers)} rows")
+log_remapped("customers", "age out of range [0, 120] — clipped", age_clipped)
+
+logger.info(f"Cleaned customers: {len(customers)} rows")
 
 # ---------------------------------------------------------------------------
 # Step 3 — Clean products
 # ---------------------------------------------------------------------------
 
+logger.info("Cleaning products")
+
 n = len(products)
 products = products.dropna(subset=['id'])
-print(f"  products: dropped {n - len(products)} rows with null id")
+log_dropped("products", "null id", n - len(products))
 
 n = len(products)
 products = products[products['price'].notna() & (products['price'] > 0)]
-print(f"  products: dropped {n - len(products)} rows with missing/non-positive price")
+log_dropped("products", "missing or non-positive price", n - len(products))
 
 n = len(products)
 products = products.drop_duplicates(subset=['id'], keep='first')
-print(f"  products: dropped {n - len(products)} duplicate rows")
+log_dropped("products", "duplicate id", n - len(products))
 
 products['price'] = products['price'].clip(1.0, 9999.0)
 
 KNOWN_CATEGORIES = ['Electronics', 'Clothing', 'Food & Beverage', 'Home & Garden', 'Sports', 'Books', 'Toys']
 unknown_cats = ~products['category'].isin(KNOWN_CATEGORIES)
-print(f"  products: remapped {unknown_cats.sum()} rows with unknown category → 'Other'")
+log_remapped("products", "unknown category → 'Other'", int(unknown_cats.sum()))
 products['category'] = products['category'].where(~unknown_cats, other='Other')
 
-null_names = products['name'].isna().sum()
+null_names = int(products['name'].isna().sum())
 products['name'] = products['name'].fillna('Unknown Product')
-if null_names: print(f"  products: filled {null_names} null names")
+log_remapped("products", "null name → 'Unknown Product'", null_names)
 
 products['stock_quantity'] = products['stock_quantity'].fillna(0).astype(int).clip(lower=0)
-print(f"Cleaned products: {len(products)} rows")
+logger.info(f"Cleaned products: {len(products)} rows")
 
 # ---------------------------------------------------------------------------
 # Step 4 — Clean sales
 # ---------------------------------------------------------------------------
 
+logger.info("Cleaning sales")
+
 n = len(sales)
 sales['date'] = pd.to_datetime(sales['date'])
 sales = sales.drop_duplicates()
-print(f"  sales: dropped {n - len(sales)} exact duplicate rows")
+log_dropped("sales", "exact duplicate rows", n - len(sales))
 
 valid_customers = set(customers['id'])
 valid_products  = set(products['id'])
@@ -90,18 +120,18 @@ sales = sales[
     sales['customer_id'].isin(valid_customers) &
     sales['product_id'].isin(valid_products)
 ]
-print(f"  sales: dropped {n - len(sales)} rows with orphaned customer_id or product_id")
+log_dropped("sales", "orphaned customer_id or product_id", n - len(sales))
 
 n = len(sales)
 sales = sales[(sales['quantity'] >= 1) & (sales['quantity'] <= 10)]
-print(f"  sales: dropped {n - len(sales)} rows with out-of-range quantity")
+log_dropped("sales", "quantity out of range [1, 10]", n - len(sales))
 
 # Derive revenue
 sales = sales.merge(products[['id', 'price']], left_on='product_id', right_on='id', how='left')
 sales = sales.rename(columns={'id_x': 'id'}).drop(columns=['id_y'])
 sales['revenue'] = (sales['price'] * sales['quantity']).round(2)
 
-print(f"Cleaned sales: {len(sales)} rows")
+logger.info(f"Cleaned sales: {len(sales)} rows")
 
 # ---------------------------------------------------------------------------
 # Step 5 — Save cleaned CSVs
@@ -111,11 +141,14 @@ customers.to_csv(CLEANED / "customers.csv", index=False)
 products.to_csv(CLEANED  / "products.csv",  index=False)
 sales.drop(columns=['price', 'revenue']).to_csv(CLEANED / "sales.csv", index=False)
 
-print("Cleaned CSVs saved to data/cleaned/")
+logger.success("Cleaned CSVs saved to data/cleaned/")
 
 # ---------------------------------------------------------------------------
 # Step 6 — Generate metrics JSON
 # ---------------------------------------------------------------------------
+
+logger.info("Generating metrics JSON")
+
 
 def save_json(data, path: Path):
     with open(path, 'w') as f:
@@ -144,7 +177,7 @@ top_products_df = (
 top_products_df['total_revenue'] = top_products_df['total_revenue'].round(2)
 
 save_json(top_products_df.to_dict(orient='records'), METRICS / "top_products.json")
-print("  -> top_products.json")
+logger.success("top_products.json written")
 
 
 # --- sales_by_region.json ----------------------------------------------------
@@ -172,7 +205,7 @@ region_sales_df = (
 region_sales_df['total_revenue'] = region_sales_df['total_revenue'].round(2)
 
 save_json(region_sales_df.to_dict(orient='records'), METRICS / "sales_by_region.json")
-print("  -> sales_by_region.json")
+logger.success("sales_by_region.json written")
 
 
 # --- sales_by_category.json --------------------------------------------------
@@ -219,7 +252,7 @@ save_json(
     },
     METRICS / "sales_by_category.json"
 )
-print("  -> sales_by_category.json")
+logger.success("sales_by_category.json written")
 
 
 # --- sales_by_age_group.json -------------------------------------------------
@@ -260,7 +293,7 @@ age_df = (
 age_df['total_revenue'] = age_df['total_revenue'].round(2)
 
 save_json(age_df.to_dict(orient='records'), METRICS / "sales_by_age_group.json")
-print("  -> sales_by_age_group.json")
+logger.success("sales_by_age_group.json written")
 
 
 # --- sales_by_category_region.json -------------------------------------------
@@ -284,7 +317,7 @@ cat_region_df = (
 cat_region_df['total_revenue'] = cat_region_df['total_revenue'].round(2)
 
 save_json(cat_region_df.to_dict(orient='records'), METRICS / "sales_by_category_region.json")
-print("  -> sales_by_category_region.json")
+logger.success("sales_by_category_region.json written")
 
 
 # --- inventory.json ----------------------------------------------------------
@@ -320,7 +353,6 @@ inventory_df['stock_value'] = (
 inventory_df = inventory_df.sort_values('turnover_rate')
 
 save_json(inventory_df.to_dict(orient='records'), METRICS / "inventory.json")
-print("  -> inventory.json")
+logger.success("inventory.json written")
 
-
-print("\nETL complete. Metrics saved to data/metrics/")
+logger.info("ETL complete — metrics saved to data/metrics/")
