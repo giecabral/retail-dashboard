@@ -103,7 +103,7 @@ Open http://localhost:3000
 
 **transactions** (`transactions.csv`)
 - `id`, `customer_id`, `product_id`, `quantity`, `unit_price`, `total_price`, `transaction_date`
-- 50 000 transactions spanning January 2025 – March 2026
+- 5 000 transactions spanning January 2025 – March 2026
 
 ### Relationships
 ```
@@ -115,7 +115,7 @@ customers (1) ──< transactions (N) >── (1) products
 ## ETL Pipeline
 
 **`generate_data.py`**
-- Generates 200 customers, 200 products, and 50 000 transactions using Faker
+- Generates 200 customers, 200 products, and 5 000 transactions using Faker
 - Assigns realistic stock quantities per category to produce varied inventory turnover
 - Prices randomised per category within defined ranges
 
