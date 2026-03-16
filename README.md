@@ -193,7 +193,7 @@ The dashboard is split into two tabs:
 
 The Insights panel surfaces four computed findings from the full dataset:
 
-1. **North region leads in revenue** — drives ~22% of total revenue, the highest concentration of any single region.
+1. **North region leads in revenue** — drives 22% of total revenue. The lowest region (Central) holds 18% — all regions are within a narrow band, suggesting a well-balanced geographic distribution.
 
 2. **82 slow-moving products** — 82 out of 200 products have a turnover rate below 1×, meaning they have not sold through their current stock within the equivalent of one year.
 

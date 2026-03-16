@@ -33,9 +33,6 @@ export default function InsightsPanel({ regionData, ageGroupData, inventoryData 
   const bottomShare  = totalRevenue > 0 && bottomRegion
     ? ((bottomRegion.total_revenue / totalRevenue) * 100).toFixed(0)
     : null
-  const spreadPct    = totalRevenue > 0 && bottomRegion
-    ? (((topRegion.total_revenue - bottomRegion.total_revenue) / totalRevenue) * 100).toFixed(0)
-    : null
 
   // 2. Inventory at risk (turnover < 1×)
   const atRiskCount = inventoryData.filter(d => d.turnover_rate < 1).length
@@ -72,7 +69,7 @@ export default function InsightsPanel({ regionData, ageGroupData, inventoryData 
       icon:        <MapPin className="h-5 w-5" />,
       metric:      regionShare,
       title:       `${topRegion?.region ?? '—'} leads in revenue`,
-      description: `The ${topRegion?.region ?? '—'} region drives ${regionShare} of total revenue. ${bottomShare && spreadPct ? `The lowest region (${bottomRegion?.region}) holds ${bottomShare}% — only a ${spreadPct}pp spread, suggesting a well-balanced geographic distribution.` : ''}`,
+      description: `The ${topRegion?.region ?? '—'} region drives ${regionShare} of total revenue. ${bottomShare ? `The lowest region (${bottomRegion?.region}) holds ${bottomShare}% — all regions are within a narrow band, suggesting a well-balanced geographic distribution.` : ''}`,
       borderColor: 'border-indigo-500',
       iconBg:      'bg-indigo-50',
       iconColor:   'text-indigo-600',
