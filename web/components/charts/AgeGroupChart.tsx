@@ -3,6 +3,7 @@
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
 } from 'recharts'
+import ChartEmptyState from '@/components/ui/ChartEmptyState'
 import type { AgeGroupSale } from '@/types/metrics'
 
 interface Props {
@@ -34,7 +35,7 @@ function pivotByAgeGroup(data: AgeGroupSale[]) {
 }
 
 export default function AgeGroupChart({ data }: Props) {
-  if (!data.length) return <p className="text-muted-foreground text-center py-8">No data</p>
+  if (!data.length) return <ChartEmptyState />
 
   const categories = [...new Set(data.map(d => d.category))].sort()
   const chartData  = pivotByAgeGroup(data)

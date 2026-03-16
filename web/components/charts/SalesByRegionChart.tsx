@@ -3,6 +3,7 @@
 import {
   PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer,
 } from 'recharts'
+import ChartEmptyState from '@/components/ui/ChartEmptyState'
 import type { RegionSale } from '@/types/metrics'
 
 interface Props {
@@ -18,7 +19,7 @@ const REGION_COLORS: Record<string, string> = {
 }
 
 export default function SalesByRegionChart({ data }: Props) {
-  if (!data.length) return <p className="text-muted-foreground text-center py-8">No data</p>
+  if (!data.length) return <ChartEmptyState />
 
   const chartData = data.map(r => ({ name: r.region, value: r.total_revenue }))
 

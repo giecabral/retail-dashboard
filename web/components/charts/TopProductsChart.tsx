@@ -3,6 +3,7 @@
 import {
   BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
 } from 'recharts'
+import ChartEmptyState from '@/components/ui/ChartEmptyState'
 import type { TopProduct } from '@/types/metrics'
 
 const CATEGORY_COLORS: Record<string, string> = {
@@ -23,7 +24,7 @@ interface Props {
 const truncate = (s: string, n = 22) => s.length > n ? s.slice(0, n - 1) + '…' : s
 
 export default function TopProductsChart({ data }: Props) {
-  if (!data.length) return <p className="text-muted-foreground text-center py-8">No data</p>
+  if (!data.length) return <ChartEmptyState message="No products match the selected filters" />
 
   const chartData = data.map(p => ({
     name: truncate(p.name),

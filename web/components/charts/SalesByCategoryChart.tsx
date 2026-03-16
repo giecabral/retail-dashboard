@@ -3,6 +3,7 @@
 import {
   AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
 } from 'recharts'
+import ChartEmptyState from '@/components/ui/ChartEmptyState'
 import type { MonthlyCategorySale } from '@/types/metrics'
 
 interface Props {
@@ -32,7 +33,7 @@ function pivotMonthly(monthly: MonthlyCategorySale[]) {
 }
 
 export default function SalesByCategoryChart({ data }: Props) {
-  if (!data.length) return <p className="text-muted-foreground text-center py-8">No data</p>
+  if (!data.length) return <ChartEmptyState variant="date" />
 
   const categories = [...new Set(data.map(d => d.category))]
   const chartData = pivotMonthly(data)
