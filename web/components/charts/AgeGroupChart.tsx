@@ -41,7 +41,7 @@ export default function AgeGroupChart({ data }: Props) {
   const chartData  = pivotByAgeGroup(data)
 
   return (
-    <ResponsiveContainer width="100%" height={320}>
+    <ResponsiveContainer width="100%" height={350}>
       <BarChart data={chartData} margin={{ left: 10, right: 10 }}>
         <CartesianGrid strokeDasharray="3 3" vertical={false} />
         <XAxis dataKey="age_group" tick={{ fontSize: 12 }} />
@@ -52,16 +52,16 @@ export default function AgeGroupChart({ data }: Props) {
           itemStyle={{ color: '#374151' }}
           formatter={(v, name) => [`$${Number(v).toLocaleString()}`, String(name)]}
         />
-        <Legend />
         {categories.map(cat => (
           <Bar
-            key={cat}
-            dataKey={cat}
-            stackId="1"
-            fill={COLORS[cat] ?? '#94a3b8'}
-            radius={cat === categories[categories.length - 1] ? [4, 4, 0, 0] : [0, 0, 0, 0]}
+          key={cat}
+          dataKey={cat}
+          stackId="1"
+          fill={COLORS[cat] ?? '#94a3b8'}
+          radius={cat === categories[categories.length - 1] ? [4, 4, 0, 0] : [0, 0, 0, 0]}
           />
         ))}
+        <Legend dy={8}/>
       </BarChart>
     </ResponsiveContainer>
   )

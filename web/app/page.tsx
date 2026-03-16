@@ -143,7 +143,7 @@ export default function DashboardPage() {
             </CardContent>
           </Card>
         </div>
-        <Card className="mb-6">
+        <Card className="mt-6">
           <CardHeader>
             <CardTitle className="flex items-baseline gap-2">
               Monthly Revenue by Category

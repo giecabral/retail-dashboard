@@ -36,10 +36,10 @@ export default function CategoryRegionChart({ data }: Props) {
   const chartData = pivotByCategory(data)
 
   return (
-    <ResponsiveContainer width="100%" height={320}>
-      <BarChart data={chartData} margin={{ left: 10, right: 10, bottom: 55, top: 5 }}>
+    <ResponsiveContainer width="100%" height={350}>
+      <BarChart data={chartData} margin={{ left: 10, right: 10}}>
         <CartesianGrid strokeDasharray="3 3" vertical={false} />
-        <XAxis angle={45} dataKey="category" tick={{ fontSize: 10, textAnchor: 'start' }} interval={0} dy={4} />
+        <XAxis angle={10} dataKey="category" tick={{ fontSize: 10, textAnchor: 'start' }} interval={0} />
         <YAxis tickFormatter={v => `$${(v / 1000).toFixed(0)}k`} tick={{ fontSize: 11 }} />
         <Tooltip
           contentStyle={{ background: '#fff', border: '1px solid #e2e8f0', borderRadius: 8, fontSize: 12 }}
@@ -55,7 +55,7 @@ export default function CategoryRegionChart({ data }: Props) {
             radius={[3, 3, 0, 0]}
           />
         ))}
-        <Legend verticalAlign="top" height={32} />
+        <Legend  />
       </BarChart>
     </ResponsiveContainer>
   )
