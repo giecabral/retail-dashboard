@@ -1,37 +1,282 @@
 [
   {
     "region": "Central",
-    "total_revenue": 2762516.12,
-    "total_units": 5240,
-    "num_transactions": 938,
-    "unique_customers": 98
+    "category": "Books",
+    "total_revenue": 470942.6,
+    "total_units": 860,
+    "num_transactions": 154,
+    "unique_customers": 76
+  },
+  {
+    "region": "Central",
+    "category": "Clothing",
+    "total_revenue": 267008.96,
+    "total_units": 625,
+    "num_transactions": 113,
+    "unique_customers": 67
+  },
+  {
+    "region": "Central",
+    "category": "Electronics",
+    "total_revenue": 395908.12,
+    "total_units": 722,
+    "num_transactions": 129,
+    "unique_customers": 70
+  },
+  {
+    "region": "Central",
+    "category": "Food & Beverage",
+    "total_revenue": 365289.25,
+    "total_units": 670,
+    "num_transactions": 117,
+    "unique_customers": 67
+  },
+  {
+    "region": "Central",
+    "category": "Home & Garden",
+    "total_revenue": 605881.1,
+    "total_units": 1025,
+    "num_transactions": 189,
+    "unique_customers": 82
+  },
+  {
+    "region": "Central",
+    "category": "Sports",
+    "total_revenue": 339277.65,
+    "total_units": 751,
+    "num_transactions": 131,
+    "unique_customers": 73
+  },
+  {
+    "region": "Central",
+    "category": "Toys",
+    "total_revenue": 318208.44,
+    "total_units": 587,
+    "num_transactions": 105,
+    "unique_customers": 62
   },
   {
     "region": "East",
-    "total_revenue": 2786990.01,
-    "total_units": 5480,
-    "num_transactions": 981,
-    "unique_customers": 100
+    "category": "Books",
+    "total_revenue": 564751.88,
+    "total_units": 993,
+    "num_transactions": 172,
+    "unique_customers": 84
+  },
+  {
+    "region": "East",
+    "category": "Clothing",
+    "total_revenue": 239573.84,
+    "total_units": 549,
+    "num_transactions": 100,
+    "unique_customers": 62
+  },
+  {
+    "region": "East",
+    "category": "Electronics",
+    "total_revenue": 390372.13,
+    "total_units": 691,
+    "num_transactions": 132,
+    "unique_customers": 73
+  },
+  {
+    "region": "East",
+    "category": "Food & Beverage",
+    "total_revenue": 394429.33,
+    "total_units": 804,
+    "num_transactions": 142,
+    "unique_customers": 74
+  },
+  {
+    "region": "East",
+    "category": "Home & Garden",
+    "total_revenue": 595283.89,
+    "total_units": 1092,
+    "num_transactions": 183,
+    "unique_customers": 85
+  },
+  {
+    "region": "East",
+    "category": "Sports",
+    "total_revenue": 311615.15,
+    "total_units": 744,
+    "num_transactions": 137,
+    "unique_customers": 74
+  },
+  {
+    "region": "East",
+    "category": "Toys",
+    "total_revenue": 290963.79,
+    "total_units": 607,
+    "num_transactions": 115,
+    "unique_customers": 65
   },
   {
     "region": "North",
-    "total_revenue": 3091901.75,
-    "total_units": 6069,
-    "num_transactions": 1067,
-    "unique_customers": 107
+    "category": "Books",
+    "total_revenue": 623182.81,
+    "total_units": 1137,
+    "num_transactions": 213,
+    "unique_customers": 93
+  },
+  {
+    "region": "North",
+    "category": "Clothing",
+    "total_revenue": 293998.56,
+    "total_units": 686,
+    "num_transactions": 121,
+    "unique_customers": 69
+  },
+  {
+    "region": "North",
+    "category": "Electronics",
+    "total_revenue": 472524.98,
+    "total_units": 839,
+    "num_transactions": 140,
+    "unique_customers": 81
+  },
+  {
+    "region": "North",
+    "category": "Food & Beverage",
+    "total_revenue": 271045.64,
+    "total_units": 601,
+    "num_transactions": 108,
+    "unique_customers": 69
+  },
+  {
+    "region": "North",
+    "category": "Home & Garden",
+    "total_revenue": 600161.05,
+    "total_units": 1159,
+    "num_transactions": 204,
+    "unique_customers": 91
+  },
+  {
+    "region": "North",
+    "category": "Sports",
+    "total_revenue": 337768.56,
+    "total_units": 724,
+    "num_transactions": 122,
+    "unique_customers": 67
+  },
+  {
+    "region": "North",
+    "category": "Toys",
+    "total_revenue": 493220.15,
+    "total_units": 923,
+    "num_transactions": 159,
+    "unique_customers": 83
   },
   {
     "region": "South",
-    "total_revenue": 2965815.76,
-    "total_units": 5631,
-    "num_transactions": 1027,
-    "unique_customers": 96
+    "category": "Books",
+    "total_revenue": 607186.93,
+    "total_units": 1040,
+    "num_transactions": 187,
+    "unique_customers": 82
+  },
+  {
+    "region": "South",
+    "category": "Clothing",
+    "total_revenue": 309718.81,
+    "total_units": 595,
+    "num_transactions": 108,
+    "unique_customers": 67
+  },
+  {
+    "region": "South",
+    "category": "Electronics",
+    "total_revenue": 406815.42,
+    "total_units": 747,
+    "num_transactions": 138,
+    "unique_customers": 69
+  },
+  {
+    "region": "South",
+    "category": "Food & Beverage",
+    "total_revenue": 363395.52,
+    "total_units": 769,
+    "num_transactions": 141,
+    "unique_customers": 79
+  },
+  {
+    "region": "South",
+    "category": "Home & Garden",
+    "total_revenue": 580908.6,
+    "total_units": 1016,
+    "num_transactions": 185,
+    "unique_customers": 87
+  },
+  {
+    "region": "South",
+    "category": "Sports",
+    "total_revenue": 279481.2,
+    "total_units": 647,
+    "num_transactions": 118,
+    "unique_customers": 69
+  },
+  {
+    "region": "South",
+    "category": "Toys",
+    "total_revenue": 418309.28,
+    "total_units": 817,
+    "num_transactions": 150,
+    "unique_customers": 78
   },
   {
     "region": "West",
-    "total_revenue": 2737069.55,
-    "total_units": 5454,
-    "num_transactions": 987,
-    "unique_customers": 99
+    "category": "Books",
+    "total_revenue": 556532.65,
+    "total_units": 1060,
+    "num_transactions": 181,
+    "unique_customers": 84
+  },
+  {
+    "region": "West",
+    "category": "Clothing",
+    "total_revenue": 260790.88,
+    "total_units": 607,
+    "num_transactions": 113,
+    "unique_customers": 65
+  },
+  {
+    "region": "West",
+    "category": "Electronics",
+    "total_revenue": 370915.63,
+    "total_units": 648,
+    "num_transactions": 119,
+    "unique_customers": 69
+  },
+  {
+    "region": "West",
+    "category": "Food & Beverage",
+    "total_revenue": 261284.13,
+    "total_units": 569,
+    "num_transactions": 110,
+    "unique_customers": 68
+  },
+  {
+    "region": "West",
+    "category": "Home & Garden",
+    "total_revenue": 521705.44,
+    "total_units": 1004,
+    "num_transactions": 177,
+    "unique_customers": 83
+  },
+  {
+    "region": "West",
+    "category": "Sports",
+    "total_revenue": 313950.23,
+    "total_units": 707,
+    "num_transactions": 128,
+    "unique_customers": 72
+  },
+  {
+    "region": "West",
+    "category": "Toys",
+    "total_revenue": 451890.59,
+    "total_units": 859,
+    "num_transactions": 159,
+    "unique_customers": 83
   }
 ]

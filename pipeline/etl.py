@@ -93,10 +93,14 @@ def save_json(data, path: Path):
 
 
 # --- top_products.json -------------------------------------------------------
+# Stored per (product, region) so the API can filter by region before ranking.
 
 top_products_df = (
     sales
-    .groupby(['product_id'])
+    .merge(customers[['id', 'region']], left_on='customer_id', right_on='id', how='left')
+    .drop(columns=['id_y'])
+    .rename(columns={'id_x': 'id'})
+    .groupby(['product_id', 'region'])
     .agg(
         total_revenue=('revenue', 'sum'),
         total_units=('quantity', 'sum'),
@@ -106,7 +110,6 @@ top_products_df = (
     .merge(products[['id', 'name', 'category']], left_on='product_id', right_on='id', how='left')
     .drop(columns=['id'])
     .sort_values('total_revenue', ascending=False)
-    .head(20)
 )
 top_products_df['total_revenue'] = top_products_df['total_revenue'].round(2)
 
@@ -115,13 +118,19 @@ print("  -> top_products.json")
 
 
 # --- sales_by_region.json ----------------------------------------------------
+# Stored per (region, category) so the API can filter by category.
+# unique_customers is per-pair; the API sums it as an approximation when
+# multiple categories are selected (acceptable for a pre-aggregated dataset).
 
 region_sales_df = (
     sales
     .merge(customers[['id', 'region']], left_on='customer_id', right_on='id', how='left')
     .drop(columns=['id_y'])
     .rename(columns={'id_x': 'id'})
-    .groupby('region')
+    .merge(products[['id', 'category']], left_on='product_id', right_on='id', how='left')
+    .drop(columns=['id_y'])
+    .rename(columns={'id_x': 'id'})
+    .groupby(['region', 'category'])
     .agg(
         total_revenue=('revenue', 'sum'),
         total_units=('quantity', 'sum'),
@@ -143,11 +152,15 @@ cat_sales = (
     .merge(products[['id', 'category']], left_on='product_id', right_on='id', how='left')
     .drop(columns=['id_y'])
     .rename(columns={'id_x': 'id'})
+    .merge(customers[['id', 'region']], left_on='customer_id', right_on='id', how='left')
+    .drop(columns=['id_y'])
+    .rename(columns={'id_x': 'id'})
 )
 
+# Stored per (category, region) — API aggregates after filtering
 category_summary_df = (
     cat_sales
-    .groupby('category')
+    .groupby(['category', 'region'])
     .agg(
         total_revenue=('revenue', 'sum'),
         total_units=('quantity', 'sum'),
@@ -160,9 +173,10 @@ category_summary_df['total_revenue']   = category_summary_df['total_revenue'].ro
 category_summary_df['avg_order_value'] = category_summary_df['avg_order_value'].round(2)
 
 cat_sales['year_month'] = cat_sales['date'].dt.to_period('M').astype(str)
+# Stored per (category, year_month, region) — API aggregates after filtering
 monthly_df = (
     cat_sales
-    .groupby(['category', 'year_month'])
+    .groupby(['category', 'year_month', 'region'])
     .agg(monthly_revenue=('revenue', 'sum'))
     .reset_index()
 )
@@ -196,9 +210,16 @@ age_sales = (
 )
 age_sales['age_group'] = age_sales['age_group'].astype(str)
 
+age_sales = (
+    age_sales
+    .merge(customers[['id', 'region']], left_on='customer_id', right_on='id', how='left', suffixes=('', '_cust'))
+    .drop(columns=['id_cust'])
+)
+
+# Stored per (age_group, category, region) — API aggregates after filtering
 age_df = (
     age_sales
-    .groupby(['age_group', 'category'])
+    .groupby(['age_group', 'category', 'region'])
     .agg(
         total_revenue=('revenue', 'sum'),
         total_units=('quantity', 'sum'),
